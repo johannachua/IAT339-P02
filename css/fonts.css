@@ -1,0 +1,25 @@
+@font-face{
+  font-family: "Aleo";
+  /*font-weight: normal;
+  font-style: normal;*/
+
+  src:
+    url("../fonts/Aleo-Regular.otf") format("opentype"),
+    url("../fonts/Aleo-Light.otf") format("opentype"),
+    url("../fonts/Aleo-Italic.otf") format("opentype"),
+    url("../fonts/Aleo-Bold.otf") format("opentype"),
+    url("../fonts/Aleo-BoldItalic.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "Dosis";
+  /*font-weight: normal;
+  font-style: normal;*/
+
+  src:
+    url("../fonts/Dosis-Regular.otf") format("opentype"),
+    url("../fonts/Dosis-Light.otf") format("opentype"),
+    url("../fonts/Dosis-Medium.otf") format("opentype"),
+    url("../fonts/Dosis-SemiBold.otf") format("opentype"),
+    url("../fonts/Dosis-ExtraBold.otf") format("opentype");
+}
