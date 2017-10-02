@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Style Guide</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="img/drake.png">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/grids.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fonts" />
+    <script src="js/nav.js"></script>
+
+  </head>
+    <body>
+      <!-- sets the menu -->
+       <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <!-- menu options -->
+        <a href="index.html"><h3> - MENU - </h3></a>
+        <a href="index.html"><h4 class="menuTitle">STYLE GUIDE</h4></a>
+        <a href="wireframes.html"><h4 class="menuTitle">WIREFRAMES</h4></a>
+        <a href="citations.html"><h4 class="menuTitle">CITATIONS</h4></a>
+        <code> &lt;a href="javascript:void(0)" class="closebtn" onclick="closeNav()"&gt;&lt;/a&gt;
+          &lt;a href="#"&gt;&lt;h3&gt;- MENU - &lt;/h3&gt;&lt;/a&gt;
+          &lt;a href="index.html"&gt;&lt;h4 class="menuTitle"&gt;STYLE GUIDE&lt;/h4&gt;&lt;/a&gt;
+          &lt;a href="wireframes.html"&gt;&lt;h4 class="menuTitle"&gt;WIREFRAMES&lt;/h4&gt;&lt;/a&gt;
+          &lt;a href="citations.html"&gt;&lt;h4 class="menuTitle"&gt;CITATIONS&lt;/h4&gt;&lt;/a&gt;
+        </code>
+        <code><b> CSS Selector: </b>h3, h4.menuTitle</code>
+      </div>
+
+    <!-- button for the menu -->
+    <span onclick="openNav()"><img src="img/menu-no-circle.png" alt= "menu" style="max-width:2%"></span>
+
+    <!-- sets the first segment -->
+    <h5>COLOUR PALETTE</h5>
+    <!-- sets the container for the colour palette which holds seperate coloured blocks -->
+    <div class="container">
+      <!-- block 1 with shades of orange -->
+      <div class="block">
+        <div id="orange1">
+          <p class="blocks">#FFBE3E</p></div>
+        <div id="orange2">
+          <p class="blocks">#FC9D1F</p></div>
+        <div id="orange3">
+          <p class="blocks">#F97C00</p></div>
+        <p class="blocksheader"> PRIMARY </p>
+    </div>
+
+    <!-- block 2 with shades of green -->
+    <div class="block">
+        <div id="green1">
+          <p class="blocks">#0CC28A</p></div>
+        <div id="green2">
+          <p class="blocks">#21AD87</p></div>
+        <div id="green3">
+          <p class="blocks">#4A8480</p></div>
+      <p class="blocksheader"> SECONDARY </p>
+    </div>
+
+    <!-- block 3 with shades of red -->
+      <div class="block">
+          <div id="red1">
+            <p class="blocks">#F7574B</p></div>
+          <div id="red2">
+            <p class="blocks">#F46A5C</p></div>
+          <div id="red3">
+            <p class="blocks">#ED8f7E</p></div>
+        <p class="blocksheader"> TERTIARY </p>
+    </div>
+  </div> <!-- end of colour palette container -->
+
+
+<!-- next header section for typography -->
+    <h5>TYPOGRAPHY </h5>
+    <!-- second container that holds elements in the grid structure for the type -->
+    <div class="container">
+      <!-- first block of header types -->
+      <div class="block">
+      <!-- h1 header -->
+      <h1> Header </h1>
+        <code> &lt;h1&gt; Header &lt;/h1&gt;</code>
+        <code><b> CSS Selector </b>h1</code>
+          <p class="caption"> for main title headings</p>
+
+      <!-- h2 subheader -->
+      <h2> SUBHEADER 1 </h2>
+        <code> &lt;h2&gt; SUBHEADER 1 &lt;/h2&gt;</code>
+        <code><b> CSS Selector </b>h2</code>
+          <p class="caption"> for secondary subheadings.</p>
+
+      <!-- h3 subheader -->
+      <h3> SUBHEADER 2 </h3>
+        <code> &lt;h3&gt; SUBHEADER 2 &lt;/h3&gt;</code>
+        <code><b> CSS Selector </b>h3</code>
+          <p class="caption"> for paragraph headings.</p>
+
+      <!-- h4 header for lists -->
+      <h4> FORM + LIST HEADERS </h4>
+        <code> &lt;h4&gt; LIST HEADERS &lt;/h4&gt;</code>
+        <code><b> CSS Selector </b>h4</code>
+          <p class="caption"> for list headings.</p>
+    </div>
+
+<!-- next block for middle block of text -->
+    <div class="block">
+      <!-- example link -->
+        <a class="link"> THIS IS WHAT A LINK WILL LOOK LIKE </a>
+            <code> &lt;a class="link"&gt; THIS IS WHAT A LINK WILL LOOK LIKE &lt;/a&gt;</code>
+            <code><b> CSS Selector:</b>a.link</code>
+        <p class="caption"> for links</p>
+
+        <!-- example of paragraph -->
+        <p> This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it. </p>
+          <code> &lt;p &gt; This is an example paragraph. Lorem Khaled Ipsum is a major key to success... &lt;/p&gt;</code>
+          <code><b> CSS Selector:</b>p.caption</code>
+            <p class="caption"> for paragraphs</p>
+      </div>
+
+<!-- final block for this 3 column grid for list types -->
+      <div class="block">
+        <!-- unordered list type -->
+        <h4>A BULLETED LIST</h4>
+          <ul>
+            <li class="bullets"> uno </li>
+            <li class="bullets"> dos </li>
+            <li class="bullets"> trés </li>
+          </ul>
+            <code>
+              &lt;ul &gt; &lt; li class="bullets" &gt; uno &lt;/li&gt;
+              &lt;ul &gt; &lt; li class="bullets" &gt; dos &lt;/li&gt;
+              &lt;ul &gt; &lt; li class="bullets" &gt; trés &lt;/li&gt;
+              <code><b> CSS Selector:</b>li.bullets</code>
+            </code>
+          <p class="caption"> for bulleted lists</p>
+
+          <!-- ordered list type -->
+          <h4>A NUMBERED LIST</h4>
+          <ol>
+            <li class="numbered"> uno </li>
+            <li class="numbered"> dos </li>
+            <li class="numbered"> trés </li>
+          </ol>
+          <code>
+            &lt;ol&gt;&lt;li class="numbered"&gt;uno&lt;/li&gt;
+            &lt;ol&gt;&lt;li class="numbered"&gt;dos&lt;/li&gt;
+            &lt;ol&gt;&lt;li class="numbered"&gt;trés&lt;/li&gt;
+            <code><b> CSS Selector:</b>li.numbered</code>
+          </code>
+          <p class="caption"> for numbered lists</p>
+        </div>
+      </div> <!-- end of typography container -->
+
+<!-- next container for the interactive elements -->
+      <h5> INTERACTIVE ELEMENTS </h5>
+      <div class="container">
+
+        <!-- first block for the buttons displayed -->
+        <div class="block">
+          <button class="submit"> SUBMIT </button>
+            <code>&lt;button &gt; &lt; class="submit" &gt; SUBMIT &lt;/li&gt;</code>
+            <code><b> CSS Selector:</b>button.submit</code>
+              <p class="caption"> for main title headings</p>
+          <button class="reset"> RESET </button>
+            <code>&lt;button &gt; &lt; class="reset" &gt; ENTER &lt;/li&gt;</code>
+            <code><b> CSS Selector:</b>button.reset</code>
+              <p class="caption"> for main title headings</p>
+          <button class="buy"> BUY </button>
+            <code>&lt;button &gt; &lt; class="buy" &gt; BUY &lt;/li&gt;</code>
+            <code><b> CSS Selector:</b>button.buy</code>
+              <p class="caption"> for main title headings</p>
+        </div>
+      <div class="block">
+
+<!-- REFERENCED W3SCHOOLS https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+      <!-- form -->
+        <div class="formbox">
+            <label for="first"><a class="form">FIRST NAME</a></label>
+            <input type="text" id="first" name="firstname" placeholder="Drizzy...">
+            <label for="last"><a class="form">LAST NAME</a></label>
+            <input type="text" id="last" name="lastname" placeholder="Drake...">
+            <label for="email"><a class="form">EMAIL ADDRESS </a></label>
+            <input type="text" id="email" name="email" placeholder="youusedtoemailme@gmail.com">
+            <button class="submit"> SUBMIT </button>
+            <button class="reset"> RESET </button>
+            <code>&lt;label for="first"&gt; &lt;h4&gt; FIRST NAME &lt;/h4&gt;&lt;/label&gt;
+            &lt;input type="text" id = "first" name = "firstname" placeholder="Drizzy..." &gt;
+            &lt;label for="last"&gt; &lt;h4&gt; LAST NAME &lt;/h4&gt;&lt;/label&gt;
+            &lt;input type="text" id = "last" name = "lastname" placeholder="Drake..." &gt;
+            &lt;label for="email"&gt; &lt;h4&gt; EMAIL ADDRESS &lt;/h4&gt;&lt;/label&gt;
+            &lt;input type="text" id = "email" name = "email" placeholder="youusedtoemailme@gmail.com" &gt;
+            &lt;button &gt; &lt; class="submit" &gt; SUBMIT &lt;/li&gt;
+            &lt;button &gt; &lt; class="reset" &gt; RESET &lt;/li&gt;</code>
+            <code><b> CSS Selector:</b>#last, #email, button.submit, button.reset</code>
+          </div>
+      </div>
+    </div><!--end of interactive elements container -->
+
+<!-- container that displays example products -->
+      <h5> PRODUCTS </h5>
+      <div class="container">
+        <!-- div block that displays postcard examples -->
+        <div class="block">
+          <img class="products" alt = "postcard 1" src="img/postcards-10.png">
+          <img class="products" alt = "postcard 2" src="img/postcards-11.png">
+          <img class="products" alt = "postcard 3" src="img/postcards-12.png">
+          <img class="products" alt = "postcard 4" src="img/postcards-14.png">
+          <img class="products" alt = "postcard 5" src="img/postcards-15.png">
+          <img class="products" alt = "postcard 6" src="img/postcards-16.png">
+        </div>
+      </div> <!-- end of the image container-->
+      <!-- displays boxes in flexbox to show 4 column grid -->
+          <div class="container">
+            <div class="block">
+              <div id="orange2">
+                <p class="blocks">POSTCARD 1 $2.50</p></div>
+          </div>
+          <div class="block">
+      <!-- displays boxes in flexbox to show 4 column grid -->
+              <div id="orange1">
+                <p class="blocks">POSTCARD 2 $2.50</p></div>
+              </div>
+            <div class="block">
+      <!-- displays boxes in flexbox to show 4 column grid -->
+                <div id="orange2">
+                  <p class="blocks">POSTCARD 3 $2.50</p></div>
+                </div>
+            <div class="block">
+      <!-- displays boxes in flexbox to show 4 column grid -->
+                <div id="orange1">
+                  <p class="blocks">POSTCARD 4 $2.50</p></div>
+            </div>
+
+            <div class="block">
+              <div id="orange2">
+                <p class="blocks">POSTCARD 5 $2.50</p></div>
+          </div>
+
+          <div class="block">
+            <div id="orange1">
+              <p class="blocks">POSTCARD 6 $2.50</p></div>
+        </div>
+          </div>
+          <code>
+            &lt;img class="products" src="img/postcards-10.png"&gt;
+            &lt;img class="products" src="img/postcards-11.png"&gt;
+            &lt;img class="products" src="img/postcards-12.png"&gt;
+            &lt;img class="products" src="img/postcards-14.png"&gt;
+            &lt;img class="products" src="img/postcards-15.png"&gt;
+            &lt;img class="products" src="img/postcards-16.png"&gt;
+            <b> CSS Selector:</b>#products
+          </code>
+
+        <!-- </div> -->
+      <!-- </div> -->
+<!-- container that shows grid structure -->
+      <h5> GRID STRUCTURE </h5>
+      <div class="container">
+        <!-- displays boxes in flexbox to show 2 column grid -->
+        <div class="block">
+          <div id="grey1">
+            <p class="blocks">TWO COLUMN GRID</p></div>
+      </div>
+
+  <!-- displays boxes in flexbox to show 2 column grid -->
+      <div class="block">
+          <div id="grey2">
+            <p class="blocks">TWO COLUMN GRID</p></div>
+      </div>
+      </div>
+
+      <div class="container">
+  <!-- displays boxes in flexbox to show 3 column grid -->
+        <div class="block">
+          <div id="grey1">
+            <p class="blocks">THREE COLUMN GRID</p></div>
+      </div>
+
+      <div class="block">
+  <!-- displays boxes in flexbox to show 3 column grid -->
+          <div id="grey2">
+            <p class="blocks">THREE COLUMN GRID</p></div>
+      </div>
+        <div class="block">
+  <!-- displays boxes in flexbox to show 3 column grid -->
+            <div id="grey3">
+              <p class="blocks">THREE COLUMN GRID</p></div>
+        </div>
+      </div>
+
+  <!-- displays boxes in flexbox to show 4 column grid -->
+      <div class="container">
+        <div class="block">
+          <div id="grey1">
+            <p class="blocks">4 COLUMN GRID</p></div>
+      </div>
+
+      <div class="block">
+  <!-- displays boxes in flexbox to show 4 column grid -->
+          <div id="grey2">
+            <p class="blocks">4 COLUMN GRID</p></div>
+      </div>
+        <div class="block">
+  <!-- displays boxes in flexbox to show 4 column grid -->
+            <div id="grey3">
+              <p class="blocks">4 COLUMN GRID</p></div>
+        </div>
+        <div class="block">
+  <!-- displays boxes in flexbox to show 4 column grid -->
+            <div id="grey4">
+              <p class="blocks">4 COLUMN GRID</p></div>
+        </div>
+      </div>
+      <!-- end of container -->
+ </body> <!--end of body -->

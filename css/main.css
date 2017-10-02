@@ -1,0 +1,414 @@
+
+/*sets body colour and margin*/
+body {
+  color: #2b2b35;
+	margin: 1rem;
+	font-size: 1.25rem;
+}
+
+@font-face{
+  font-family: AleoRegular;
+  src:url(fonts/Aleo-Regular.otf) format("opentype");
+}
+/*sets the header types */
+  h1 {
+    font-family: AleoRegular, Verdana, sans-serif;
+  	font-size: 3rem;
+    letter-spacing: 5px;
+    padding-top: .25em;
+    padding-bottom: .1em;
+    padding-left: .1em;
+    padding-right: .25em;
+    margin-top: .25em;
+    margin-bottom: .1em;
+    margin-right: .25em;
+    margin-left: .1em;
+  }
+
+  h2 {
+    font-family: AleoRegular, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-top: .35em;
+    padding-bottom: .1em;
+    padding-left: .1em;
+    padding-right: .35em;
+    margin-top: .35em;
+    margin-bottom: .1em;
+    margin-right: .35em;
+    margin-left: .1em;
+  }
+  h3 {
+    font-family: AleoRegular, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    letter-spacing: 3px;
+    padding-top: .45em;
+    padding-bottom: .1em;
+    padding-left: .1em;
+    padding-right: .45em;
+    margin-top: .45em;
+    margin-bottom: .1em;
+    margin-right: .45em;
+    margin-left: .45em;
+  }
+  h4 {
+    font-family: "AleoRegular", Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    padding-bottom: .1em;
+    margin-bottom: .45em;
+    margin-top: .45em;
+  }
+
+  h4.menuTitle{
+    font-weight: light;
+  }
+
+  h4.menuTitle:hover{
+    font-weight:bolder;
+  }
+
+  h5{
+    font-family: "AleoRegular", Verdana, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 5px;
+    color: #9898a5;
+    padding: 1em .25em;
+    margin: 1em;
+    border-bottom: 2px solid #9898a5;
+  }
+
+/*css for the forms*/
+.form {
+  font-family: "AleoRegular", Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-bottom: .1em;
+  margin-bottom: .45em;
+  margin-top: .45em;
+}
+
+/*css for the in link text type*/
+.link {
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight:normal;
+  font-style: normal;
+  letter-spacing: 1px;
+  color: #F97C00;
+}
+
+/*what happens when someone hovers over the in text links*/
+.link:hover{
+  color: #FFBE3E;
+  font-style: oblique;
+  transition: .25s;
+}
+
+/*sets the restrictiongs for the product images*/
+img.products{
+  max-width:15%;
+  transition: 0.5s;
+  padding: 1em;
+}
+
+/*makes the images larger when hovered over*/
+img.products:hover{
+  max-width: 20%;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+}
+/*sets the restrictiongs for the product images*/
+img.wireframe{
+  max-width:25%;
+  transition: 0.5s;
+  padding: 1em;
+}
+
+/*makes the images larger when hovered over*/
+img.wireframe:hover{
+  max-width: 35%;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
+}
+
+/*sets basics for the form layout */
+ul ol{
+  padding: .1em;
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight:normal;
+  font-style: oblique;
+  letter-spacing: 3px;
+}
+/*sets the bullets for the un-ordered list*/
+.bullets{
+  list-style-type: circle;
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight:normal;
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+/*sets the bullets for the ordered lists*/
+.numbered{
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight:normal;
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+/*sets basics for the paragraph tag with basic type styling*/
+p {
+  font-family: "Dosis", Verdana, sans-serif;
+  font-size: 1em;
+  padding-left:.1em;
+  padding-right:1em;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  margin: .3em .1em;
+}
+
+/*sets the text that goes in the coloured blocks */
+.blocks{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-size: .75em;
+  font-weight: lighter;
+  padding: 2.5em;
+  margin: 1em;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+}
+
+/*bolds the font when the coloured blocks are hovered on*/
+.blocks:hover{
+  font-weight: bold;
+  transition: .25s;
+}
+
+/*sets the cpation style of text and padding*/
+.caption{
+  font-family: "Dosis", Verdana, sans-serif;
+  font-size: .75em;
+  padding:.3em;
+  color: #bdbdd1;
+  letter-spacing: 2px;
+  margin: .1em;
+}
+
+/*sets basics for the label tag*/
+label {
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight: bold;
+}
+
+/*how all buttons should look and react on the page*/
+button{
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: 1em;
+  padding:.5em 2em;
+  margin: .25em;
+  border-radius: 30px;
+  letter-spacing: 5px;
+  transition: .15s;
+}
+/*how all the buttons should react when hovered, fade from whatever hover styling is put*/
+button:hover{
+    transition: .15s;
+}
+
+/*sets how the code tag dispalys, gives it a grey background*/
+code{
+  background-color: #EEE;
+  padding: .2em;
+  margin: .1em;
+}
+
+/*how the submit button looks*/
+.submit {
+  background-color: #ffbe3e;
+  color:  white;
+  border: 2px solid #ffbe3e;
+}
+
+/*changes the submit button colour when hovered on*/
+.submit:hover{
+  background-color:  white;
+  color: #ffbe3e;
+}
+
+/*how the reset button looks like*/
+.reset {
+  background-color: #0cc28a;
+  color: white;
+  border: 2px solid #0cc28a;
+}
+
+/*changes the reset button colour when hovered on */
+.reset:hover{
+  background-color: white;
+  color: #0cc28a;
+}
+
+/*how the buy button will look like*/
+.buy {
+  background-color: white;
+  color: #f7574b;
+  border: 2px solid #f7574b;
+}
+
+/*changes the buy button colour when hovered on*/
+.buy:hover{
+  background-color: #f7574b;
+  color: white;
+}
+
+/*how the menu will look like*/
+.menu{
+  background-color: white;
+  color: #f7574b;
+  border: 2px solid #f7574b;
+}
+
+/*what happens to the menu textwhen hovered on*/
+.menu:hover{
+  background-color: #f7574b;
+  color: white;
+}
+/*grey square for grids*/
+  #grey1{
+    height:100px;
+    background:#191919;
+  }
+  #grey2{
+    height:100px;
+    background:#222222;
+  }
+
+  #grey3{
+    height:100px;
+    background:#2b2b2b;
+  }
+
+  #grey4{
+    height:100px;
+    background:#343434;
+  }
+
+/*the coloured blocks for the colour pallete*/
+  #orange1{
+      height:100px;
+      background:#ffbe3e;
+  }
+  #orange2{
+      height:100px;
+      background:#fc9d1f;
+  }
+  #orange3{
+      height:100px;
+      background:#f97c00;
+  }
+
+  #green1{
+      background:#40cea4;
+      height:100px;
+  }
+  #green2{
+      height:100px;
+      background:#21ad87;
+  }
+  #green3{
+      height:100px;
+      background:#4a8480;
+  }
+
+  #red1{
+    height: 100px;
+    background: #ed8f7e;
+  }
+
+  #red2{
+    height: 100px;
+    background: #f46a5c;
+  }
+  #red3{
+    height: 100px;
+    background: #f7574b;
+  }
+
+/*for input field box*/
+/*code REFERENCED FROM W3 SCHOOLS*/
+        input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .formbox {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    /*REFERENCE FROM W3 SCHOOLS https://www.w3schools.com/howto/howto_css_contact_form.asp*/
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        /*opacity: .85;*/
+        background-color: #0CC28A;
+         box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: .5s;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFBE3E;
+        display: block;
+        transition: 5s;
+    }
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-right .5s;
+        padding: 20px;
+    }
+
+    /*END OF REFERENCED CODE*/
