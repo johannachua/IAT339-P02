@@ -299,42 +299,42 @@ code{
 /*the coloured blocks for the colour pallete*/
   #orange1{
       height:100px;
-      background:#ffbe3e;
+      background:#fff7b5;
   }
   #orange2{
       height:100px;
-      background:#fc9d1f;
+      background:#ffdca6;
   }
   #orange3{
       height:100px;
-      background:#f97c00;
+      background:#ffc197;
   }
 
   #green1{
-      background:#40cea4;
+      background:#d5edbc;
       height:100px;
   }
   #green2{
       height:100px;
-      background:#21ad87;
+      background:#b6eac4;
   }
   #green3{
       height:100px;
-      background:#4a8480;
+      background:#97e7cc;
   }
 
   #red1{
     height: 100px;
-    background: #ed8f7e;
+    background: #ffccd3;
   }
 
   #red2{
     height: 100px;
-    background: #f46a5c;
+    background: #ffa8b2;
   }
   #red3{
     height: 100px;
-    background: #f7574b;
+    background: #ff8490;
   }
 
 /*for input field box*/
