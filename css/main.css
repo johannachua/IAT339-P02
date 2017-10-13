@@ -104,7 +104,14 @@ body {
   font-style: oblique;
   transition: .25s;
 }
-
+option.dropdowm-menu-options{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-bottom: .1em;
+  margin-bottom: .45em;
+  margin-top: .45em;
+}
 /*sets the restrictiongs for the product images*/
 img.products{
   max-width:15%;
@@ -503,5 +510,13 @@ button:hover{
   color: #FFBE3E;
   }
 }
-
+div.about-team-memebers {
+    text-align: center;
+    border: 2px solid #8CD98C;
+    background: #FFF;
+    padding: 0.5em;
+    max-width: 25%;
+    border-radius: 0.1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
     /*END OF REFERENCED CODE*/
