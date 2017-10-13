@@ -104,7 +104,14 @@ body {
   font-style: oblique;
   transition: .25s;
 }
-
+option.dropdowm-menu-options{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-bottom: .1em;
+  margin-bottom: .45em;
+  margin-top: .45em;
+}
 /*sets the restrictiongs for the product images*/
 img.products{
   max-width:15%;
