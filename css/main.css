@@ -15,42 +15,41 @@ body {
     font-family: "Aleo", Verdana, sans-serif;
   	font-size: 3rem;
     letter-spacing: 5px;
-    padding-top: .25em;
-    padding-bottom: .1em;
+    padding-top: .1em;
+    /*padding-bottom: .1em;
     padding-left: .1em;
-    padding-right: .25em;
-    margin-top: .25em;
-    margin-bottom: .1em;
+    padding-right: .25em;*/
+    margin: .1em;
+    /*margin-bottom: .1em;
     margin-right: .25em;
-    margin-left: .1em;
+    margin-left: .1em;*/
   }
 
   h2 {
     font-family: "Aleo", Verdana, sans-serif;
     font-weight: lighter;
     letter-spacing: 5px;
-    padding-top: .35em;
-    padding-bottom: .1em;
+    padding: .1em;
+    /*padding-bottom: .1em;
     padding-left: .1em;
-    padding-right: .35em;
-    margin-top: .35em;
-    margin-bottom: .1em;
+    padding-right: .1em;*/
+    /*margin-bottom: .1em;
     margin-right: .35em;
-    margin-left: .1em;
+    margin-left: .1em;*/
   }
   h3 {
     font-family: "Aleo", Verdana, sans-serif;
     font-weight: lighter;
     font-style: oblique;
     letter-spacing: 3px;
-    padding-top: .45em;
-    padding-bottom: .1em;
+    padding: .1em;
+    /*padding-bottom: .1em;
     padding-left: .1em;
-    padding-right: .45em;
-    margin-top: .45em;
-    margin-bottom: .1em;
+    padding-right: .1em;*/
+    margin: .1em;
+    /*margin-bottom: .1em;
     margin-right: .45em;
-    margin-left: .45em;
+    margin-left: .45em;*/
   }
   h4 {
     font-family: "Aleo", Verdana, sans-serif;
@@ -221,7 +220,8 @@ p {
 /*sets basics for the label tag*/
 label {
   font-family: "Dosis", Verdana, sans-serif;
-  font-weight: bold;
+  letter-spacing: 4px;
+    /*font-weight: bold;*/
 }
 
 /*how all buttons should look and react on the page*/
@@ -509,6 +509,7 @@ button:hover{
   background-color:  white;
   color: #FFBE3E;
   }
+
 div.about-team-memebers {
   padding: 1.5rem;
   margin: 1rem;
@@ -517,4 +518,21 @@ div.about-team-memebers {
   border: 2px solid #97E7CC;
   border-radius: 25px;
   }
+
+  .feedback-field{
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: #FFBE3E;
+    color: white;
+    border-radius: 25px;
+    font-family: "Dosis";
+    /*font-weight: bold;*/
+    font-size: 1em;
+    padding:.5em 2em;
+    margin: .25em;
+    }
+
+label.form-titles {
+      font-family: "Dosis", Verdana, sans-serif;
+      letter-spacing: 2px;
     /*END OF REFERENCED CODE*/
