@@ -117,15 +117,15 @@ option.dropdowm-menu-options{
   margin-top: .45em;
 }
 /*sets the restrictiongs for the product images*/
-img.products{
-  max-width:15%;
+img.internal-product-view{
+  max-width:55%;
   transition: 0.5s;
   padding: 1em;
 }
 
 /*makes the images larger when hovered over*/
-img.products:hover{
-  max-width: 16%;
+img.internal-product-view:hover{
+    max-width:56%;
   transition-timing-function: ease-in-out;
   transition: 0.5s;
 }
@@ -590,7 +590,7 @@ div.about-team-memebers {
   .feedback-field{
     padding: 1.5rem;
     margin: 1rem;
-    background-color: #FFBE3E;
+    background-color: #FFC197;
     color: white;
     border-radius: 25px;
     font-family: "Dosis";
@@ -649,4 +649,35 @@ div.about-team-memebers {
 label.form-titles {
       font-family: "Dosis", Verdana, sans-serif;
       letter-spacing: 2px;
+}
+  a{
+    text-decoration: none;
+    color:#2b2b35;
+  }
+
+  .product-box{
+    border-radius: 10px;
+    border: 2px solid  #FFBE3E;
+    /*float: left;*/
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    align-items: center;
+  }
+.product-name{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .1em;
+}
+
+.price-tag{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-align: center;
+  padding: .1em;
+}
     /*END OF REFERENCED CODE*/
