@@ -232,7 +232,7 @@ label {
 /*how all buttons should look and react on the page*/
 button{
   font-family: "Dosis";
-  font-weight: bold;
+  font-weight: regular;
   font-size: 1em;
   padding:.5em 2em;
   margin: .25em;
@@ -243,6 +243,7 @@ button{
 /*how all the buttons should react when hovered, fade from whatever hover styling is put*/
 button:hover{
     transition: .15s;
+    font-weight: bold;
 }
 
 /*sets how the code tag dispalys, gives it a grey background*/
@@ -277,6 +278,54 @@ code{
 .continue:hover{
   background-color:  white;
   color: #FC9D1F;
+}
+
+.personalize-button {
+  background-color: #0CC28A;
+  color:  white;
+  border: 2px solid #0CC28A;
+}
+
+/*changes the submit button colour when hovered on*/
+.personalize-button:hover{
+  background-color:  white;
+  color: #0CC28A;
+}
+
+.add-to-cart {
+  background-color: #4A8480;
+  color:  white;
+  border: 2px solid #4A8480;
+}
+
+/*changes the submit button colour when hovered on*/
+.add-to-cart:hover{
+  background-color:  white;
+  color: #4A8480;
+}
+
+.refine-search-button {
+  background-color: #F97C00;
+  color:  white;
+  border: 2px solid #F97C00;
+}
+
+/*changes the submit button colour when hovered on*/
+.refine-search-button:hover{
+  background-color:  white;
+  color: #F97C00;
+}
+
+button.remove {
+  background-color: white;
+  color:  #F46A5C;
+  border: 2px solid #F46A5C;
+}
+
+/*changes the submit button colour when hovered on*/
+button.remove:hover{
+  background-color:  #F46A5C;
+  color: white;
 }
 
 /*how the reset button looks like*/
