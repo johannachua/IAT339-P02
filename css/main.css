@@ -509,6 +509,11 @@ button:hover{
   background-color:  white;
   color: #FFBE3E;
   }
-}
-
+div.about-team-memebers {
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: #97E7CC;
+  color: white;
+  border-radius: 15px;
+  }
     /*END OF REFERENCED CODE*/
