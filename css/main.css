@@ -114,20 +114,24 @@ img.products{
 
 /*makes the images larger when hovered over*/
 img.products:hover{
-  max-width: 20%;
+  max-width: 16%;
   transition-timing-function: ease-in-out;
   transition: 0.5s;
 }
+
 /*sets the restrictiongs for the product images*/
-img.wireframe{
-  max-width:25%;
+a.products{
+  max-width:15%;
   transition: 0.5s;
   padding: 1em;
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight:normal;
+
 }
 
 /*makes the images larger when hovered over*/
-img.wireframe:hover{
-  max-width: 35%;
+a.products:hover{
+  max-width: 16%;
   transition-timing-function: ease-in-out;
   transition: 0.5s;
 }
@@ -140,6 +144,17 @@ ul ol{
   font-style: oblique;
   letter-spacing: 3px;
 }
+.product-index-items{
+text-align: center;
+background: #FFF;
+float: left;
+padding: 0.5em;
+max-width: 25%;
+border-radius: 0.1em;
+margin-left: 1em;
+margin-bottom: 0.5em;
+}
+
 /*sets the bullets for the un-ordered list*/
 .bullets{
   list-style-type: circle;
