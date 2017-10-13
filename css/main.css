@@ -439,11 +439,11 @@ h1.website-title{
 .main-nav-item {
     font-family: "Dosis", Verdana, sans-serif;
     font-size: .75em;
-    font-weight: bold;
+    font-weight: normal;
     padding:.5rem;
     letter-spacing: 3px;
     margin: .1em;
-    color:#30303a;
+    color: #838391;
     float: right;
     display: block;
     text-align: center;
@@ -454,11 +454,39 @@ h1.website-title{
 }
 
 .main-nav a:hover {
-  color: #838391;
-  font-weight: normal;
+    color:#30303a;
+  font-weight: bold;
   transition: .2s;
 }
 
+/*how all buttons should look and react on the page*/
+button{
+  font-family: "Dosis";
+  font-weight: bold;
+  font-size: .75em;
+  padding:.5em 2em;
+  margin: .25em;
+  border-radius: 30px;
+  letter-spacing: 5px;
+  transition: .15s;
+}
+/*how all the buttons should react when hovered, fade from whatever hover styling is put*/
+button:hover{
+    transition: .15s;
+    /*font-weight: normal;*/
+}
 
+  .product-index-more-button{
+  background-color: #FFBE3E;
+  color:  white;
+  border: 1px solid #FFBE3E;
+  }
+
+  /*changes the submit button colour when hovered on*/
+  .product-index-more-button:hover{
+  background-color:  white;
+  color: #FFBE3E;
+  }
+}
 
     /*END OF REFERENCED CODE*/
