@@ -439,29 +439,25 @@ h1.website-title{
 .main-nav-item {
     font-family: "Dosis", Verdana, sans-serif;
     font-size: .75em;
+    font-weight: bold;
     padding:.5rem;
     letter-spacing: 3px;
     margin: .1em;
+    color:#30303a;
     float: right;
     display: block;
     text-align: center;
     padding: 1.5rem;
     text-decoration: none;
     font-size: 17px;
+    transition: .2s;
 }
 
 .main-nav a:hover {
-  color: #FFC197;
+  color: #838391;
+  font-weight: normal;
+  transition: .2s;
 }
-
-
-
-
-
-
-
-
-
 
 
 
