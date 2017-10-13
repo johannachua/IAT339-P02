@@ -514,6 +514,7 @@ div.about-team-memebers {
   margin: 1rem;
   background-color: #97E7CC;
   color: white;
-  border-radius: 15px;
+  border: 2px solid #97E7CC;
+  border-radius: 25px;
   }
     /*END OF REFERENCED CODE*/
