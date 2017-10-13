@@ -42,14 +42,19 @@ body {
     font-weight: lighter;
     font-style: oblique;
     letter-spacing: 3px;
-    padding: .1em;
+    padding: .5em;
     /*padding-bottom: .1em;
     padding-left: .1em;
     padding-right: .1em;*/
-    margin: .1em;
+    margin: .3em;
     /*margin-bottom: .1em;
     margin-right: .45em;
     margin-left: .45em;*/
+  }
+
+  .border-input{
+    border-radius: 30px;
+    border: none;
   }
   h4 {
     font-family: "Aleo", Verdana, sans-serif;
@@ -258,6 +263,20 @@ code{
 .submit:hover{
   background-color:  white;
   color: #FFC197;
+}
+
+/*how the submit button looks*/
+.continue {
+  background-color: #FC9D1F;
+  color:  white;
+  border: 2px solid #FC9D1F;
+  float: right;
+}
+
+/*changes the submit button colour when hovered on*/
+.continue:hover{
+  background-color:  white;
+  color: #FC9D1F;
 }
 
 /*how the reset button looks like*/
@@ -531,6 +550,52 @@ div.about-team-memebers {
     padding:.5em 2em;
     margin: .25em;
     }
+
+    .ship{
+      padding: 1.5rem;
+      margin: 1rem;
+      background-color: #FFBE3E;
+      color: white;
+      border-radius: 25px;
+      font-family: "Dosis";
+      opacity: .85;
+      /*font-weight: bold;*/
+      font-size: .75em;
+      padding:.5em 2em;
+      margin: .25em;
+      }
+
+      .payment-method{
+        padding: 1.5rem;
+        margin: 1rem;
+        background-color: #FFBE3E;
+        color: white;
+        border-radius: 25px;
+        opacity: .85;
+        font-family: "Dosis";
+        /*font-weight: bold;*/
+        font-size: .75em;
+        padding:.5em 2em;
+        margin: .25em;
+        }
+
+        .bill{
+          padding: 1.5rem;
+          margin: 1rem;
+          background-color: #FFBE3E;
+          opacity: .85;
+          color: white;
+          border-radius: 25px;
+          font-family: "Dosis";
+          /*font-weight: bold;*/
+          font-size: .75em;
+          padding:.5em 2em;
+          margin: .25em;
+          }
+
+.billing-submit-button{
+
+}
 
 label.form-titles {
       font-family: "Dosis", Verdana, sans-serif;
