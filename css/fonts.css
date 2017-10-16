@@ -1,25 +1,88 @@
 @font-face{
-  font-family: "Aleo";
-  /*font-weight: normal;
-  font-style: normal;*/
+  font-family: 'Aleo';
+  font-weight: normal;
+  font-style: normal;
 
   src:
-    url("../fonts/Aleo-Regular.otf") format("opentype"),
-    url("../fonts/Aleo-Light.otf") format("opentype"),
-    url("../fonts/Aleo-Italic.otf") format("opentype"),
-    url("../fonts/Aleo-Bold.otf") format("opentype"),
-    url("../fonts/Aleo-BoldItalic.otf") format("opentype");
+    url('../fonts/Aleo-Regular.woff2') format('woff2'),
+    url('../fonts/Aleo-Regular.woff') format('woff'),
+    url('../fonts/Aleo-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Aleo';
+  font-weight: lighter;
+  font-style: normal;
+
+  src:
+    url('../fonts/Aleo-Light.woff2') format('woff2'),
+    url('../fonts/Aleo-Light.woff') format('woff'),
+    url('../fonts/Aleo-Light.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Aleo';
+  font-weight: lighter;
+  font-style: oblique;
+
+  src:
+    url('../fonts/Aleo-Light-Italic.woff2') format('woff2'),
+    url('../fonts/Aleo-Light-Italic.woff') format('woff'),
+    url('../fonts/Aleo-Light-Italic.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Aleo';
+  font-weight: normal;
+  font-style: oblique;
+
+  src:
+    url('../fonts/Aleo-Italic.woff2') format('woff2'),
+    url('../fonts/Aleo-Italic.woff') format('woff'),
+    url('../fonts/Aleo-Italic.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Aleo';
+  font-weight: bold;
+  font-style: normal;
+
+  src:
+    url('../fonts/Aleo-Bold.woff2') format('woff2'),
+    url('../fonts/Aleo-Bold.woff') format('woff'),
+    url('../fonts/Aleo-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+  font-family: 'Dosis';
+  font-weight: normal;
+  font-style: normal;
+
+  src:
+    url("../fonts/Dosis-Regular.otf") format("opentype"),
+    url("../fonts/Dosis-Regular.woff") format("woff"),
+    url("../fonts/Dosis-Regular.woff2") format("woff2");
 }
 
 @font-face{
   font-family: "Dosis";
-  /*font-weight: normal;
-  font-style: normal;*/
+  font-weight: lighter;
+  font-style: normal;
 
   src:
-    url("../fonts/Dosis-Regular.otf") format("opentype"),
     url("../fonts/Dosis-Light.otf") format("opentype"),
-    url("../fonts/Dosis-Medium.otf") format("opentype"),
-    url("../fonts/Dosis-SemiBold.otf") format("opentype"),
-    url("../fonts/Dosis-ExtraBold.otf") format("opentype");
+    url("../fonts/Dosis-Light.woff") format("woff"),
+    url("../fonts/Dosis-Light.woff2") format("woff2");
+}
+
+@font-face{
+  font-family: "Dosis";
+  font-weight: bold;
+  font-style: normal;
+
+  src:
+  url("../fonts/Dosis-Bold.otf") format("opentype"),
+  url("../fonts/Dosis-Bold.woff") format("woff"),
+  url("../fonts/Dosis-Bold.woff2") format("woff2");
 }
