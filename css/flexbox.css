@@ -10,6 +10,7 @@
   flex-wrap: wrap;
 
   margin: 1em;
+  position: relative;
 }
 
 .block{
@@ -18,6 +19,6 @@
 
   -ms-flex-basis:5em;
   flex-basis: 5em;
-
 }
+
 }
