@@ -66,23 +66,23 @@
 }
 
 @font-face{
-  font-family: "Dosis";
+  font-family: 'Dosis';
   font-weight: lighter;
   font-style: normal;
 
   src:
-    url("../fonts/Dosis-Light.otf") format("opentype"),
-    url("../fonts/Dosis-Light.woff") format("woff"),
-    url("../fonts/Dosis-Light.woff2") format("woff2");
+    url('../fonts/Dosis-Light.otf') format("opentype"),
+    url('../fonts/Dosis-Light.woff') format("woff"),
+    url('../fonts/Dosis-Light.woff2') format("woff2");
 }
 
 @font-face{
-  font-family: "Dosis";
+  font-family: 'Dosis';
   font-weight: bold;
   font-style: normal;
 
   src:
-  url("../fonts/Dosis-Bold.otf") format("opentype"),
-  url("../fonts/Dosis-Bold.woff") format("woff"),
-  url("../fonts/Dosis-Bold.woff2") format("woff2");
+  url('../fonts/Dosis-Bold.otf') format("opentype"),
+  url('../fonts/Dosis-Bold.woff') format("woff"),
+  url(../fonts/Dosis-Bold.woff2') format("woff2");
 }
