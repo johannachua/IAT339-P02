@@ -1,3 +1,62 @@
 *, *::after, *::before {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.flexbox .grid-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+.flexbox [class^='grid-col-']{
+	float: none;
+}
+
+
+/*.grid-col-2of10 {
+	width: 20%;
+}
+
+.flexbox .grid-col-2of10{
+	flex-grow: 1;
+	width: auto;
+}*/
+
+/*.grid-col-3of9 {
+	width: 33%;
+}*/
+
+.flexbox .grid-col-3of9{
+	flex-grow: 1;
+	width: auto;
+}
+
+.grid-col-1of5 {
+	width: 20%;
+}
+
+.flexbox .grid-col-1of5{
+	flex-grow: 1;
+	width: auto;
+}
+
+
+@media (max-width: 40em) {
+
+	.grid-col-1of5 {
+		width: 100%;
+	}
+
 }
