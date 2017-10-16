@@ -47,48 +47,69 @@
 
   <!-- shopping filters -->
   <section>
+    <div class="filter-search">
     <form class="filter-section">
       <!-- Select Province filter -->
-      <label for="Select Provinces(s):">Select Province(s):</label>
+      <div>
+      <label for="Select Provinces(s):" class="filter-title">Select Province(s):</label>
+    </div>
       <input type="checkbox" value="AB">
-      <label for="AB">AB</label>
+      <label for="AB" class="form-enteries">Alberta</label>
       <input type="checkbox" value="BC">
-      <label for="BC">BC</label>
+      <label for="BC" class="form-enteries">BC</label>
       <input type="checkbox" value="MN">
-      <label for="MN">MN</label>
+      <label for="MN" class="form-enteries">Manitoba</label>
       <input type="checkbox" value="NB">
-      <label for="NB">NB</label>
+      <label for="NB" class="form-enteries">New Brunswick</label>
       <input type="checkbox" value="NL">
-      <label for="NL">NL</label>
+      <label for="NL" class="form-enteries">Newfoundland</label>
       <input type="checkbox" value="NT">
-      <label for="NT">NT</label>
+      <label for="NT" class="form-enteries">Northwest Territories</label>
       <input type="checkbox" value="NS">
-      <label for="NS">NS</label>
+      <label for="NS" class="form-enteries">Nova Scotia</label>
       <input type="checkbox" value="NV">
-      <label for="NV">NV</label>
+      <label for="NV" class="form-enteries">Nunavut</label>
       <input type="checkbox" value="ON">
-      <label for="ON">ON</label>
+      <label for="ON" class="form-enteries">Ontario</label>
       <input type="checkbox" value="PEI">
-      <label for="PEI">PEI</label>
+      <label for="PEI" class="form-enteries">PEI</label>
       <input type="checkbox" value="QB">
-      <label for="QB">QB</label>
+      <label for="QB" class="form-enteries">Quebec</label>
       <input type="checkbox" value="SK">
-      <label for="SK">SK</label>
+      <label for="SK" class="form-enteries">Saskatchewan</label>
       <input type="checkbox" value="YK">
-      <label for="YK">YK</label>
+      <label for="YK" class="form-enteries">Yukon</label>
 
       <!-- Sort by: filter -->
-      <label for="Sort by:">Sort by:</label>
+      <div>
+      <div class="dropdown">
+      <label for="Sort by:" class="filter-title">Sort by:</label>
       <select name="Filter 1">
-        <option value="value1">Value 1</option>
-        <option value="value2">Value 2</option>
-        <option value="value3">Value 3</option>
+        <option value="value1">Newest</option>
+        <option value="value2">Popularity</option>
+        <option value="value3">Alphabetically</option>
       </select>
+    </div>
+    </div>
+    <button class="refine-search-button">REFINE SEARCH </button>
+  </form>
+  </div>
+
+      </section>
+
+      <!-- Sort by: filter -->
+      <!-- <div class="dropdown">
+        <button class="dropbtn">SO RT BY</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> -->
 
       <!-- Confirm filter settings -->
-      <button class="refine-search-button">REFINE SEARCH </button>
-    </form>
-  </section>
+
+
 
   <!-- Product listing -->
   <section class="product-list">
@@ -98,38 +119,46 @@
       <div class="block">
       <div class="product-box">
         <a href="product_view.html">
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
         <h2 class="product-name">
-          Product Name
-        </h2>
+          Product Name</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
         <label for="$$$$" class="price-tag">$$$$</label>
       </div>
     </a>
     </div>
   <div class="block">
       <div class="product-box">
-        <a href="product_view.html">
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+        <!-- <a href="product_view.html"> -->
         <h2 class="product-name">
-          Product Name
-        </h2>
+          Product Name</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
         <label for="$$$$" class="price-tag">$$$$</label>
       </div>
-    </a>
+    <!-- </a> -->
     </div>
 
 
   <div class="block">
       <div class="product-box">
         <a href="product_view.html">
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
         <h2 class="product-name">
-          Product Name
-        </h2>
+          Product Name</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
         <label for="$$$$" class="price-tag">$$$$</label>
       </div>
     </a>
     </div>
+
+    <div class="block">
+        <div class="product-box">
+          <a href="product_view.html">
+          <h2 class="product-name">
+            Product Name</h2>
+          <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+          <label for="$$$$" class="price-tag">$$$$</label>
+        </div>
+      </a>
+      </div>
       </div>
 
       <!-- Product listing -->
@@ -140,10 +169,9 @@
           <div class="block">
           <div class="product-box">
             <a href="product_view.html">
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <h2 class="product-name">
-              Product Name
-            </h2>
+              Product Name</h2>
+            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <label for="$$$$" class="price-tag">$$$$</label>
           </div>
         </a>
@@ -151,10 +179,9 @@
       <div class="block">
           <div class="product-box">
             <a href="product_view.html">
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <h2 class="product-name">
-              Product Name
-            </h2>
+              Product Name</h2>
+            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <label for="$$$$" class="price-tag">$$$$</label>
           </div>
         </a>
@@ -164,14 +191,23 @@
       <div class="block">
           <div class="product-box">
             <a href="product_view.html">
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <h2 class="product-name">
-              Product Name
-            </h2>
+              Product Name</h2>
+            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
             <label for="$$$$" class="price-tag">$$$$</label>
           </div>
         </a>
         </div>
+        <div class="block">
+            <div class="product-box">
+              <a href="product_view.html">
+              <h2 class="product-name">
+                Product Name</h2>
+              <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+              <label for="$$$$" class="price-tag">$$$$</label>
+            </div>
+          </a>
+          </div>
           </div>
 
 
