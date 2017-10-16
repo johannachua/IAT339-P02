@@ -566,6 +566,8 @@ h1.website-title{
     top: 0;
     left: 0;
     width: 100%;
+    transition-timing-function: ease-in-out;
+    transition: .2s;
 }
 
 .main-nav-item {
@@ -582,13 +584,14 @@ h1.website-title{
     padding: 1.5rem;
     text-decoration: none;
     font-size: 17px;
-    transition: .2s;
+    transition-timing-function: ease-in-out;
 }
 
 .main-nav a:hover {
-    color:#30303a;
+  color:#30303a;
   font-weight: bold;
   transition: .2s;
+  transition-timing-function: ease-in-out;
 }
 
 /*how all buttons should look and react on the page*/
@@ -613,14 +616,21 @@ button:hover{
 
 
   .product-index-more-button{
+
   background-color: #FFC969;
   color:  white;
+  /*border-style: none;
+  border-color: none;
+  border-image:none;
+  background-color: white;
+  -webkit-appearance:none;*/
   border: 1px solid #FFC969;
   }
 
   /*changes the submit button colour when hovered on*/
   .product-index-more-button:hover{
-  background-color:  #FFBE3E;
+    /*text-decoration: line-through;*/
+  /*background-color:  #FFBE3E;*/
   color: white;
   }
 
