@@ -159,7 +159,7 @@ a.products:hover{
 .products{
   width:120%;
   transition: 0.3s;
-  padding: 1em;
+  padding: auto;
   opacity: 1;
   /*font-family: "Dosis", Verdana, sans-serif;*/
   /*font-weight:normal;*/
@@ -801,10 +801,16 @@ input[type="checkbox"] {
   }
 
   .product-box-2{
-    padding: auto;
-    margin: .5rem;
-    align-items: center;
+    /*padding: auto;*/
     position: relative;
+
+    border-radius: 10px;
+    border: 2px solid  #FFBE3E;
+    padding: auto;
+    margin: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
 .product-name{
@@ -812,7 +818,7 @@ input[type="checkbox"] {
   font-weight: lighter;
   letter-spacing: 5px;
   text-transform: uppercase;
-    margin: auto;
+  margin: auto;
   text-align: center;
   padding: .1em;
 }
