@@ -157,7 +157,7 @@ a.products:hover{
 
 /*sets the restrictiongs for the product images*/
 .products{
-  width:100%;
+  width:120%;
   transition: 0.3s;
   padding: 1em;
   opacity: 1;
@@ -167,7 +167,7 @@ a.products:hover{
 
 /*makes the images larger when hovered over*/
 .products:hover{
-  /*max-width: 16%;*/
+  width: 125%;
   transition-timing-function: ease-in-out;
   transition: 0.3s;
   opacity: 1;
