@@ -1,0 +1,19 @@
+.update-item {
+  background-color: #FFC197;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.update-item-content {
+  width: 100%;
+  text-align: center;
+}
+
+.update-item-title {
+  position: relative;
+  margin: 0;
+}
+
+.update-item-copy {
+  text-transform: none;
+}
