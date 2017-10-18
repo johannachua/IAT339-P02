@@ -4,12 +4,13 @@
   <title>Support and FAQs</title>
   <meta charset="utf-8">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/support-pg.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
   <link href="css/flexbox.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 <body>
-
-
     <section>
       <!-- main navigation for website -->
       <nav class="main-nav">
@@ -29,41 +30,69 @@
     <section class="header">
     <!-- name of company -->
     <h1 class="website-title"><a href="index.html">
-      Heading 1
+      Support / FAQs
     </a></h1>
 
-    <!-- image set for the landing page "above the fold" section -->
-    <img src="#" alt="background image">
-
     <!-- company logo -->
-    <img src="#" alt="logo" class="logo">
+    <!-- <img src="#" alt="logo" class="logo"> -->
 
   </section>
   <!-- end of header -->
 
 
   <!-- Contact Intro -->
+  <div class="centered">
   <section class="contact-main">
-    <h2>Contact Us</h2>
-    <img src="" alt="company map location">
-    <p>Email: email@company.ca</p>
-    <p>Phone Number: (604) 555-1234</p>
-    <p>Address: 250-13450 102 Ave, Surrey, BC V3T 0A3"
-  </section>
+    <h2 class="support-h2">Our Office</h2>
+    <!-- <img src="" alt="company map location"> -->
 
+    <div class="grid-contact-info">
+    <div class="location">
+      <div class="maps">
+    <iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="support-text">
+    		<article>
+  				<h3>Hours</h3>
+  						<p>Mon-Fri 9am to 4pm</p>
+    		</article>
+    		<article>
+    			<h3>Phone Number</h3>
+    					<p>(604) 555-1234</p>
+    		</article>
+				<article>
+    			<h3>Email</h3>
+    					<p>support@company.ca</p>
+    		</article>
+  			<article>
+  				<h3>Address</h3>
+							<p>250-13450 102 Ave, Surrey, BC V3T 0A3, Canada</p>
+    		</article>
+    </div>
+  </div>
+  </section>
+</div>
   <!-- Inputing Feedback -->
   <section class="feedback-field">
     <h2>FEEDBACK</h2>
     <form>
-      <label for="fname">FIRST NAME</label>
-      <input type="text" id="fname-sup" name="fname">
-      <label for="lname">LAST NAME</label>
-      <input type="text" id="lname-sup" name="lname">
-      <label for="lname">EMAIL ADDRESS</label>
-      <input type="text" id="email-sup" name="email-sup">
-      <label for="lname">SUBJECT LINE</label>
-      <input type="text" id="subj-sup" name="subj-sup">
-      <textarea>Type email here...</textarea>
+      <div class="feedback-details">
+        <div class="feedback-labels">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname-sup" name="fname">
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="lname-sup" name="lname">
+        <label for="lname">EMAIL ADDRESS</label>
+        <input type="text" id="email-sup" name="email-sup">
+        <label for="lname">SUBJECT LINE</label>
+        <input type="text" id="subj-sup" name="subj-sup">
+      </div>
+      </div>
+      <div class="feedback-details">
+        <textarea>Type email here...</textarea>
+      </div>
     </form>
 
   </section>
