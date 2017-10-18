@@ -1,0 +1,61 @@
+  .centered{
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+
+  .grid-contact-info{
+    display: block;
+    padding-bottom: 2%;
+  }
+
+  .location{
+    float: left;
+    padding-right: 3rem;
+  }
+
+  .support-text article{
+    margin-bottom: 1.5rem;
+  }
+
+  .support-text h3{
+    font-size: 0.95rem;
+    padding-left: 0;
+  }
+
+  .support-text p{
+    font-size: 0.85rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .feedback-field{
+    margin: 7rem;
+    padding-bottom: 2rem;
+    display: block;
+  }
+
+  .feedback-field label{
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.6rem;
+  }
+
+  .feedback-labels{
+    padding-left: 3rem;
+  }
+
+  .feedback-details textarea{
+    height: 275px;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    margin-left: 5rem;
+  }
+
+  .feedback-details{
+    display: inline-block;
+    width: 40%;
+  }
+
+  .feedback-text{
+
+  }

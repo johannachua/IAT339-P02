@@ -666,9 +666,9 @@ div.about-team-memebers {
   margin-top: 1rem;
   margin-bottom: 5rem;
   width:auto;
-  background-color: #97E7CC;
-  color: white;
-  border: 2px solid #97E7CC;
+  background-color: white;
+  /*color: white;*/
+  /*border: 2px solid #97E7CC;*/
   border-radius: 25px;
   }
 
@@ -819,7 +819,7 @@ input[type="checkbox"] {
 }
   .product-box{
     /*border-radius: 10px;*/
-    border: 1.5px solid  #FFBE3E;
+    /*border: 1.5px solid  #FFBE3E;*/
     /*background-blend-mode: overlay;*/
     padding: 0;
     margin-top:.1rem;
