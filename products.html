@@ -16,6 +16,7 @@
   <section>
     <!-- main navigation for website -->
     <nav class="main-nav">
+      <a href="index.html" class="main-nav-item-header">You Were Here.</a>
       <a href="support.html" class="main-nav-item">SUPPORT/FAQ</a>
       <a href="updates.html" class="main-nav-item">UPDATES</a>
       <a href="about.html" class="main-nav-item">ABOUT</a>
@@ -33,14 +34,14 @@
   <section class="header">
     <!-- name of company -->
     <h1 class="website-title"><a href="index.html">
-      Heading 1
+      SHOP
     </a></h1>
 
     <!-- image set for the landing page "above the fold" section -->
-    <img src="#" alt="background image">
+    <!-- <img src="#" alt="background image"> -->
 
     <!-- company logo -->
-    <img src="#" alt="logo" class="logo">
+    <!-- <img src="#" alt="logo" class="logo"> -->
 
   </section>
   <!-- end of header -->
@@ -54,35 +55,61 @@
       <div>
       <label for="Select Provinces(s):" class="filter-title">Select Province(s):</label>
     </div>
+    <div class="checkbox-container">
+    <div class="checkbox-pair">
       <input type="checkbox" value="AB">
       <label for="AB" class="form-enteries">Alberta</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="BC">
       <label for="BC" class="form-enteries">BC</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="MN">
       <label for="MN" class="form-enteries">Manitoba</label>
+    </div>
+      <div class="checkbox-pair">
       <input type="checkbox" value="NB">
       <label for="NB" class="form-enteries">New Brunswick</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="NL">
       <label for="NL" class="form-enteries">Newfoundland</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="NT">
       <label for="NT" class="form-enteries">Northwest Territories</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="NS">
       <label for="NS" class="form-enteries">Nova Scotia</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="NV">
       <label for="NV" class="form-enteries">Nunavut</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="ON">
       <label for="ON" class="form-enteries">Ontario</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="PEI">
       <label for="PEI" class="form-enteries">PEI</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="QB">
       <label for="QB" class="form-enteries">Quebec</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="SK">
       <label for="SK" class="form-enteries">Saskatchewan</label>
+    </div>
+    <div class="checkbox-pair">
       <input type="checkbox" value="YK">
       <label for="YK" class="form-enteries">Yukon</label>
-
+    </div>
+</div>
       <!-- Sort by: filter -->
-      <div>
       <div class="dropdown">
       <label for="Sort by:" class="filter-title">Sort by:</label>
       <select name="Filter 1">
@@ -91,10 +118,10 @@
         <option value="value3">Alphabetically</option>
       </select>
     </div>
-    </div>
     <button class="refine-search-button">REFINE SEARCH </button>
   </form>
   </div>
+</div>
 
       </section>
 
@@ -107,109 +134,181 @@
           <a href="#">Link 3</a>
         </div>
       </div> -->
-
-      <!-- Confirm filter settings -->
-
-
-
   <!-- Product listing -->
-  <section class="product-list">
-    <div class="container">
+    <div class="product-box-container">
+  <nav class="grid-row">
+    <div class="grid-col-1of5">
 
-      <!-- div block that displays postcard examples -->
-      <div class="block">
-      <div class="product-box">
+        <div class="product-box">
         <a href="product_view.html">
         <h2 class="product-name">
-          Product Name</h2>
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+          <b>Vancouver </b>BC</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
         <label for="$$$$" class="price-tag">$$$$</label>
       </div>
+    </div>
     </a>
-    </div>
-  <div class="block">
-      <div class="product-box">
-        <!-- <a href="product_view.html"> -->
-        <h2 class="product-name">
-          Product Name</h2>
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
-        <label for="$$$$" class="price-tag">$$$$</label>
-      </div>
-    <!-- </a> -->
-    </div>
-
-
-  <div class="block">
-      <div class="product-box">
+    <div class="grid-col-1of5">
+        <div class="product-box">
         <a href="product_view.html">
         <h2 class="product-name">
-          Product Name</h2>
-        <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+          <b>Moraine Lake </b>Alberta</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/alberta.jpg">
         <label for="$$$$" class="price-tag">$$$$</label>
       </div>
-    </a>
     </div>
+    </a>
+    <div class="grid-col-1of5">
+        <div class="product-box">
+        <h2 class="product-name">
+         <b>Toronto </b>Ontario</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/toronto1.jpg">
+        <label for="$$$$" class="price-tag">$$$$</label>
+      </div>
+    </div>
+    <div class="grid-col-1of5">
+        <div class="product-box">
+        <a href="product_view.html">
+        <h2 class="product-name">
+          <b>Okanagan </b>BC</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/okanagan.jpg">
+        <label for="$$$$" class="price-tag">$$$$</label>
+      </div>
+    </div>
+    <div class="grid-col-1of5">
+        <div class="product-box">
+        <a href="product_view.html">
+        <h2 class="product-name">
+          <b>Peggy's Cove</b> Nova Scotia</h2>
+        <img class="internal-product-view" alt = "postcard 1" src="img/nova-scotia.jpg">
+        <label for="$$$$" class="price-tag">$$$$</label>
+      </div>
+    </div></div>
+    </a>
+  </div>
+</nav>
 
+<!-- Product listing -->
+<div class="product-box-container">
+<nav class="grid-row">
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+        <b>Vancouver </b>BC</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/vancouver2.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  </a>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+        <b>Whistler </b>BC</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/whistler.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  </a>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <h2 class="product-name">
+      <b>Churchill </b>BC</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/manitoba.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+        <b>Montreal </b>Ontario</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/montreal.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+      <b>Yukon </b>Yukon</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/yukon.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+</div>
+  </a>
+</div>
+</nav>
+
+
+<div class="product-box-container">
+<nav class="grid-row">
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+          <b>Peggy's Cove</b> Nova Scotia</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/nova-scotia.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  </a>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+        <b>Vancouver </b>BC</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/vancouver1.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  </a>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <h2 class="product-name">
+        <b>Toronto </b>Ontario</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/toronto2.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+      <b>Ottawa </b>Ontario</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/ottawa.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+  <div class="grid-col-1of5">
+      <div class="product-box">
+      <a href="product_view.html">
+      <h2 class="product-name">
+        <b>Jasper </b>Alberta</h2>
+      <img class="internal-product-view" alt = "postcard 1" src="img/jasper.jpg">
+      <label for="$$$$" class="price-tag">$$$$</label>
+    </div>
+  </div>
+</div>
+  </a>
+</div>
+</nav>
+<!--
     <div class="block">
         <div class="product-box">
           <a href="product_view.html">
           <h2 class="product-name">
             Product Name</h2>
-          <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
+          <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
           <label for="$$$$" class="price-tag">$$$$</label>
         </div>
       </a>
       </div>
-      </div>
-
-      <!-- Product listing -->
-      <section class="product-list">
-        <div class="container">
-
-          <!-- div block that displays postcard examples -->
-          <div class="block">
-          <div class="product-box">
-            <a href="product_view.html">
-            <h2 class="product-name">
-              Product Name</h2>
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
-            <label for="$$$$" class="price-tag">$$$$</label>
-          </div>
-        </a>
-        </div>
-      <div class="block">
-          <div class="product-box">
-            <a href="product_view.html">
-            <h2 class="product-name">
-              Product Name</h2>
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
-            <label for="$$$$" class="price-tag">$$$$</label>
-          </div>
-        </a>
-        </div>
+      </div> -->
 
 
-      <div class="block">
-          <div class="product-box">
-            <a href="product_view.html">
-            <h2 class="product-name">
-              Product Name</h2>
-            <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
-            <label for="$$$$" class="price-tag">$$$$</label>
-          </div>
-        </a>
-        </div>
-        <div class="block">
-            <div class="product-box">
-              <a href="product_view.html">
-              <h2 class="product-name">
-                Product Name</h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/postcards-10.png">
-              <label for="$$$$" class="price-tag">$$$$</label>
-            </div>
-          </a>
-          </div>
-          </div>
 
 
   <!-- footer content -->
