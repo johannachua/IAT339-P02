@@ -43,6 +43,15 @@
 	width: auto;
 }
 
+.grid-col-full{
+	width: 100%;
+}
+
+.flexbox .grid-col-full{
+	flex-grow: 1;
+	width: auto;
+}
+
 .grid-col-1of5 {
 	width: 20%;
 }

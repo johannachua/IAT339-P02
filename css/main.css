@@ -1,9 +1,10 @@
 /*sets body colour and margin*/
 body {
   color: #2b2b35;
+  background-color: #F9F9F9;
   /*background-color: #FCEBC9;*/
 	margin:0;
-	font-size: 1.25rem;
+	/*font-size: 1.25rem;*/
   text-transform: uppercase;
 }
 
@@ -121,22 +122,22 @@ option.dropdowm-menu-options{
   margin-top: .45em;
 }
 /*sets the restrictiongs for the product images*/
-img.internal-product-view{
-  width: 100%;
+/*img.internal-product-view{
+  width: 10%;
   transition: 0.3s;
-  padding: 1em;
-  margin: auto;
+  padding: 10rem;
+  margin: 0;
   position: relative;
 }
 
 /*makes the images larger when hovered over*/
-img.internal-product-view:hover{
-  width: 100%;
+/*img.internal-product-view:hover{
   position: relative;
+  width: 120%;
   /*transition-timing-function: ease-in-out;*/
-  transition: 0.3s;
-  opacity: .8;
-}
+  /*transition: 0.3s;
+  opacity: .8;*/
+/*}*/
 
 /*sets the restrictiongs for the product images*/
 a.products{
@@ -157,17 +158,17 @@ a.products:hover{
 
 /*sets the restrictiongs for the product images*/
 .products{
-  width:120%;
+  width:100%;
   transition: 0.3s;
   padding: auto;
-  opacity: 1;
+  opacity: .85;
   /*font-family: "Dosis", Verdana, sans-serif;*/
   /*font-weight:normal;*/
 }
 
 /*makes the images larger when hovered over*/
 .products:hover{
-  width: 125%;
+  transform: scale(1.2,1.2);
   transition-timing-function: ease-in-out;
   transition: 0.3s;
   opacity: 1;
@@ -178,16 +179,17 @@ img.internal-product-view{
   transition: 0.3s;
   padding: 1em;
   margin: auto;
-  position: relative;
+  /*position: relative;*/
 }
 
 /*makes the images larger when hovered over*/
 img.internal-product-view:hover{
-  width: 100%;
-  position: relative;
+  /*width: 120%;*/
+  transform: scale(1.1,1.1);
+  /*position: relative;*/
   /*transition-timing-function: ease-in-out;*/
   transition: 0.3s;
-  opacity: .8;
+  /*opacity: 1;*/
 }
 
 /*sets basics for the form layout */
@@ -555,27 +557,37 @@ h1.website-title{
   padding-bottom: .1em;
   padding-left: .1em;
   padding-right: .25em;
-  margin-top: .25em;
+  text-align: center;
+  margin-top: 7rem;
   margin-bottom: .1em;
-  margin-right: .25em;
-  margin-left: 2em;
+  /*margin-right: .25em;*/
+  /*margin-left: 2em;*/
 }
 
 .main-nav {
+  position: fixed;
+  z-index: 1;
     background-color: #FFF;
     overflow: hidden;
     margin: 0;
+    /*margin-bottom: 10rem;*/
     padding: 0;
     top: 0;
     left: 0;
     width: 100%;
     transition-timing-function: ease-in-out;
     transition: .2s;
+    /*border-bottom: 2px dashed #838391;*/
 }
-
+.main-nav a:hover {
+  color:#30303a;
+  font-weight: bold;
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+}
 .main-nav-item {
     font-family: "Dosis", Verdana, sans-serif;
-    font-size: .75em;
+    font-size: 3rem;
     font-weight: normal;
     padding:.5rem;
     letter-spacing: 3px;
@@ -590,13 +602,24 @@ h1.website-title{
     transition: .2s ease-out;
     transition-timing-function: ease-in-out;
 }
-
-.main-nav a:hover {
-  color:#30303a;
-  font-weight: bold;
-  transition: .2s;
-  transition-timing-function: ease-in-out;
+.main-nav-item-header {
+    font-family: "Aleo", Verdana, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding:.5rem;
+    letter-spacing: 3px;
+    margin: .1em;
+    color: #838391;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 17px;
+    transition: .2s ease-out;
+    transition-timing-function: ease-in-out;
 }
+
 
 /*how all buttons should look and react on the page*/
 button{
@@ -638,7 +661,11 @@ button:hover{
 
 div.about-team-memebers {
   padding: 1.5rem;
-  margin: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  width:auto;
   background-color: #97E7CC;
   color: white;
   border: 2px solid #97E7CC;
@@ -666,7 +693,6 @@ div.about-team-memebers {
       border-radius: 25px;
       font-family: "Dosis";
       opacity: .85;
-      /*font-weight: bold;*/
       font-size: .75em;
       padding:.5em 2em;
       margin: .25em;
@@ -783,17 +809,50 @@ input[type="checkbox"] {
 
 .filter-search{
   border-radius: 10px;
-  background-color: #FCEBC9;
+  /*background-color: #FAF4EF;*/
+  background-color: white;
+  /*border: 1px dashed #838391;*/
   /*border: 2px solid  #FFBE3E;*/
   padding: 1rem;
   margin: 1.5rem;
   position: relative;
 }
   .product-box{
-    border-radius: 10px;
-    border: 2px solid  #FFBE3E;
-    padding: 1rem;
-    margin: 1.5rem;
+    /*border-radius: 10px;*/
+    border: 1.5px solid  #FFBE3E;
+    /*background-blend-mode: overlay;*/
+    padding: 0;
+    margin-top:.1rem;
+    margin-bottom: .1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    /*height: 500px;*/
+    /*width: 300px;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .product-box-container{
+    /*border-radius: 10px;*/
+    /*border: 1.5px solid  #FFBE3E;*/
+    /*background-blend-mode: overlay;*/
+    margin-bottom: 3rem;
+    /*height: 500px;*/
+    /*width: 300px;*/
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .product-box-container-text{
+    /*border-radius: 10px;*/
+    /*border: 1.5px solid  #FFBE3E;*/
+    /*background-blend-mode: overlay;*/
+    margin: 0;
+    /*height: 500px;*/
+    /*width: 300px;*/
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -804,10 +863,10 @@ input[type="checkbox"] {
     /*padding: auto;*/
     position: relative;
 
-    border-radius: 10px;
-    border: 2px solid  #FFBE3E;
-    padding: auto;
-    margin: 1.5rem;
+    /*border-radius: 10px;*/
+    /*border: 2px solid   #FFBE3E;*/
+    padding: 1rem;
+    margin: 1rem;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -820,9 +879,25 @@ input[type="checkbox"] {
   text-transform: uppercase;
   margin: auto;
   text-align: center;
-  padding: .1em;
+  padding: .5em;
+}
+.checkbox-pair{
+  position: relative;
+  padding: .5rem;
+  margin: .5rem;
+  float: left;
 }
 
+.checkbox-container{
+  padding:auto;
+  margin: .5rem;
+  /*height: 500px;*/
+  /*width: 300px;*/
+  /*text-align: center;
+  justify-content: center;
+  align-items: center;*/
+  position: relative;
+}
 .price-tag{
   font-family: "Aleo", Verdana, sans-serif;
   font-weight: lighter;
