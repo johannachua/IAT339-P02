@@ -173,7 +173,14 @@
     transition: 0.3s;
     opacity: 1;
   }
-
+  .footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+  }
 
   .team-view-container{
     /*border: 1.5px solid  #FFBE3E;*/
