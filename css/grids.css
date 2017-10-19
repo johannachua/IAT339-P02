@@ -38,6 +38,19 @@
 	width: 33%;
 }*/
 
+.grid-col-1of2{
+	width: 50%;
+}
+
+.flexbox .grid-col-1of2{
+	flex-grow: 1;
+	width:auto;
+}
+
+.grid-col-3of9{
+	width:33%;
+}
+
 .flexbox .grid-col-3of9{
 	flex-grow: 1;
 	width: auto;
