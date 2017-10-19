@@ -6,7 +6,8 @@
 }
 
 .review-section{
-  border: 2px solid mistyrose;
+  /*border: 2px solid mistyrose;*/
+  background-color: white;
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -58,4 +59,49 @@
 
 .place-order input:hover{
   background-color: #ff7f50;
+}
+
+.billing-submit{
+  padding-bottom: 2.5rem;
+}
+
+.billing-submit button{
+  background-color: #F47400;
+  border: none;
+}
+
+.billing-submit button:hover{
+  background-color: #a9a9a9;
+  border: none;
+}
+
+.billing-submit a{
+  color: white;
+}
+
+.ship {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.payment-method {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.bill {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.container{
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
 }
