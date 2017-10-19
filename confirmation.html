@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="#">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/billing-pg.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale-1">
   </head>
 
@@ -29,53 +32,50 @@
   <!--content a part of the header-->
   <section class="header">
     <!-- name of company -->
-    <h1 class="website-title"><a href="index.html">
-      Heading 1
-    </a></h1>
-
-    <!-- image set for the landing page "above the fold" section -->
-    <img src="#" alt="background image">
-
-    <!-- company logo -->
-    <img src="#" alt="logo" class="logo">
+    <h1 class="website-title">
+      Review your order
+    </h1>
 
   </section>
   <!-- end of header -->
 
   <!-- Review Information Content -->
-  <section class="shipping-billing-review">
-    <h2>Review your order</h2>
+  <div class="review">
+    <div class="review-section">
+      <section class="shipping-billing-review">
+        <!-- <h2>Review your order</h2> -->
 
     <!-- Shipping Review -->
     <section class="ship-review">
-      <h3>Shipping Information</h3>
-      <p>Name Inputed</p>
-      <p>Full Address Info Inputed</p>
+      <h2>Shipping Information</h2>
+      <p>Zoey Brooks</p>
+      <p>101 Pacific Coast Avenue, Malibu, CA 90263, USA</p>
       <a href="#">Change Input</a>
     </section>
 
     <!-- Payment Review -->
     <section class="payment-review">
-      <h3>Payment Method</h3>
+      <h2>Payment Method</h2>
       <p>Visa ending in 1234</p>
       <a href="#">Change Input</a>
     </section>
 
     <!-- Billing Review -->
     <section class="bill-review">
-      <h3>Billing Information</h3>
-      <p>Name Inputed</p>
-      <p>Full Address Info Inputed</p>
+      <h2>Billing Information</h2>
+      <p>Jane Doe</p>
+      <p>24255 Gilbert Rd., Nanaimo, BC V9X 0H2, Canada</p>
       <a href="#">Change Input</a>
     </section>
+  </div>
 
     <!-- Review the Order -->
+    <div class="review-section">
     <section class="order-summary">
-      <h3>Order Summary</h3>
-      <p>Items: $</p>
-      <p>Shipping and Handling: $</p>
-      <h4>Order Total: $</h4>
-
+      <h2>Order Summary</h2>
+      <p>Items: $1.50</p>
+      <p>Shipping and Handling: $0.50</p>
+      <h3>Order Total: $2.00</h3>
     </section>
 
     <!-- Final Submission -->
@@ -83,7 +83,8 @@
       <input type="submit" value="Place your order">
     </div>
   </section>
-
+  </div>
+  </div>
 
   <!-- footer content -->
   <section class="footer">
