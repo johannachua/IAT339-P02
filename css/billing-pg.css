@@ -68,6 +68,7 @@
 .billing-submit button{
   background-color: #F47400;
   border: none;
+  margin-right: 10rem;
 }
 
 .billing-submit button:hover{
@@ -113,12 +114,17 @@
   text-align: center;
 }
 
+form{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 label{
-margin: 1rem;
-text-align: left;
+  margin: 1rem;
+  text-align: left;
 }
 
 input{
-padding: 1rem;
-margin: 1rem;
+  /*padding: 1rem;
+  margin: 1rem;*/
 }
