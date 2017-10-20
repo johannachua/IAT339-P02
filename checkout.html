@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Company Name</title>
+    <title>Checkout</title>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="#">
+    <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale-1">
   </head>
 
@@ -14,7 +15,11 @@
   <section>
     <!-- main navigation for website -->
     <nav class="main-nav">
-      <a href="support.html" class="main-nav-item">SUPPORT/FAQ</a>
+      <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
+        <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
+      </a>
+      <a href="index.html" class="main-nav-item-header">You Were Here.</a>
+      <a href="support.html" class="main-nav-item">SUPPORT</a>
       <a href="updates.html" class="main-nav-item">UPDATES</a>
       <a href="about.html" class="main-nav-item">ABOUT</a>
       <a href="products.html" class="main-nav-item">SHOP</a>
@@ -26,26 +31,16 @@
     </a>
   </section>
 
-
   <!--content a part of the header-->
   <section class="header">
     <!-- name of company -->
-    <h1 class="website-title"><a href="index.html">
-      Heading 1
-    </a></h1>
-
-    <!-- image set for the landing page "above the fold" section -->
-    <img src="#" alt="background image">
-
-    <!-- company logo -->
-    <img src="#" alt="logo" class="logo">
-
+    <h1 class="website-title">
+      <a href="index.html">
+        You Were Here.
+      </a>
+    </h1>
   </section>
   <!-- end of header -->
-
-
-
-
 
   <!-- Checkout section -->
   <section class="checkout-cart">
@@ -53,48 +48,109 @@
       Cart
     </h2>
 
-    <!-- section used to section off items -->
-    <section class="checkout-item">
-      <div class="checkout-reciept-col">
-        <h3 class="checkout-title">
-          Province
-        </h3>
-        <img src="#" alt="postcard" class="checkout-cart-image">
+    <section class="product-box-container checkout-box-container" >
+
+      <!-- cart titles -->
+      <div class="grid-row">
+
+        <div class="grid-col-1of5">
+          <div class="product-box checkout-box">
+            <h3>
+              Province
+            </h3>
+            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+          </div>
+        </div>
+
+        <div class="grid-col-1of5">
+          <div class="product-box checkout-box">
+            <h3>
+              Personalize
+            </h3>
+            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+          </div>
+        </div>
+
+        <div class="grid-col-1of5">
+          <div class="product-box">
+            <h3>
+              Stamp
+            </h3>
+            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+          </div>
+        </div>
+
+        <div class="grid-col-1of5">
+          <h3>
+            Price
+          </h3>
+          <label for="$$$$" class="price-tag">$$$$</label>
+        </div>
+
+      <div class="grid-col-1of5">
+        <div class="product-box">
+          <p>
+            Remove Item
+          </p>
+          <img src="img/remove-icon-17.png" alt="icon to remove item from checkout cart" class="checkout-product-view">
+        </div>
       </div>
 
-      <div class="checkout-reciept-col">
-        <h3 class="checkout-title">
-          Personalize
-        </h3>
-        <a href="#">
-          <img src="#" alt="personalize" class="checkout-cart-image">
-        </a>
+    </div>
+  </section>
+
+  <section class="product-box-container checkout-box-container" >
+
+    <!-- cart titles -->
+    <div class="grid-row">
+
+      <div class="grid-col-1of5">
+        <div class="product-box checkout-box">
+          <h3>
+            Province
+          </h3>
+          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+        </div>
       </div>
 
-      <div class="checkout-reciept-col">
-        <h3 class="checkout-title">
-          Stamp
-        </h3>
-        <img src="#" alt="stamp" class="checkout-cart-image">
+      <div class="grid-col-1of5">
+        <div class="product-box checkout-box">
+          <h3>
+            Personalize
+          </h3>
+          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+        </div>
       </div>
 
-      <div class="checkout-reciept-col">
-        <h3 class="checkout-title">
+      <div class="grid-col-1of5">
+        <div class="product-box">
+          <h3>
+            Stamp
+          </h3>
+          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
+        </div>
+      </div>
+
+      <div class="grid-col-1of5">
+        <h3>
           Price
         </h3>
-        <label for="$$$$">$$$$</label>
+        <label for="$$$$" class="price-tag">$$$$</label>
       </div>
 
-      <div class="checkout-reciept-col">
-        <button class="remove"> REMOVE ITEM </button>
+    <div class="grid-col-1of5">
+      <div class="product-box">
+        <p>
+          Remove Item
+        </p>
+        <img src="img/remove-icon-17.png" alt="icon to remove item from checkout cart" class="checkout-product-view">
       </div>
-    <section>
+    </div>
 
-    <label>
-      Subtotal: $$$$
-    </label>
+  </div>
+</section>
 
-  </section>
+
 
 
   <!-- footer content -->
