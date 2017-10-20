@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
@@ -43,14 +44,13 @@
   <!-- end of header -->
 
   <!-- Checkout section -->
-  <section class="checkout-cart">
+  <!-- <section class="checkout-cart"> -->
     <h2>
       Cart
     </h2>
 
-    <section class="product-box-container checkout-box-container" >
-
-      <!-- cart titles -->
+    <div class="product-box-container" >
+      <!-- content for a single item-->
       <div class="grid-row">
 
         <div class="grid-col-1of5">
@@ -88,7 +88,7 @@
         </div>
 
       <div class="grid-col-1of5">
-        <div class="product-box">
+        <div class="product-box remove">
           <p>
             Remove Item
           </p>
@@ -97,11 +97,10 @@
       </div>
 
     </div>
-  </section>
+  </div>
 
-  <section class="product-box-container checkout-box-container" >
-
-    <!-- cart titles -->
+  <div class="product-box-container " >
+    <!-- content for a single item -->
     <div class="grid-row">
 
       <div class="grid-col-1of5">
@@ -139,16 +138,22 @@
       </div>
 
     <div class="grid-col-1of5">
-      <div class="product-box">
+      <div class="product-box remove">
         <p>
           Remove Item
         </p>
         <img src="img/remove-icon-17.png" alt="icon to remove item from checkout cart" class="checkout-product-view">
       </div>
     </div>
-
   </div>
-</section>
+
+  <div class="product-box-container">
+    <div class="buttons-product-page checkout">
+      <button class="add-to-cart"> <a class="button-link" href="billing.html">CHECKOUT</a></button>
+    </div>
+  </div>
+
+</div>
 
 
 
