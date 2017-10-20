@@ -128,3 +128,22 @@ input{
   /*padding: 1rem;
   margin: 1rem;*/
 }
+
+@media (min-width: 42.5em) {
+  form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+  }
+}
+
+@media (min-width: 23.4em) {
+  .team-view-container{
+    margin: auto;
+  }
+  form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+  }
+}
