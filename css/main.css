@@ -181,7 +181,12 @@
     background-color: white;
     text-align: center;
   }
-
+.logo-scale{
+  /*padding: 1rem;*/
+  /*margin: 1rem;*/
+  float: left;
+  width: 30%;
+}
   .team-view-container{
     /*border: 1.5px solid  #FFBE3E;*/
     border-radius: 15px;
