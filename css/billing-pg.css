@@ -47,6 +47,8 @@
   font-family: "Dosis", sans-serif;
   text-transform: uppercase;
   background-color: #F47400;
+  color:  white;
+  border: 2px solid #F97C00;
   font-weight: normal;
   font-size: .75rem;
   padding: 1rem 2rem;
@@ -54,11 +56,12 @@
   letter-spacing: 0.3rem;
   transition: .15s;
   display: block;
-
+  border-radius: 2rem;
 }
 
 .place-order input:hover{
-  background-color: #ff7f50;
+  background-color:  #FF6315;
+  color: white;
 }
 
 .billing-submit{
@@ -66,14 +69,20 @@
 }
 
 .billing-submit button{
-  background-color: #F47400;
+  /*background-color: #F47400;
   border: none;
+  margin-right: 10rem;*/
+  background-color: #F47400;
+  color:  white;
+  border: 2px solid #F97C00;
   margin-right: 10rem;
 }
 
 .billing-submit button:hover{
-  background-color: #a9a9a9;
-  border: none;
+  /*background-color: #a9a9a9;
+  border: none;*/
+  background-color:  #FF6315;
+  color: white;
 }
 
 .billing-submit a{
@@ -129,6 +138,22 @@ input{
   margin: 1rem;*/
 }
 
+.thanks{
+  text-align: center;
+}
+
+@media (min-width: 23.4em) {
+  .team-view-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+  }
+}
+
 @media (min-width: 42.5em) {
   form{
     margin-left: 1rem;
@@ -137,13 +162,14 @@ input{
   }
 }
 
-@media (min-width: 23.4em) {
+@media (min-width: 87.5em) {
   .team-view-container{
-    margin: auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
+
   form{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding: 0;
+    margin-left: 8rem;
+    margin-right: 8rem;
   }
 }
