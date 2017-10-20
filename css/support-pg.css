@@ -13,8 +13,11 @@
     float: left;
     padding-right: 3rem;
   }
-
+.maps{
+  margin-bottom: 1.5rem;
+}
   .support-text article{
+    /*float: left;*/
     margin-bottom: 1.5rem;
   }
 
@@ -64,4 +67,30 @@
 
   .support-faq-main h2{
     color: #2b2b35;
+  }
+
+  @media (min-width: 23.4em) {
+    .support-text{
+      display: block;
+    }
+  }
+
+  @media (min-width: 56.8em) {
+    .location{
+      float: none;
+      margin-left: 6rem;
+    }
+    .support-text{
+      margin-left: 6rem;
+    }
+  }
+
+  @media (min-width: 80em) {
+    .location{
+      float: left;
+      margin-left: 4rem;
+    }
+    .support-text{
+      margin-left: 0rem;
+    }
   }
