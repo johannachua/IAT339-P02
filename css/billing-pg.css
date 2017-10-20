@@ -129,6 +129,13 @@ input{
   margin: 1rem;*/
 }
 
+@media (min-width: 91em) {
+  .team-view-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
 @media (min-width: 42.5em) {
   form{
     margin-left: 1rem;
@@ -139,7 +146,8 @@ input{
 
 @media (min-width: 23.4em) {
   .team-view-container{
-    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
   form{
     margin-left: 1rem;
