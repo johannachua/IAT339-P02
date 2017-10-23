@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Confirmation</title>
+    <title>Review: You Were Here.</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/billing-pg.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/billing-process.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale-1">
@@ -47,32 +47,47 @@
   <!-- Review Information Content -->
   <div class="review">
     <div class="review-section">
+      <div class="grid-row">
+
       <section class="shipping-billing-review">
         <!-- <h2>Review your order</h2> -->
 
     <!-- Shipping Review -->
+    <div class="grid-col-3of9">
     <section class="ship-review">
       <h2>Shipping Information</h2>
       <p>Zoey Brooks</p>
-      <p>101 Pacific Coast Avenue, Malibu, CA 90263, USA</p>
+      <p>101 Pacific Coast Avenue, Malibu, CA</p>
+      <p>90263, USA</p>
       <a href="billing.html">Change Input</a>
     </section>
-
-    <!-- Payment Review -->
-    <section class="payment-review">
-      <h2>Payment Method</h2>
-      <p>Visa ending in 1234</p>
-      <a href="billing.html">Change Input</a>
-    </section>
+    </div>
 
     <!-- Billing Review -->
-    <section class="bill-review">
-      <h2>Billing Information</h2>
-      <p>Chase Matthews</p>
-      <p>24255 Gilbert Rd., Nanaimo, BC V9X 0H2, Canada</p>
+      <div class="grid-col-3of9">
+        <section class="bill-review">
+          <h2>Billing Information</h2>
+          <p>Chase Matthews</p>
+          <p>24255 Gilbert Rd., Nanaimo, BC </p>
+          <p>V9X 0H2, Canada</p>
+          <a href="billing.html">Change Input</a>
+        </section>
+      </div>
+
+    <!-- Payment Review -->
+    <div class="grid-col-3of9">
+    <section class="payment-review">
+      <h2>Payment Method</h2>
+      <div>
+      <!-- <div class="p-class"> -->
+      <p class="p-class">Visa ending in <p class="card-num p-class">1234</p></p>
+    </div>
       <a href="billing.html">Change Input</a>
     </section>
-  </div>
+    </div>
+
+    </div>
+    </div>
 
     <!-- Review the Order -->
     <div class="review-section">
@@ -85,7 +100,7 @@
 
     <!-- Final Submission -->
     <div class="place-order">
-      <a href="thank-you.html"><input type="submit" value="Place your order">
+      <a href="thank-you.html">Place your order
       </a>
     </div>
   </section>
