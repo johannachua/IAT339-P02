@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/billing-pg.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
+    <link href="css/billing-process.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale-1">
   </head>
@@ -35,10 +35,10 @@
 
   <!--content a part of the header-->
   <section class="header">
-    <!-- name of company -->
-    <h1 class="website-title"><a href="index.html">
+    <!-- name of page -->
+    <h1 class="website-title">
       Billing
-    </a></h1>
+    </h1>
 
   </section>
   <!-- end of header -->
@@ -50,78 +50,92 @@
     </h2>
 
     <div class="team-view-container">
+      <div class="grid-row">
+        <div class="grid-col-3of9">
+          <div class="block">
+
+          <section class="ship">
+          <h3>SHIPPING INFORMATION</h3>
+
+            <form>
+              <label for="fname">FULL NAME</label>
+              <input type="text" id="fullname-ship" name="fullname-ship">
+              <label for="lname">STREET ADDRESS</label>
+              <input type="text" id="address-ship" name="address-ship">
+              <label for="lname">CITY</label>
+              <input type="text" id="city-ship" name="city-ship">
+              <label for="lname">PROVINCE</label>
+              <input type="text" id="prov-ship" name="prov-ship">
+              <label for="lname">POSTAL CODE</label>
+              <input type="text" id="code-ship" name="code-ship">
+            </form>
+          </section>
+        </div>
+      </div>
+
+      <div class="grid-col-3of9">
+        <div class="block">
+          <section class="bill">
+            <h3>BILLING INFORMATION</h3>
+
+            <form>
+              <label for="fname">FULL NAME</label>
+              <input class="border-input" type="text" id="fullname-ship" name="fullname-ship">
+
+              <label for="lname">STREET ADDRESS</label>
+              <input type="text" id="address-ship" name="address-ship">
+
+              <label for="lname">CITY</label>
+              <input type="text" id="city-ship" name="city-ship">
+
+              <label for="lname">PROVINCE</label>
+              <input type="text" id="prov-ship" name="prov-ship">
+
+              <label for="lname">POSTAL CODE</label>
+              <input type="text" id="code-ship" name="code-ship">
+            </form>
+        </section>
+      </div>
+    </div>
+
+    <div class="grid-col-3of9">
       <div class="block">
-        <section class="ship">
-      <h3>SHIPPING INFORMATION</h3>
+        <section class="payment-method">
+          <h3>PAYMENT METHOD</h3>
 
-      <form>
-        <label for="fname">FULL NAME</label>
-        <input type="text" id="fullname-ship" name="fullname-ship">
-        <label for="lname">STREET ADDRESS</label>
-        <input type="text" id="address-ship" name="address-ship">
-        <label for="lname">CITY</label>
-        <input type="text" id="city-ship" name="city-ship">
-        <label for="lname">PROVINCE</label>
-        <input type="text" id="prov-ship" name="prov-ship">
-        <label for="lname">POSTAL CODE</label>
-        <input type="text" id="code-ship" name="code-ship">
-      </form>
-    </section>
+          <form>
+            <div class="bill-card">
+              <label for="fname">NAME ON CARD</label>
+              <input type="text" id="card" name="card">
+            </div>
+            <div class="bill-card">
+            <label for="lname">CARD NUMBER</label>
+            <input type="text" id="lname-sup" name="lname">
+            </div>
+
+            <div class="bill-card">
+              <div class="card-detail">
+                <label for="lname">EXPIRATION DATE</label>
+                <input type="text" id="exp" name="exp">
+              </div>
+              <div class="card-detail">
+                <label for="lname">CVV</label>
+                <input type="text" id="security" name="security">
+              </div>
+            </div>
+
+          </form>
+        </section>
+      </div>
+    </div>
+    </div>
+
+    <div class="grid-row">
+    <div class="billing-submit">
+      <a href="confirmation.html">CONTINUE</a>
+    </div>
+
   </div>
-<div class="block">
-    <section class="payment-method">
-      <h3>PAYMENT METHOD</h3>
-
-      <form>
-        <div class="bill-card">
-          <label for="fname">NAME ON CARD</label>
-          <input type="text" id="card" name="card">
-        </div>
-        <div class="bill-card">
-        <label for="lname">CARD NUMBER</label>
-        <input type="text" id="lname-sup" name="lname">
-        </div>
-
-        <div class="bill-card">
-          <div class="card-detail">
-            <label for="lname">EXPIRATION DATE</label>
-            <input type="text" id="exp" name="exp">
-          </div>
-          <div class="card-detail">
-            <label for="lname">CVV</label>
-            <input type="text" id="security" name="security">
-          </div>
-        </div>
-
-      </form>
-    </section>
-  </div>
-<div class="block">
-    <section class="bill">
-      <h3>BILLING INFORMATION</h3>
-
-      <form>
-        <label for="fname">FULL NAME</label>
-        <input class="border-input" type="text" id="fullname-ship" name="fullname-ship">
-
-        <label for="lname">STREET ADDRESS</label>
-        <input type="text" id="address-ship" name="address-ship">
-
-        <label for="lname">CITY</label>
-        <input type="text" id="city-ship" name="city-ship">
-
-        <label for="lname">PROVINCE</label>
-        <input type="text" id="prov-ship" name="prov-ship">
-
-        <label for="lname">POSTAL CODE</label>
-        <input type="text" id="code-ship" name="code-ship">
-      </form>
-    </section>
-</div>
-
-<div class="billing-submit">
-  <button class="continue"><a href="confirmation.html">CONTINUE</a></button>
-</div>
 </div>
 
   </section>

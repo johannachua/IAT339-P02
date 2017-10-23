@@ -1,0 +1,263 @@
+.block h3{
+  padding-bottom: 1em;
+}
+
+.shipping-billing-field h2{
+  margin-left: 10rem;
+}
+
+.billing-submit button{
+  background-color: #F47400;
+  color:  white;
+  border: 2px solid #F97C00;
+  margin-right: 10rem;
+}
+
+.billing-submit button:hover{
+  background-color:  #FF6315;
+  color: white;
+}
+
+.billing-submit a{
+  color: white;
+}
+
+.ship {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.payment-method {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.bill {
+  background-color: white;
+  color: #2b2b35;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.team-view-container{
+  display: block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.team-view-container h3{
+  text-align: center;
+}
+
+form{
+  display: block;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.bill-card{
+  display: block;
+  width: 100%;
+}
+
+.card-detail{
+  display: inline-block;
+  width: 45%;
+}
+
+.card-detail#security{
+  padding-right: 1rem;
+}
+
+.billing-submit a{
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  font-size: .75em;
+  padding: .5em 2em;
+  margin: .25em;
+  letter-spacing: 5px;
+  color: #FFF;
+  background-color: #FC9D1F;
+  border: 2px solid #FC9D1F;
+  border-radius: 30px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+}
+
+.billing-submit a:hover{
+  border: 2px solid #FC9D1F;
+  background-color: white;
+  color: #FC9D1F;
+}
+
+label{
+  text-align: left;
+}
+
+/*Review your order section*/
+
+.review{
+  width: 55%;
+  display: block;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.card-num{
+  font-family: "Aleo", serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.p-class{
+  display: inline-block;
+}
+
+.review-section{
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.review-section section{
+  /*padding-right: 1rem;*/
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.review-section a{
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #00ced1;
+  line-height: 3rem;
+}
+
+.review-section a:hover{
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: #a9a9a9;
+  line-height: 3rem;
+}
+
+.review-section h2{
+  font-size: 1.2rem;
+  padding: 0;
+  margin-left: 0;
+}
+
+.review-section p{
+  padding: 0;
+}
+
+.place-order a{
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+  font-size: .75em;
+  padding: 1em 2em;
+  margin: .25em;
+  letter-spacing: 5px;
+  color: #FFF;
+  background-color: #FC9D1F;
+  border: 2px solid #FC9D1F;
+  border-radius: 30px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+  text-align: center;
+}
+
+.place-order a:hover{
+  padding: 1em 2em;
+  margin: .25em;
+  letter-spacing: 5px;
+  border-radius: 30px;
+  border: 2px solid #FC9D1F;
+  background-color: white;
+  color: #FC9D1F;
+}
+
+.grid-col-3of9 {
+    width: 33.3%;
+}
+
+/*Thank you page*/
+.thanks{
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media (min-width: 23.4em) {
+  .team-view-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  form{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding: 0;
+  }
+
+  .card-detail{
+    width: 100%;
+  }
+
+  .billing-submit{
+    margin-right: 5rem;
+    text-align: center;
+    float: right;
+  }
+}
+
+@media (min-width: 42.5em) {
+
+  .team-view-container{
+    margin-left: 23rem;
+    margin-right: 23rem;
+  }
+
+  form{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0;
+  }
+
+}
+
+@media (min-width: 87.5em) {
+  .shipping-billing-field h2{
+    margin-right: 15rem;
+  }
+
+  .team-view-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  form{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  label{
+    text-align: left;
+  }
+
+  .billing-submit{
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    float: right;
+  }
+}
