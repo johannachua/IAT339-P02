@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Billing</title>
+    <title>Billing: You Were Here.</title>
     <meta charset="utf-8">
     <link rel="icon" type="image/png" href="img/you-were-here-logo.png">
     <link href="css/main.css" rel="stylesheet">
@@ -73,14 +73,26 @@
       <h3>PAYMENT METHOD</h3>
 
       <form>
-        <label for="fname">NAME ON CARD</label>
-        <input type="text" id="card" name="card">
+        <div class="bill-card">
+          <label for="fname">NAME ON CARD</label>
+          <input type="text" id="card" name="card">
+        </div>
+        <div class="bill-card">
         <label for="lname">CARD NUMBER</label>
         <input type="text" id="lname-sup" name="lname">
-        <label for="lname">EXPIRATION DATE</label>
-        <input type="text" id="exp" name="exp">
-        <label for="lname">SECURITY CODE</label>
-        <input type="text" id="security" name="security">
+        </div>
+
+        <div class="bill-card">
+          <div class="card-detail">
+            <label for="lname">EXPIRATION DATE</label>
+            <input type="text" id="exp" name="exp">
+          </div>
+          <div class="card-detail">
+            <label for="lname">CVV</label>
+            <input type="text" id="security" name="security">
+          </div>
+        </div>
+
       </form>
     </section>
   </div>
@@ -91,12 +103,16 @@
       <form>
         <label for="fname">FULL NAME</label>
         <input class="border-input" type="text" id="fullname-ship" name="fullname-ship">
+
         <label for="lname">STREET ADDRESS</label>
         <input type="text" id="address-ship" name="address-ship">
+
         <label for="lname">CITY</label>
         <input type="text" id="city-ship" name="city-ship">
+
         <label for="lname">PROVINCE</label>
         <input type="text" id="prov-ship" name="prov-ship">
+
         <label for="lname">POSTAL CODE</label>
         <input type="text" id="code-ship" name="code-ship">
       </form>
