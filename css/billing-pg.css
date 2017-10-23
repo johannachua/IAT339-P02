@@ -29,10 +29,6 @@
   line-height: 3rem;
 }
 
-/*.review-section section{
-  margin-bottom: 2rem;
-}*/
-
 .review-section h2{
   font-size: 1.2rem;
   padding: 0;
@@ -124,8 +120,19 @@
 }
 
 form{
+  display: block;
   margin-left: 10rem;
   margin-right: 10rem;
+}
+
+.bill-card{
+  display: block;
+  width: 100%;
+}
+
+.card-detail{
+  display: inline-block;
+  /*width: 45%;*/
 }
 
 label{
