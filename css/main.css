@@ -174,13 +174,14 @@
     opacity: 1;
   }
   .footer {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: white;
-    text-align: center;
-  }
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      margin-top: 15rem;
+      background-color: white;
+      text-align: center;
+    }
 .logo-scale{
   /*padding: 1rem;*/
   /*margin: 1rem;*/
@@ -1077,11 +1078,9 @@
       align-items: center;
     }
 
-
-
-    .checkout-box-container {
+    /*.checkout-box-container {
         background: #FFF;
-    }
+    }*/
 
   .product-name{
     font-family: "Aleo", Verdana, sans-serif;
