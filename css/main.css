@@ -173,14 +173,67 @@
     transition: 0.3s;
     opacity: 1;
   }
-  .footer {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: white;
-    text-align: center;
+
+
+  .main-footer {
+      background-color: #FFF;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      bottom: 0;
+      left: 0;
+      right:0;
+      clear:both;
+      width: 100%;
+      margin-top: 10rem;
+      transition-timing-function: ease-in-out;
+      transition: .2s;
+      /*border-bottom: 2px dashed #838391;*/
   }
+  .main-footer a:hover {
+    color:black;
+    /*font-weight: bold;*/
+    transition: .2s;
+    transition-timing-function: ease-in-out;
+  }
+  .footer-item {
+      font-family: "Aleo", Verdana, sans-serif;
+      font-weight: normal;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      letter-spacing: 3px;
+      margin: .1em;
+      color: #838391;
+      float: right;
+      display: block;
+      text-align: center;
+      padding: 1.5rem;
+      text-decoration: none;
+      font-size: 13px;
+      transition: .2s ease-out;
+      transition-timing-function: ease-in-out;
+  }
+  .footer-item-header {
+      font-family: "Aleo", Verdana, sans-serif;
+      font-size: 3rem;
+      letter-spacing: 5px;
+      letter-spacing: 3px;
+      font-weight: normal;
+      margin: .1em;
+      color: #838391;
+      display: block;
+      text-align: center;
+      padding: 1.5rem;
+      float: left;
+      text-decoration: none;
+      font-size: 13px;
+      transition: .2s ease-out;
+      transition-timing-function: ease-in-out;
+  }
+  .footer-item-supporting {
+    font-style: oblique;
+  }
+
 .logo-scale{
   /*padding: 1rem;*/
   /*margin: 1rem;*/
@@ -245,6 +298,18 @@
     align-items: center;
     position: relative;
   }
+  p.about-text-team{
+    font-family: "Dosis", Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+    /*color: #F97C00;*/
+  }
+
   p.about-text{
     font-family: "Dosis", Verdana, sans-serif;
     font-weight: normal;
@@ -255,18 +320,16 @@
     /*color: #F97C00;*/
   }
   img.about-images{
-    width: 100%;
+    width: 50%;
     transition: 0.3s;
     padding: 1em;
     margin: auto;
   }
-
-  img.internal-product-view{
+  img.about-logo-main{
     width: 100%;
     transition: 0.3s;
-    padding: 1em;
-    margin: auto;
-    /*position: relative;*/
+    /*padding: 1em;*/
+    /*margin: auto;*/
   }
 
   img.checkout-product-view{
@@ -294,8 +357,18 @@
     font-weight: bold;
     letter-spacing: 5px;
     text-transform: uppercase;
-    margin: auto;
-    text-align: left;
+    margin: 2rem .1rem .5rem .1rem;
+    text-align: center;
+    padding: .5em;
+    /*float: left*/
+  }
+  .about-card-title{
+    font-family: "Aleo", Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0rem .1rem .5rem .1rem;
+    text-align: center;
     padding: .5em;
     /*float: left*/
   }
@@ -311,6 +384,14 @@
     text-align: left;
     /*float: left*/
   }
+
+    img.internal-product-view{
+      width: 100%;
+      transition: 0.3s;
+      padding: 1em;
+      margin: auto;
+      /*position: relative;*/
+    }
 
   /*makes the images larger when hovered over*/
   img.internal-product-view:hover{
@@ -468,40 +549,64 @@
     color: #FC9D1F;
   }
 
-  .personalize-button {
+  /*a.personalize-button {
+    font-family: "Dosis";
+    font-weight: normal;
+    font-size: .75em;
+    padding:.5em 2em;
+    margin: .25em;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    transition: .15s;
     background-color: #0CC28A;
     margin-right:2rem;
     color:  white;
     border: 2px solid #0CC28A;
     float: left;
-  }
-
-  /*changes the submit button colour when hovered on*/
-  .personalize-button:hover{
-    background-color:  #2FD384;
-    border: 2px solid #2FD384;
-    /*font-weight: bold;*/
-    /*color: #0CC28A;*/
-  }
-
-  .add-to-cart {
-    background-color: #4A8480;
+}*/
+  a.personalize-button{
+    font-family: "Dosis";
+    font-weight: normal;
+    font-size: .75em;
+    padding:.5em 2em;
+    margin: .25em .25em .25em 2rem;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    transition: .15s;
+    background-color: #2FD384;
     color:  white;
-    border: 2px solid #4A8480;
+    border: 2px solid #2FD384;
     margin-left: 2rem;
     float: left;
 
   }
 
   /*changes the submit button colour when hovered on*/
-  .add-to-cart:hover{
-    background-color:  #539B96;
-    border: 2px solid #539B96;
-    /*font-weight: bold;*/
-    /*color: #4A8480;*/
+  a.personalize-button:hover{
+    transition: .15s;
+    cursor: pointer;
+    background-color:  white;
+    color: #2FD384;
   }
 
-  .refine-search-button {
+  /*.add-to-cart {
+    background-color: #4A8480;
+    color:  white;
+    border: 2px solid #4A8480;
+    margin-left: 2rem;
+    float: left;
+
+  }*/
+
+  /*changes the submit button colour when hovered on*/
+  /*.add-to-cart:hover{
+    background-color:  #539B96;
+    border: 2px solid #539B96;
+    font-weight: bold;
+    color: #4A8480;
+  }*/
+
+  /*.refine-search-button {
     background-color: #F47400;
     color:  white;
     border: 2px solid #F97C00;
@@ -509,10 +614,10 @@
   }
 
   /*changes the submit button colour when hovered on*/
-  .refine-search-button:hover{
+  /*.refine-search-button:hover{
     background-color:  #FF6315;
     color: white;
-  }
+  }*/
 
   button.remove {
     background-color: white;
@@ -630,7 +735,7 @@
   /*code REFERENCED FROM W3 SCHOOLS*/
           input[type=text], select, textarea {
           width: 100%;
-          /*padding: 12px;*/
+          padding: 12px;
           border: 1px solid #ccc;
           border-radius: 4px;
           box-sizing: border-box;
@@ -718,15 +823,16 @@
   h1.information-title{
     font-family: "Aleo", Verdana, sans-serif;
     font-size: 3rem;
+    font-weight: bold;
     letter-spacing: 5px;
     padding: 1rem;
-    margin-left: auto;
+    margin: 2rem 1rem 0rem 1rem;
     text-align: center;
   }
 
   .main-nav {
-    position: fixed;
-    z-index: 1;
+      position: fixed;
+      z-index: 1;
       background-color: #FFF;
       overflow: hidden;
       margin: 0;
@@ -801,21 +907,67 @@
 
   /*how all the buttons should react when hovered, fade from whatever hover styling is put*/
   button:hover{
-      transition: .07s;
-      /*font-weight: bold;*/
+      transition: .15s;
+      font-weight: bold;
       cursor: pointer;
       /*font-weight: normal;*/
   }
 
+  a{
+    text-decoration: none;
+    color:#2b2b35;
+  }
+
+  a.refine-search-button{
+    font-family: "Dosis";
+    font-weight: normal;
+    font-size: .75em;
+    padding:.5em 2em;
+    margin: .25em;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    transition: .15s;
+    background-color: #F47400;
+    color:  white;
+    border: 2px solid #F47400;
+    margin-left: 3rem;
+  }
+
+  a.refine-search-button:hover{
+    transition: .15s;
+    /*font-weight: bold;*/
+    cursor: pointer;
+    background-color:  white;
+    color: #F47400;
+  }
+  a.add-to-cart {
+    font-family: "Dosis";
+    font-weight: normal;
+    font-size: .75em;
+    padding:.5em 2em;
+    margin: .25em;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    transition: .15s;
+    background-color: #4A8480;
+    color:  white;
+    border: 2px solid #4A8480;
+    margin-left: 2rem;
+    float: left;
+
+  }
+
+  /*changes the submit button colour when hovered on*/
+  a.add-to-cart:hover{
+    transition: .15s;
+    cursor: pointer;
+    background-color:  white;
+    color: #4A8480;
+  }
     .product-index-more-button{
 
     background-color: #FFC969;
     color: white;
-    /*border-style: none;
-    border-color: none;
-    border-image:none;
-    background-color: white;
-    -webkit-appearance:none;*/
     border: 1px solid #FFC969;
     }
 
@@ -913,7 +1065,7 @@
   }
   input{
       padding: 12px 20px;
-      /*margin: 1rem;*/
+      margin: 1rem;
       box-sizing: border-box;
   }
   label.form-titles {
@@ -983,16 +1135,6 @@
   .dropdown:hover .dropdown-content {
       display: block;
   }
-
-    a{
-      text-decoration: none;
-      color:#2b2b35;
-    }
-
-    a.button-link{
-      text-decoration: none;
-      color:white;
-    }
 
     label.filter-title{
       font-family: "Aleo", Verdana, sans-serif;
@@ -1067,7 +1209,6 @@
     .product-box-2{
       /*padding: auto;*/
       position: relative;
-
       /*border-radius: 10px;*/
       /*border: 2px solid   #FFBE3E;*/
       padding: 1rem;
@@ -1094,8 +1235,8 @@
   }
   .checkbox-pair{
     position: relative;
-    padding: .5rem;
-    margin: .5rem;
+    padding: .1rem;
+    margin: .3rem;
     float: left;
   }
 
