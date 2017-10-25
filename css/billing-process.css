@@ -438,8 +438,8 @@ label{
     border-radius: 4px;
     background-color: white;
     -webkit-appearance: none;
-    background-image: url("../img/drake.png") ;
-    /*appearance: none;       /* remove default arrow */*/
+    background-image: url("../img/drake.png");
+    /*appearance: none;       /* remove default arrow */
   }
 
   .billing-submit{
