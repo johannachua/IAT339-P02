@@ -1218,11 +1218,9 @@
       align-items: center;
     }
 
-
-
-    .checkout-box-container {
+    /*.checkout-box-container {
         background: #FFF;
-    }
+    }*/
 
   .product-name{
     font-family: "Aleo", Verdana, sans-serif;

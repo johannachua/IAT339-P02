@@ -37,7 +37,7 @@
     <!-- name of company -->
     <h1 class="website-title">
       <a href="index.html">
-        You Were Here.
+        Checkout Cart
       </a>
     </h1>
   </section>
@@ -46,120 +46,167 @@
   <!-- Checkout section -->
   <!-- <section class="checkout-cart"> -->
     <h2>
-      Cart
+      View Items
     </h2>
 
-    <div class="product-box-container" >
-      <!-- content for a single item-->
-      <div class="grid-row">
+    <div class="checkout-cart">
+      <div class="overview">
+        <table>
+          <colgroup>
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+          </colgroup>
+          <tr class="checkout-row-divider">
+            <th>Cart Item</th>
+            <th>Postcard</th>
+            <th>Message</th>
+            <th>Stamp</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
 
-        <div class="grid-col-1of5">
-          <div class="product-box checkout-box">
-            <h3>
-              Province
-            </h3>
-            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-          </div>
-        </div>
+          <!--........ITEM 2 ...................... -->
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              <img src="img/nova-scotia.jpg" class="checkout-postcard" alt="image of postcard">
+            </td>
+            <td>
 
-        <div class="grid-col-1of5">
-          <div class="product-box checkout-box">
-            <h3>
-              Personalize
-            </h3>
-            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-          </div>
-        </div>
+            </td>
+            <td>
+              <a href="personalize.html">
+                <img src="img/nova-scotia.jpg"  class="checkout-stamp" alt="image of postcard">
+              </a>
+            </td>
+            <td class="price-tag">$1.15</td>
+            <td>
+              <p class="checkout-remove">
+                Remove Item
+              </p>
+              <img src="img/remove-icon-17.png" class="checkout-remove" alt="icon to remove item from checkout cart">
+            </td>
+          </tr>
 
-        <div class="grid-col-1of5">
-          <div class="product-box">
-            <h3>
-              Stamp
-            </h3>
-            <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-          </div>
-        </div>
+          <tr class="checkout-row-divider">
+            <td></td>
+            <td></td>
+            <td>
+              <p>
+                <a href="personalize.html">
+                  Edit Message
+                </a>
+              </p>
+            </td>
+            <td>
+              <p>
+                <a href="personalize.html">
+                  Edit Stamp
+                </a>
+              </p>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
 
-        <div class="grid-col-1of5">
-          <h3>
-            Price
-          </h3>
-          <label for="$$$$" class="price-tag">$$$$</label>
-        </div>
 
-      <div class="grid-col-1of5">
-        <div class="product-box remove">
-          <p>
-            Remove Item
-          </p>
-          <img src="img/remove-icon-17.png" alt="icon to remove item from checkout cart" class="checkout-product-view">
-        </div>
+          <!--........ITEM 2 ...................... -->
+          <tr>
+            <td>
+              2
+            </td>
+            <td>
+              <img src="img/vancouver1.jpg" class="checkout-postcard" alt="image of postcard">
+            </td>
+            <td>
+
+            </td>
+            <td>
+              <a href="personalize.html">
+                <img src="img/vancouver1.jpg"  class="checkout-stamp" alt="image of postcard">
+              </a>
+            </td>
+            <td class="price-tag">$1.15</td>
+            <td>
+              <p class="checkout-remove">
+                Remove Item
+              </p>
+              <img src="img/remove-icon-17.png" class="checkout-remove" alt="icon to remove item from checkout cart">
+            </td>
+          </tr>
+          <tr class="checkout-row-divider">
+            <td></td>
+            <td></td>
+            <td>
+              <p>
+                <a href="personalize.html">
+                  Edit Message
+                </a>
+              </p>
+            </td>
+            <td>
+              <p>
+                <a href="personalize.html">
+                  Edit Stamp
+                </a>
+              </p>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
       </div>
 
+
+      <!--reciept-->
+      <div class="reciept">
+        <table>
+          <colgroup>
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+          </colgroup>
+          <tr class="checkout-row-divider">
+            <th>Summary</th>
+            <th></th>
+          </tr>
+          <!-- products pricing-->
+          <tr>
+            <th>Product(s):</th>
+            <th>$2.30</th>
+          </tr>
+          <!-- shipping pricing-->
+          <tr>
+            <th>Shipping:</th>
+            <th>$1.00</th>
+          </tr>
+          <!-- GST pricing-->
+          <tr>
+            <th>GST(5%)</th>
+            <th>$0.17</th>
+          </tr>
+          <!-- PST pricing-->
+          <tr>
+            <th>PST(7%):</th>
+            <th>$0.23</th>
+          </tr>
+          <!-- total pricing-->
+          <tr>
+            <th>Total:</th>
+            <th>$3.70</th>
+          </tr>
+        </table>
+      </div>
     </div>
-  </div>
-
-  <div class="product-box-container " >
-    <!-- content for a single item -->
-    <div class="grid-row">
-
-      <div class="grid-col-1of5">
-        <div class="product-box checkout-box">
-          <h3>
-            Province
-          </h3>
-          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-        </div>
-      </div>
-
-      <div class="grid-col-1of5">
-        <div class="product-box checkout-box">
-          <h3>
-            Personalize
-          </h3>
-          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-        </div>
-      </div>
-
-      <div class="grid-col-1of5">
-        <div class="product-box">
-          <h3>
-            Stamp
-          </h3>
-          <img src="img/nova-scotia.jpg" alt="image of postcard" class="checkout-product-view">
-        </div>
-      </div>
-
-      <div class="grid-col-1of5">
-        <h3>
-          Price
-        </h3>
-        <label for="$$$$" class="price-tag">$$$$</label>
-      </div>
-
-    <div class="grid-col-1of5">
-      <div class="product-box remove">
-        <p>
-          Remove Item
-        </p>
-        <img src="img/remove-icon-17.png" alt="icon to remove item from checkout cart" class="checkout-product-view">
-      </div>
-    </div>
-  </div>
-
-  <div class="product-box-container">
-    <div class="buttons-product-page checkout">
-      <button class="add-to-cart"> <a class="button-link" href="billing.html">CHECKOUT</a></button>
-    </div>
-  </div>
-
-</div>
-
-
 
 
   <!-- footer content -->
-  <section class="footer">
+  <footer class="footer">
     <h3>
       Connect With Us!
     </h3>
@@ -189,7 +236,7 @@
     <a href="#">
       <img src="#" alt="Instagram">
     </a>
-  </section>
+  </footer>
 
   </body>
 </html>
