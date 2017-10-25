@@ -7,8 +7,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
-    <link href="css/billing-process.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/billing-process.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale-1">
   </head>
 
@@ -45,11 +45,10 @@
 
   <!-- Input Shipping and Billing Info -->
   <section class="shipping-billing-field">
-    <h2>
-      INPUT YOUR INFORMATION
-    </h2>
-
     <div class="team-view-container">
+      <h2>
+        INPUT YOUR INFORMATION
+      </h2>
       <div class="grid-row">
         <div class="grid-col-3of9">
           <div class="block">
@@ -60,12 +59,16 @@
             <form>
               <label for="fname">FULL NAME</label>
               <input type="text" id="fullname-ship" name="fullname-ship">
+
               <label for="lname">STREET ADDRESS</label>
               <input type="text" id="address-ship" name="address-ship">
+
               <label for="lname">CITY</label>
               <input type="text" id="city-ship" name="city-ship">
+
               <label for="lname">PROVINCE</label>
               <input type="text" id="prov-ship" name="prov-ship">
+
               <label for="lname">POSTAL CODE</label>
               <input type="text" id="code-ship" name="code-ship">
             </form>
@@ -108,9 +111,22 @@
               <label for="fname">NAME ON CARD</label>
               <input type="text" id="card" name="card">
             </div>
+
             <div class="bill-card">
-            <label for="lname">CARD NUMBER</label>
-            <input type="text" id="lname-sup" name="lname">
+              <label for="c-type">CARD TYPE</label>
+
+              <div id="card-type">
+  						  <select>
+  								<option value="VIS">Visa</option>
+  								<option value="MC">Mastercard</option>
+  								<option value="Amex">Amex</option>
+  							</select>
+					    </div>
+            </div>
+
+            <div class="bill-card">
+              <label for="lname">CARD NUMBER</label>
+              <input type="text" id="lname-sup" name="lname">
             </div>
 
             <div class="bill-card">
@@ -131,11 +147,16 @@
     </div>
 
     <div class="grid-row">
+
+    <div class="go-back">
+      <a href="checkout.html">< Return to Cart</a>
+    </div>
+
     <div class="billing-submit">
       <a href="confirmation.html">CONTINUE</a>
     </div>
 
-  </div>
+    </div>
 </div>
 
   </section>

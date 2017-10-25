@@ -3,23 +3,7 @@
 }
 
 .shipping-billing-field h2{
-  margin-left: 10rem;
-}
-
-.billing-submit button{
-  background-color: #F47400;
-  color:  white;
-  border: 2px solid #F97C00;
-  margin-right: 10rem;
-}
-
-.billing-submit button:hover{
-  background-color:  #FF6315;
-  color: white;
-}
-
-.billing-submit a{
-  color: white;
+  margin-left: 1em;
 }
 
 .ship {
@@ -29,14 +13,14 @@
   padding: 1rem;
 }
 
-.payment-method {
+.bill {
   background-color: white;
   color: #2b2b35;
   margin: 1rem;
   padding: 1rem;
 }
 
-.bill {
+.payment-method {
   background-color: white;
   color: #2b2b35;
   margin: 1rem;
@@ -67,6 +51,18 @@ form{
   width: 100%;
 }
 
+#card-type select{
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+#card-type option{
+  padding: 12px 20px;
+  line-height: 1rem;
+}
+
 .card-detail{
   display: inline-block;
   width: 45%;
@@ -75,6 +71,37 @@ form{
 .card-detail#security{
   padding-right: 1rem;
 }
+
+.go-back a{
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: .75em;
+  padding: .5em 2em;
+  margin: .25em;
+  letter-spacing: 2px;
+  color: #FC9D1F;
+  border-radius: 30px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
+}
+
+.go-back a:hover{
+  color: #a9a9a9;
+  font-weight: bold;
+}
+
+/*.billing-submit button{
+  background-color: #F47400;
+  color:  white;
+  border: 2px solid #F97C00;
+  margin-right: 10rem;
+}
+
+.billing-submit button:hover{
+  background-color:  #FF6315;
+  color: white;
+}*/
 
 .billing-submit a{
   font-family: "Dosis", sans-serif;
@@ -119,14 +146,20 @@ label{
 
 .p-class{
   display: inline-block;
+  text-align: left;
 }
 
 .review-section{
   background-color: white;
   border-radius: 1rem;
-  padding: 2.5rem;
+  padding: 4rem;
   margin-bottom: 2rem;
 }
+
+.review-section p{
+  text-align: left;
+}
+
 
 .review-section section{
   /*padding-right: 1rem;*/
@@ -139,7 +172,7 @@ label{
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   color: #00ced1;
-  line-height: 3rem;
+  padding-bottom: 1rem;
 }
 
 .review-section a:hover{
@@ -147,7 +180,7 @@ label{
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   color: #a9a9a9;
-  line-height: 3rem;
+  /*line-height: 3rem;*/
 }
 
 .review-section h2{
@@ -188,7 +221,7 @@ label{
 }
 
 .grid-col-3of9 {
-    width: 33.3%;
+  width: 33.3%;
 }
 
 /*Thank you page*/
@@ -197,12 +230,24 @@ label{
 }
 
 /*Media Queries*/
-
+/*phone size: 375px*/
 @media (min-width: 23.4em) {
+
+  .shipping-billing-field h2{
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+  }
+
+  .grid-col-3of9{
+    width: 100%;
+  }
+
   .team-view-container{
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
   form{
     margin-left: 0rem;
     margin-right: 0rem;
@@ -213,31 +258,164 @@ label{
     width: 100%;
   }
 
-  .billing-submit{
-    margin-right: 5rem;
+  .go-back{
+    /*margin-right: 5rem;*/
     text-align: center;
-    float: right;
+    margin-bottom: 3rem;
   }
+
+  .billing-submit{
+    /*margin-right: 5rem;*/
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /*review section*/
+  .review {
+    width: 80%;
+  }
+
+  .review-section{
+    padding: 1.5rem;
+  }
+
+  .review-section p{
+    line-height: 0.9rem;
+  }
+
+  .text-review{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+
 }
 
-@media (min-width: 42.5em) {
+@media (min-width: 39.6em) {
+  .go-back{
+    margin-right: 1.5rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
 
-  .team-view-container{
-    margin-left: 23rem;
-    margin-right: 23rem;
+  .billing-submit{
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 
   form{
     margin-left: 1rem;
     margin-right: 1rem;
-    padding: 0;
+  }
+}
+
+
+@media (min-width: 40.6em) {
+  .team-view-container{
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
+  .shipping-billing-field h2{
+    text-align: center;
+  }
+
+  .grid-col-3of9{
+    width: 100%;
+  }
+
+  form{
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
+
+@media (min-width: 50em) {
+  .team-view-container{
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .shipping-billing-field h2{
+    text-align: center;
+  }
+
+  .grid-col-3of9{
+    width: 100%;
+  }
+
+  form{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .team-view-container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .shipping-billing-field h2{
+    text-align: center;
+  }
+
+  .grid-col-3of9{
+    width: 100%;
+  }
+
+  form{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+/*970px*/
+@media (min-width: 60.6em) {
+
+  form{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 67.75em) {
+
+  .shipping-billing-field h2{
+    text-align: center;
+  }
+
+  .grid-col-3of9{
+    width: 33%;
+  }
+
+  form{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+/*1142px*/
+@media (min-width: 71.3em) {
+  .team-view-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  form{
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 
 @media (min-width: 87.5em) {
   .shipping-billing-field h2{
-    margin-right: 15rem;
+    margin-top: 1rem;
+  }
+
+  .grid-col-3of9 {
+    width: 33.3%;
   }
 
   .team-view-container{
@@ -254,10 +432,26 @@ label{
     text-align: left;
   }
 
+  #card-type select{
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    -webkit-appearance: none;
+    background-image: url("../img/drake.png") ;
+    /*appearance: none;       /* remove default arrow */*/
+  }
+
   .billing-submit{
     margin-right: 2rem;
     padding-bottom: 2rem;
     text-align: center;
     float: right;
+  }
+
+  .go-back{
+    float: left;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
   }
 }
