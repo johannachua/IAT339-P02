@@ -320,7 +320,8 @@
     /*color: #F97C00;*/
   }
   img.about-images{
-    width: 50%;
+    width: 75%;
+    border-radius: 50%;
     transition: 0.3s;
     padding: 1em;
     margin: auto;
@@ -354,7 +355,7 @@
 
   .about-title{
     font-family: "Aleo", Verdana, sans-serif;
-    font-weight: bold;
+    /*font-weight: bold;*/
     letter-spacing: 5px;
     text-transform: uppercase;
     margin: 2rem .1rem .5rem .1rem;
@@ -1065,9 +1066,15 @@
   }
   input{
       padding: 12px 20px;
-      margin: 1rem;
       box-sizing: border-box;
   }
+
+  input.filter-spacing{
+    padding: .1rem;
+    margin: .75rem;
+    box-sizing: border-box;
+  }
+
   label.form-titles {
         font-family: "Dosis", Verdana, sans-serif;
         letter-spacing: 2px;
