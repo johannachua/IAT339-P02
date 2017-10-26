@@ -1,9 +1,8 @@
 .checkout-cart {
-  /*display: block;*/
-  margin: 0 5em 35em 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+
 }
-
-
 table {
   table-layout: fixed;
   text-align: center;
@@ -17,15 +16,12 @@ table {
 
 .overview {
   display: inline-block;
-  width: 60%;
   float: left;
 }
 
 .reciept {
   display: inline-block;
-  width: 30%;
   float: right;
-
 }
 
 .checkout-col {
@@ -71,13 +67,63 @@ tr.checkout-row-divider, .checkout-row-divider td, .checkout-row-divider p{
   border-bottom: dotted 1px;
 }
 
-.footer {
-  clear: both;
-  display: block;
+.message-preview {
+  font-family: "Dosis", Verdana, sans-serif;
+  text-transform: none;
+  text-align: left;
 }
 
+a.proceed-button {
+  float: right;
+  text-align: center;
+  }
 
+@media (min-width: 22em) {
+  .overview, .reciept {
+    width: 100%;
+  }
 
+  .overview {
+    position: relative;
+    overflow-x: scroll;
+    margin-bottom: 2em;
+  }
 
-/* position: relative;
-overflow-x: scroll;
+  .reciept {
+    margin-bottom: 5em;
+  }
+
+  .checkout-cart {
+    margin: 5em 2em 5em 2em;
+  }
+
+  a.proceed-button {
+    font-size: .68em;
+    }
+
+}
+
+@media (min-width: 41.25em) {
+  .overview {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 65em) {
+  .checkout-cart {
+    margin: 5em;
+  }
+
+}
+
+@media (min-width: 73.75em) {
+  .overview {
+    width: 60%;
+    margin-bottom: 5em;
+  }
+
+  .reciept {
+    width: 33%;
+  }
+
+}
