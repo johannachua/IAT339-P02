@@ -9,24 +9,36 @@
 .ship {
   background-color: white;
   color: #2b2b35;
-  margin: 1rem;
-  padding: 1rem;
+  /*margin: 1rem;*/
+  /*padding: 1rem;*/
 }
 
 .bill {
   background-color: white;
   color: #2b2b35;
-  margin: 1rem;
-  padding: 1rem;
+  /*margin: 1rem;*/
+  /*padding: 1rem;*/
 }
 
 .payment-method {
   background-color: white;
   color: #2b2b35;
-  margin: 1rem;
-  padding: 1rem;
+  /*margin: 1rem;*/
+  /*padding: 1rem;*/
 }
 
+.bill-card{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.card-detail{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* using team-view-container from main css to
+frame the container of each section*/
 .team-view-container{
   display: block;
   margin: 1rem;
@@ -42,14 +54,14 @@
 
 form{
   display: block;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  /*margin-left: 5rem;
+  margin-right: 5rem;*/
 }
 
-.bill-card{
+/*.bill-card{
   display: block;
   width: 100%;
-}
+}*/
 
 #card-type select{
   padding: 12px 20px;
@@ -91,18 +103,6 @@ form{
   font-weight: bold;
 }
 
-/*.billing-submit button{
-  background-color: #F47400;
-  color:  white;
-  border: 2px solid #F97C00;
-  margin-right: 10rem;
-}
-
-.billing-submit button:hover{
-  background-color:  #FF6315;
-  color: white;
-}*/
-
 .billing-submit a{
   font-family: "Dosis", sans-serif;
   font-weight: normal;
@@ -132,7 +132,6 @@ label{
 /*Review your order section*/
 
 .review{
-  width: 55%;
   display: block;
   margin: auto;
   padding-top: 2rem;
@@ -140,14 +139,14 @@ label{
 
 .card-num{
   font-family: "Aleo", serif;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
 }
 
-.p-class{
+/*.p-class{
   display: inline-block;
   text-align: left;
-}
+}*/
 
 .review-section{
   background-color: white;
@@ -162,23 +161,47 @@ label{
 
 
 .review-section section{
-  /*padding-right: 1rem;*/
-  /*justify-content: center;*/
   align-items: center;
 }
+
+.ship-review{
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.bill-review{
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.payment-review{
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.review-section h3{
+  font-family: "Dosis", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: #a9a9a9;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+}
+
 
 .review-section a{
   font-family: "Dosis", sans-serif;
   font-size: 0.8rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   color: #00ced1;
   padding-bottom: 1rem;
 }
 
 .review-section a:hover{
   font-family: "Dosis", sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.1rem;
   color: #a9a9a9;
   /*line-height: 3rem;*/
 }
@@ -190,7 +213,18 @@ label{
 }
 
 .review-section p{
+  font-family: "Dosis", Verdana, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 1px;
   padding: 0;
+}
+
+.order-summary h3{
+  font-size: 1rem;
+  color: black;
 }
 
 .place-order a{
@@ -251,11 +285,14 @@ label{
   form{
     margin-left: 0rem;
     margin-right: 0rem;
-    padding: 0;
+    /*padding: 0;*/
+    /*padding-left: 1rem;
+    padding-right: 1rem;*/
   }
 
   .card-detail{
-    width: 100%;
+    width: 50%;
+    float: left;
   }
 
   .go-back{
@@ -268,24 +305,6 @@ label{
     /*margin-right: 5rem;*/
     text-align: center;
     margin-bottom: 2rem;
-  }
-
-  /*review section*/
-  .review {
-    width: 80%;
-  }
-
-  .review-section{
-    padding: 1.5rem;
-  }
-
-  .review-section p{
-    line-height: 0.9rem;
-  }
-
-  .text-review{
-    padding-top: 1rem;
-    padding-bottom: 1.5rem;
   }
 
 }
@@ -433,13 +452,14 @@ label{
   }
 
   #card-type select{
-    padding: 12px 20px;
+    /*padding: 12px 20px;*/
+    padding: 2rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: white;
-    -webkit-appearance: none;
-    background-image: url("../img/drake.png");
-    /*appearance: none;       /* remove default arrow */
+    -webkit-appearance: menulist;
+    background-image: url("../img/dropdown-arrow.png") no-repeat 20% 20%;
+    /*appearance: none;       /* remove default arrow */*/
   }
 
   .billing-submit{
@@ -452,6 +472,11 @@ label{
   .go-back{
     float: left;
     margin-right: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .review-section{
+    margin-left: 10rem;;
+    margin-right: 10rem;
   }
 }
