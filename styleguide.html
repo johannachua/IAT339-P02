@@ -17,8 +17,25 @@
 
   </head>
   <body>
-    <!-- sets the first segment -->
-    <h1 class="website-title">STYLE GUIDE<h1>
+    <!-- main navigation for website -->
+    <div class="top-bar">
+      <div class="main-nav">
+        <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
+          <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
+        </a>
+        <a href="index.html" class="main-nav-item-header">You Were Here.</a>
+        <a href="products.html" class="main-nav-item cart-nav-item">CART</a>
+        <a href="support.html" class="main-nav-item">SUPPORT</a>
+        <a href="updates.html" class="main-nav-item">UPDATES</a>
+        <a href="about.html" class="main-nav-item">ABOUT</a>
+        <a href="products.html" class="main-nav-item">SHOP</a>
+      </div>
+    </div>
+
+    <h1 class="website-title">STYLE GUIDE</h1>
+
+
+      <!-- colour palette section -->
       <h5>COLOUR PALETTE</h5>
         <!-- sets the container for the colour palette which holds seperate coloured blocks -->
         <div class="container">
@@ -63,15 +80,12 @@
             </div>
             <p class="blocksheader"> TERTIARY </p>
           </div>
-
         </div> <!-- end of colour palette container -->
 
 
-        <!-- next header section for typography -->
+        <!-- typography section-->
       <h5>TYPOGRAPHY </h5>
-        <!-- second container that holds elements in the grid structure for the type -->
         <div class="container">
-          <!-- first block of header types -->
           <div class="block">
             <!-- h1 header -->
             <h1 class="normalize">Heading 1</h1>
@@ -92,13 +106,11 @@
             <h4 class="normalize">Heading 4</h4>
               <code> &lt;h4&gt;Heading 4&lt;/h4&gt;</code>
               <code><b>CSS Selector:</b>h4</code>
-
           </div>
 
-    <!-- next block for middle block of text -->
           <div class="block">
-
-            <label for="#">THIS IS AN EXAMPLE LABEL</label>
+            <!-- label example -->
+            <label >THIS IS AN EXAMPLE LABEL</label>
               <code>&lt;label&gt;THIS IS AN EXAMPLE LABEL&lt;/label&gt;</code>
               <code><b>CSS Selector:</b>label</code>
 
@@ -113,7 +125,6 @@
               <li class="bullets">Unordered Bullet List Item 2</li>
               <li class="bullets">Unordered Bullet List Item 3</li>
             </ul>
-
             <code>
               &lt;ul&gt;
                 &lt;li class="bullets"&gt;Unordered Bullet List Item 1&lt;/li&gt;
@@ -123,47 +134,44 @@
             </code>
             <code><b>CSS Selector:</b>ul, li, .bullets</code>
           </div>
-
         </div> <!-- end of typography container -->
 
-      <!-- next container for the interactive elements -->
-      <h5> INTERACTIVE ELEMENTS </h5>
+      <!-- interactive elements section-->
+      <h5>INTERACTIVE ELEMENTS</h5>
       <div class="container">
-
-        <!-- first block for the buttons displayed -->
         <div class="block">
+          <!-- general submit button -->
           <h3>Submit Button</h3>
           <p>
           <a href="#" class="refine-search-button">SUBMIT</a>
           </p>
-          <p>
+          <div class="text-block">
             <code>&lt;a&gt; &lt;href ="#" class="refine-search-button"&gt;SUBMIT&lt;/a&gt;</code>
             <code><b> CSS Selector:</b>a.refine-search-button</code>
-          </p>
+          </div>
 
+          <!-- personalize button -->
           <h3>Personalize Button</h3>
-
           <p>
-          <a href="#" class="personalize-button">PERSONALIZE</a>
+            <a href="#" class="personalize-button">PERSONALIZE</a>
           </p>
-
-          <p>
+          <div class="text-block">
             <code>&lt;a href="#" class="personalize-button"&gt; &lt; class="reset" &gt; ENTER &lt;/a&gt;</code>
             <code><b> CSS Selector:</b>a.personalize-button</code>
-          </p>
+          </div>
 
+          <!-- add to cart button -->
           <h3>Add to Cart Button</h3>
-
           <p>
-          <a href="#" class="add-to-cart">ADD TO CART</a>
+            <a href="#" class="add-to-cart">ADD TO CART</a>
           </p>
-          <p>
+          <div class="text-block">
             <code>&lt;a href="#" class="add-to-cart"&gt;ADD TO CART&lt;/a&gt;</code>
             <code><b> CSS Selector:</b>a.add-to-cart</code>
-          </p>
-        <!-- example link -->
-        <h3>Text Link</h3>
+          </div>
 
+        <!-- text link example-->
+        <h3>Text Link</h3>
           <p>
           <a href="#" class="edit-button">THIS IS WHAT A TEXT LINK WILL LOOK LIKE</a>
           </p>
@@ -172,11 +180,11 @@
             <code><b>CSS Selector:</b>a.edit-button</code>
           </p>
 
+          <!-- google maps widget with iframe element-->
           <h3>Google Maps Widget</h3>
-
           <div class="location">
             <div class="maps">
-              <iframe width="100px" height="100px" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+              <iframe width="100" height="100" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
             </div>
           </div>
           <code>
@@ -188,21 +196,45 @@
         </div>
 
         <div class="block">
+          <!-- input field example-->
           <h3>Input Field</h3>
           <input type="text" id="field1" name="field1">
             <code>&lt;input type="text" id="field1" name="field1"&gt;</code>
             <code><b>CSS Selector:</b> #field1, input</code>
 
+          <!-- text area example-->
           <h3>Text Area</h3>
-
           <textarea>Type email here...</textarea>
             <code>&lt;textarea&gt;Type email here...&lt;/textarea&gt;</code>
             <code><b>CSS Selector:</b>textarea</code>
+
+            <!-- dropdown menu example -->
+          <h3>Dropdown menu</h3>
+            <div class="dropdown">
+            <select class="dropdown-internal" name="Filter 1">
+              <option value="value2">VALUE 1</option>
+              <option value="value1">VALUE 2</option>
+              <option value="value3">VALUE 3</option>
+            </select>
+            </div>
+            <div class="text-block">
+              <code>
+                &lt;div class="dropdown"&gt;
+                &lt;select class="dropdown-internal" name="Filter 1"&gt;
+                  &lt;option value="value2"&gt;VALUE 1&lt;/option&gt;
+                  &lt;option value="value1"&gt;VALUE 2&lt;/option&gt;
+                  &lt;option value="value3"&gt;VALUE 3&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;/div&gt;
+              </code>
+              <code><b>CSS Selector:</b>.dropdown, label.filter-title, select.dropdown-internal</code>
+            </div>
         </div>
 
         <div class="block">
-        <h3>Product Selection</h3>
 
+        <!-- product selection example with img element -->
+        <h3>Product Selection</h3>
           <div class="product-box">
             <a href="#">
               <img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver">
@@ -217,108 +249,100 @@
     <!-- components section -->
     <h5> COMPONENTS </h5>
 
-    <!-- product listing -->
+    <!-- product listing component-->
     <h3>Product Listing</h3>
-
     <div class="container">
-
-    <div class="product-box-container">
-      <nav class="grid-row">
-        <div class="grid-col-1of5">
-          <a href="product_view.html">
+      <div class="product-box-container">
+        <nav class="grid-row">
+          <div class="grid-col-1of5">
             <div class="product-box">
               <h2 class="product-name">
-                <b>Vancouver </b>
+                <b>City</b>
               </h2>
               <h2 class="product-name">
-                BC
+                Province
               </h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
-              <label for="$$$$" class="price-tag">- $1.25 -</label>
+              <a href="product_view.html">
+                <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
+              </a>
+              <label  class="price-tag">- $ -</label>
             </div>
-          </a>
-        </div>
-
-        <div class="grid-col-1of5">
-          <a href="product_view.html">
+          </div>
+          <div class="grid-col-1of5">
             <div class="product-box">
               <h2 class="product-name">
-                <b>Moraine Lake</b>
+                <b>City</b>
               </h2>
               <h2 class="product-name">
-                Alberta
+                Province
               </h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/alberta.jpg">
-              <label for="$$$$" class="price-tag">- $1.15 -</label>
+              <a href="product_view.html">
+                <img class="internal-product-view" alt = "postcard 1" src="img/alberta.jpg">
+              </a>
+              <label  class="price-tag">- $ -</label>
             </div>
-          </a>
-        </div>
-
-        <div class="grid-col-1of5">
-          <a href="product_view.html">
+          </div>
+          <div class="grid-col-1of5">
             <div class="product-box">
               <h2 class="product-name">
-                <b>Toronto </b>
+                <b>City</b>
               </h2>
               <h2 class="product-name">
-                Ontario
+                Province
               </h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/toronto1.jpg">
-              <label for="$$$$" class="price-tag">- $1.25 -</label>
+              <a href="product_view.html">
+                <img class="internal-product-view" alt = "postcard 1" src="img/toronto1.jpg">
+              </a>
+              <label  class="price-tag">- $ -</label>
             </div>
-          </a>
-        </div>
-
-        <div class="grid-col-1of5">
-          <a href="product_view.html">
+          </div>
+          <div class="grid-col-1of5">
             <div class="product-box">
               <h2 class="product-name">
-                <b>Okanagan </b>
+                <b>City</b>
               </h2>
               <h2 class="product-name">
-                BC
+                Province
               </h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/okanagan.jpg">
-              <label for="$$$$" class="price-tag">- $1.25 -</label>
+              <a href="product_view.html">
+                <img class="internal-product-view" alt = "postcard 1" src="img/okanagan.jpg">
+              </a>
+              <label  class="price-tag">- $ -</label>
             </div>
-          </a>
-        </div>
-
-        <div class="grid-col-1of5">
-          <div class="product-box">
-            <a href="product_view.html">
+          </div>
+          <div class="grid-col-1of5">
+            <div class="product-box">
               <h2 class="product-name">
-                <b>Halifax</b>
+                <b>City</b>
               </h2>
               <h2 class="product-name">
-                Nova Scotia
+                Province
               </h2>
-              <img class="internal-product-view" alt = "postcard 1" src="img/nova-scotia.jpg">
-              <label for="$$$$" class="price-tag">- $1.15 -</label>
+              <a href="product_view.html">
+                <img class="internal-product-view" alt = "postcard 1" src="img/nova-scotia.jpg">
+              </a>
+              <label  class="price-tag">- $ -</label>
             </div>
-          </a>
-        </div>
-      </nav>
+          </div>
+        </nav>
+      </div>
     </div>
-  </div>
-
-
 
     <div class="container">
       <div class="block">
         <code>
-          &lt;a href="#"&gt;
-            &lt;div class="product-box"&gt;
-              &lt;h2&gt;
-                City
-              &lt;/h2&gt;
-              &lt;h2&gt;
-                Province
-              &lt;/h2&gt;
+          &lt;div class="product-box"&gt;
+            &lt;h2&gt;
+              City
+            &lt;/h2&gt;
+            &lt;h2&gt;
+              Province
+            &lt;/h2&gt;
+            &lt;a href="#"&gt;
               &lt;img class="products" src="#" alt = "Image of [Province] Postcard - [City/Location]"&gt;
-              &lt;label for="#"&gt;$$$$&lt;/label&gt;
-            &lt;/div&gt;
-          &lt;/a&gt;
+            &lt;/a&gt;
+            &lt;label for="#"&gt;price&lt;/label&gt;
+          &lt;/div&gt;
         </code>
         <code>
           <b>CSS Selector:</b> .products, .product-box, h2, a
@@ -326,7 +350,7 @@
       </div>
     </div>
 
-    <!-- FILTER COMPONENT-->
+    <!-- code for shop filter component-->
     <h3>Filter</h3>
 
     <div class="container">
@@ -334,65 +358,65 @@
         <form class="filter-section">
           <!-- Select Province filter -->
           <div class="checkbox-container">
-            <label for="Select Provinces(s):" class="filter-title">LABEL</label>
+            <label  class="filter-title">FILTER TITLE</label>
           </div>
 
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
             <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
-          </div>
-          <div class="checkbox-pair">
-            <input class="filter-spacing"type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
           </div>
           <div class="checkbox-pair">
             <input class="filter-spacing" type="checkbox" value="Province">
-            <label for="Province" class="form-enteries">Province</label>
+            <label  class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label  class="form-enteries">Province</label>
           </div>
 
           <!-- Sort by: filter -->
           <div class="dropdown">
-            <label for="label" class="filter-title"><b>LABEL<b></label>
+            <label  class="filter-title"><b>DROPDOWN FILTER TITLE</b></label>
           <select class="dropdown-internal" name="Filter 1">
             <option value="value2">VALUE 1</option>
             <option value="value1">VALUE 2</option>
@@ -406,21 +430,18 @@
 
     <div class="container">
       <div class="block">
-
         <code>
           &lt;div class="filter-search"&gt;
             &lt;form class="filter-section"&gt;
               &lt;div class="checkbox-container"&gt;
-                &lt;label for="LABEL" class="filter-title"&gt;LABEL&lt;/label&gt;
+                &lt;label  class="filter-title"&gt;FILTER TITLE&lt;/label&gt;
               &lt;/div&gt;
-
               &lt;div class="checkbox-pair"&gt;
                 &lt;input class="filter-spacing" type="checkbox" value="Province"&gt;
-                &lt;label for="Province" class="form-enteries"&gt;Province&lt;/label&gt;
+                &lt;label  class="form-enteries"&gt;Province&lt;/label&gt;
               &lt;/div&gt;
-
               &lt;div class="dropdown"&gt;
-                &lt;label for="LABEL" class="filter-title"&gt;&lt;b&gt;LABEL&lt;b&gt;&lt;/label&gt;
+                &lt;label  class="filter-title"&gt;&lt;b&gt;DROPDOWN FILTER TITLE&lt;b&gt;&lt;/label&gt;
               &lt;select class="dropdown-internal" name="Filter 1"&gt;
                 &lt;option value="value2"&gt;VALUE 1&lt;/option&gt;
                 &lt;option value="value1"&gt;VALUE 2&lt;/option&gt;
@@ -431,7 +452,6 @@
             &lt;/form&gt;
           &lt;/div&gt;
         </code>
-
         <code>
           <b>CSS Selector:</b> .filter-search, .filter.-selection, checkbox-container, .filter.title,
           .checkbox-pair, .filter-spacing, .form-enteries, .dropdown, .dropdown-internal, a.refine-search-button
@@ -439,41 +459,36 @@
       </div>
     </div>
 
+    <!-- code for form component-->
     <h3>Form</h3>
-
     <div class="container">
       <div class="block">
-
         <section class="bill">
-          <h3>HEADING 3</h3>
+          <h3>FORM TITLE</h3>
           <form>
             <div class="bill-card">
-              <label for="fname">LABEL 1</label>
+              <label >LABEL 1</label>
               <input type="text" id="fullname-ship" name="LABEL 1">
             </div>
-
             <div class="bill-card">
               <label for="email">LABEL 2</label>
               <input type="text" id="email" name="LABEL 2">
             </div>
-
             <div class="bill-card">
-              <label for="lname">LABEL 3</label>
+              <label >LABEL 3</label>
               <input type="text" id="address-ship" name="LABEL 3">
             </div>
-
             <div class="bill-card">
-              <label for="lname">LABEL 4</label>
+              <label >LABEL 4</label>
               <input type="text" id="city-ship" name="LABEL 4">
             </div>
 
             <div class="bill-card">
-              <label for="lname">LABEL 5</label>
+              <label >LABEL 5</label>
               <input type="text" id="prov-ship" name="LABEL 5">
             </div>
-
             <div class="bill-card">
-              <label for="lname">LABEL 6</label>
+              <label >LABEL 6</label>
               <input type="text" id="code-ship" name="LABEL 6">
             </div>
           </form>
@@ -482,7 +497,7 @@
 
       <div class="block">
         <code>
-          &lt;h3&gt;TITLE&lt;/h3&gt;
+          &lt;h3&gt;FORM TITLE&lt;/h3&gt;
           &lt;form&gt;
             &lt;label for="field1"&gt;FIELD 1&lt;/label&gt;
             &lt;input type="text" id="field1" name="field1"&gt;
@@ -494,7 +509,7 @@
       </div>
     </div>
 
-
+    <!-- code for table component -->
     <h3>Table</h3>
     <div class="container">
       <div class="block">
@@ -521,7 +536,6 @@
           </tr>
         </table>
       </div>
-
       <div class="block">
         <code>
           &lt;table&gt;
@@ -537,64 +551,56 @@
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
             &lt;/tr&gt;
-
             &lt;tr class="checkout-row-divider"&gt;
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
             &lt;/tr&gt;
-
             &lt;tr&gt;
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
             &lt;/tr&gt;
-
-
           &lt;/table&gt;
         </code>
       </div>
     </div>
 
-
+    <!--code for "about" component -->
     <h3>About Cards</h3>
-
     <div class="container">
       <div class="block">
         <h2 class="about-title">
           <b>First Name</b> Last Name
         </h2>
         <div class="team-view-boxes">
-          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/ruru.png">
+          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/placeholder2.png">
           <p class="about-text">
             INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
           <p>
         </div>
       </div>
-
       <div class="block">
         <h2 class="about-title">
           <b>First Name</b> Last Name
         </h2>
         <div class="team-view-boxes">
-          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/jojo.png">
+          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/placeholder2.png">
           <p class="about-text">
             INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
           <p>
         </div>
       </div>
-
       <div class="block">
         <h2 class="about-title">
           <b>First Name</b> Last Name
         </h2>
         <div class="team-view-boxes">
-          <img class="about-images" alt = "Image of [Insert Person's Name]" src="img/mkfong.png">
+          <img class="about-images" alt = "Image of [Insert Person's Name]" src="img/placeholder2.png">
           <p class="about-text">
             INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
           <p>
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="block">
         <code>
@@ -614,85 +620,226 @@
       </div>
     </div>
 
+    <!-- code for update component-->
+    <h3>Update Cards</h3>
+    <div class="container">
+      <div class="update-item">
+        <div class="block update-item-image">
+          <img src="img/placeholder.png" alt="Placeholder Image">
+        </div>
+        <div class=" block update-item-content">
+          <h2 class="update-item-title">
+            UPDATE CARD TITLE
+          </h2>
+          <p>
+            DATE
+          </p>
+          <p class="update-item-copy">
+            INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+        <code>
+          &lt;div class="update-item"&gt;
+            &lt;div class="block update-item-image"&gt;
+              &lt;img src="img/placeholder.png" alt="Placeholder Image"&gt;
+            &lt;/div&gt;
+            &lt;div class=" block update-item-content"&gt;
+              &lt;h2 class="update-item-title"&gt;
+                UPDATE CARD TITLE
+              &lt;/h2&gt;
+              &lt;p&gt;
+                DATE
+              &lt;/p&gt;
+              &lt;p class="update-item-copy"&gt;
+                INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
+              &lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+        <code>
+          <b>CSS Selector:</b> .update-item, img.update-item-image, .update-item-content, .update-item-title, .update-item-copy
+        </code>
+      </div>
+    </div>
+
+    <!-- main navigation component -->
+    <h3>MAIN NAVIGATION</h3>
+    <div class="container">
+      <div class="block">
+        <div class="top-bar">
+          <div class="main-nav-sg">
+            <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
+              <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
+            </a>
+            <a href="index.html" class="main-nav-item-header">You Were Here.</a>
+            <a href="products.html" class="main-nav-item cart-nav-item">CART</a>
+            <a href="support.html" class="main-nav-item">SUPPORT</a>
+            <a href="updates.html" class="main-nav-item">UPDATES</a>
+            <a href="about.html" class="main-nav-item">ABOUT</a>
+            <a href="products.html" class="main-nav-item">SHOP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+        <code>
+          &lt;div class="top-bar"&gt;
+            &lt;div class="main-nav"&gt;
+              &lt;a href="index.html" class="main-nav-item-header main-nav-item-header-image"&gt;
+                &lt;img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo"&gt;
+              &lt;/a&gt;
+              &lt;a href="index.html" class="main-nav-item-header"&gt;You Were Here&lt;/a&gt;
+              &lt;a href="products.html" class="main-nav-item cart-nav-item"&gt;CART&lt;/a&gt;
+              &lt;a href="support.html" class="main-nav-item&gt;SUPPORT&lt;/a&gt;
+              &lt;a href="updates.html" class="main-nav-item"&gt;UPDATES&lt;/a&gt;
+              &lt;a href="about.html" class="main-nav-item"&gt;ABOUT&lt;/a&gt;
+              &lt;a href="products.html" class="main-nav-item"&gt;SHOP&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </div>
+    </div>
+    <!-- footer component-->
+    <h3>FOOTER</h3>
+    <div class="container">
+      <div class="block">
+        <nav class="main-footer-sg">
+          <a href="#" class="footer-item-header"><b>NAV 1</b></a>
+          <a href="#" class="footer-item-header">NAV 2</a>
+          <a href="#" class="footer-item-header">NAV 3</a>
+          <a href="#" class="footer-item">NAV 4</a>
+          <a href="#" class="footer-item">NAV 5</a>
+          <a href="#" class="footer-item">NAV 6</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+        <code>
+          &lt;nav class="main-footer"&gt;
+            &lt;a href="#" class="footer-item-header&gt;&lt;b&gt;NAV 1&lt;/b&gt;&lt;/a&gt;
+            &lt;a href="#" class="footer-item-header"&gt;NAV 2&lt;/a&gt;
+            &lt;a href="#" class="footer-item-header"&gt;NAV 3&lt;/a&gt;
+            &lt;a href="#" class="footer-item"&gt;NAV 4&lt;/a&gt;
+            &lt;a href="#" class="footer-item"&gt;NAV 5&lt;/a&gt;
+            &lt;a href="#" class="footer-item"&gt;NAV 6&lt;/a&gt;
+          &lt;/nav&gt;
+        </code>
+        <code>
+          <b>CSS Support:</b>nav.main-footer, a.footer-item-header, a.footer-item
+        </code>
+      </div>
+    </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- container that shows grid structure -->
+    <!-- container that shows grid structure -->
       <h5> GRID STRUCTURE </h5>
-      <div class="container">
-        <!-- displays boxes in flexbox to show 2 column grid -->
-        <div class="block">
-          <div id="grey1">
-            <p class="blocks">TWO COLUMN GRID</p></div>
-      </div>
 
-  <!-- displays boxes in flexbox to show 2 column grid -->
-      <div class="block">
-          <div id="grey2">
-            <p class="blocks">TWO COLUMN GRID</p></div>
-      </div>
-      </div>
+      <!-- displays boxes in flexbox to show 2 column grid -->
 
       <div class="container">
-  <!-- displays boxes in flexbox to show 3 column grid -->
         <div class="block">
-          <div id="grey1">
-            <p class="blocks">THREE COLUMN GRID</p></div>
-      </div>
+          <div class="grey1">
+            <p class="blocks">
+              TWO COLUMN GRID
+            </p>
+          </div>
+        </div>
 
-      <div class="block">
-  <!-- displays boxes in flexbox to show 3 column grid -->
-          <div id="grey2">
-            <p class="blocks">THREE COLUMN GRID</p></div>
-      </div>
         <div class="block">
-  <!-- displays boxes in flexbox to show 3 column grid -->
-            <div id="grey3">
-              <p class="blocks">THREE COLUMN GRID</p></div>
+          <div class="grey2">
+            <p class="blocks">
+              TWO COLUMN GRID
+            </p>
+          </div>
         </div>
       </div>
 
-  <!-- displays boxes in flexbox to show 4 column grid -->
+      <!-- displays boxes in flexbox to show 3 column grid -->
+
       <div class="container">
         <div class="block">
-          <div id="grey1">
-            <p class="blocks">5 COLUMN GRID</p></div>
+          <div class="grey1">
+            <p class="blocks">
+              THREE COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="grey2">
+            <p class="blocks">THREE COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+            <div class="grey3">
+              <p class="blocks">
+                THREE COLUMN GRID
+              </p>
+            </div>
+        </div>
       </div>
 
-      <div class="block">
-  <!-- displays boxes in flexbox to show 4 column grid -->
-          <div id="grey2">
-            <p class="blocks">5 COLUMN GRID</p></div>
+  <!-- displays boxes in flexbox to show 5 column grid -->
+      <div class="container">
+        <div class="block">
+          <div class="grey1">
+            <p class="blocks">
+              5 COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="grey2">
+            <p class="blocks">
+              5 COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="grey3">
+            <p class="blocks">
+              5 COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="grey4">
+            <p class="blocks">
+              5 COLUMN GRID
+            </p>
+          </div>
+        </div>
+
+        <div class="block">
+          <div class="grey5">
+            <p class="blocks">
+              5 COLUMN GRID
+            </p>
+          </div>
+        </div>
       </div>
-        <div class="block">
-  <!-- displays boxes in flexbox to show 4 column grid -->
-            <div id="grey3">
-              <p class="blocks">5 COLUMN GRID</p></div>
-        </div>
-        <div class="block">
-  <!-- displays boxes in flexbox to show 4 column grid -->
-            <div id="grey4">
-              <p class="blocks">5 COLUMN GRID</p></div>
-        </div>
-        <div class="block">
-  <!-- displays boxes in flexbox to show 4 column grid -->
-            <div id="grey5">
-              <p class="blocks">5 COLUMN GRID</p></div>
-        </div>
-      </div>
-      <!-- end of container -->
+      <!-- end of component section-->
+
+      <!-- footer content -->
+        <nav class="main-footer">
+          <a href="index.html" class="footer-item-header"><b>You Were Here.</b></a>
+          <a href="#" class="footer-item-header">604.555.1234</a>
+          <a href="#" class="footer-item-header">support@youwerehere.ca</a>
+          <a href="https://github.com/johannachua/IAT339-P02" class="footer-item">github</a>
+          <a href="styleguide.html" class="footer-item">style guide</a>
+          <a href="citations.html" class="footer-item">citations</a>
+        </nav>
  </body> <!--end of body -->

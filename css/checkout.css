@@ -3,6 +3,7 @@
   margin-bottom: 5em;
 }
 
+
 table {
   table-layout: fixed;
   text-align: center;
@@ -36,6 +37,10 @@ th, td {
   padding: 1em;
 }
 
+.text-block {
+  display: inline-block;
+}
+
 img.checkout-stamp {
   max-width: 50%;
 }
@@ -64,7 +69,7 @@ tr.checkout-row-divider, .checkout-row-divider td, .checkout-row-divider p{
 }
 
 .checkout-row-divider th, .checkout-row-divider td, tr.checkout-row-divider{
-  border-bottom: dotted 1px;
+  border-bottom: solid #d2d2d2 1px;
 }
 
 .message-preview {
