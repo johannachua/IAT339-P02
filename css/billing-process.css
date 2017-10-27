@@ -225,11 +225,6 @@ label{
   padding: 0;
 }
 
-.order-summary h3{
-  font-size: 1rem;
-  color: black;
-}
-
 .place-order a{
   font-family: "Dosis", sans-serif;
   font-weight: normal;
@@ -261,23 +256,37 @@ label{
   width: 33.3%;
 }
 
-.order-summary h2 h3 p{
+.order-summary{
   margin: auto;
   width: 50%;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 0;
+}
+
+.order-summary p{
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 0.9em;
+}
+
+
+.order-summary h3{
+  font-family: "Aleo", Verdana, sans-serif;
+  font-size: 1rem;
+  color: black;
 }
 
 /*Thank you page*/
 .thanks{
-  /*text-align: left;*/
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
 .thanks h2{
   font-weight: bold;
+  text-align: center;
 }
 
 .thanks p{
@@ -291,18 +300,23 @@ label{
   letter-spacing: normal;
 }
 
-/*.view-more-link{
-  text-align: center;
-}*/
-
 .shipping-summary{
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 1.2rem;
 }
 
+.shipping-summary p{
+  text-align: center;
+}
+
+.see-more{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /*Media Queries*/
-/*phone size: 375px*/
-/*@media (min-width: 23.4em) {*/
+/*smallest screen size: 352px*/
 @media (min-width: 22em) {
   .shipping-billing-field h2{
     text-align: center;
@@ -367,7 +381,7 @@ label{
   }
 
   .order-summary{
-    padding: 1rem;
+    width: 100%;
   }
 
   .place-order{
@@ -472,12 +486,6 @@ label{
     margin-right: 2rem;
   }
 
-  /*.review-section{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding: 1rem;
-  }*/
-
   .grid-col-1of2 {
     width: 25%;
   }
@@ -554,21 +562,7 @@ label{
     width: 50%;
   }
 
-  .bill-review h2{
-    font-size: 1.1rem;
-  }
-
-  .ship-review h2{
-    font-size: 1.1rem;
-  }
-
-  .payment-review h2{
-    font-size: 1.1rem;
-  }
-
   .review-section{
-    /*margin-left: 6rem;;
-    margin-right: 6rem;*/
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -580,7 +574,7 @@ label{
 }
 
 /*1142px*/
-@media (min-width: 71.3em) {
+@media (min-width: 71.2em) {
   .team-view-container{
     margin-left: 5rem;
     margin-right: 5rem;
@@ -590,18 +584,13 @@ label{
     margin-left: 0rem;
     margin-right: 0rem;
   }
+
 }
 
 @media (min-width: 72em) {
   .review-section{
-    /*margin-left: 6rem;;
-    margin-right: 6rem;*/
     padding-top: 2rem;
     padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .payment-review{
     padding-right: 3rem;
   }
 }
@@ -612,21 +601,11 @@ label{
     margin-right: 5rem;
   }
 
-  .bill-review{
-    padding: 0;
+  .shipping-billing-review{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
   }
-
-  .ship-review{
-    /*padding-left: 1rem;*/
-    padding-top: 0;
-    padding-right: 0;
-  }
-
-  .payment-review{
-    padding-left: 2rem;
-    padding-top: 0;
-  }
-
 }
 
 
@@ -651,17 +630,6 @@ label{
 
   label{
     text-align: left;
-  }
-
-  #card-type select{
-    /*padding: 12px 20px;*/
-    padding: 2rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: white;
-    -webkit-appearance: menulist;
-    background-image: url("../img/dropdown-arrow.png") no-repeat 20% 20%;
-    /*appearance: none;       /* remove default arrow */*/
   }
 
   .billing-submit{
@@ -690,5 +658,10 @@ label{
 
   .grid-col-1of2 {
     width: 50%;
+  }
+
+  .thanks{
+    margin-left: 6rem;
+    margin-right: 6rem;
   }
 }
