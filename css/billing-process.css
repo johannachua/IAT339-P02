@@ -1,3 +1,5 @@
+/*CSS for Billing, Confirmation, and Thank You Pages*/
+
 .block h3{
   padding-bottom: 1em;
 }
@@ -9,22 +11,16 @@
 .ship {
   background-color: white;
   color: #2b2b35;
-  /*margin: 1rem;*/
-  /*padding: 1rem;*/
 }
 
 .bill {
   background-color: white;
   color: #2b2b35;
-  /*margin: 1rem;*/
-  /*padding: 1rem;*/
 }
 
 .payment-method {
   background-color: white;
   color: #2b2b35;
-  /*margin: 1rem;*/
-  /*padding: 1rem;*/
 }
 
 .bill-card{
@@ -36,8 +32,6 @@
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
-
 
 /* using team-view-container from main css to
 frame the container of each section*/
@@ -131,7 +125,8 @@ label{
   text-align: left;
 }
 
-/*Review your order section*/
+
+/*Styling Review your Order Section*/
 
 .review{
   display: block;
@@ -142,11 +137,6 @@ label{
   font-weight: normal;
   letter-spacing: 0.1rem;
 }
-
-/*.p-class{
-  display: inline-block;
-  text-align: left;
-}*/
 
 .review-section{
   background-color: white;
@@ -168,17 +158,14 @@ label{
 }
 
 .ship-review{
-  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
 .bill-review{
-  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
 .payment-review{
-  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
@@ -194,7 +181,6 @@ label{
   padding: 0;
 }
 
-
 .review-section a{
   font-family: "Dosis", sans-serif;
   font-size: 0.8rem;
@@ -206,7 +192,6 @@ label{
 .review-section a:hover{
   font-family: "Dosis", sans-serif;
   color: #a9a9a9;
-  /*line-height: 3rem;*/
 }
 
 .review-section h2{
@@ -278,7 +263,7 @@ label{
   color: black;
 }
 
-/*Thank you page*/
+/* Thank you page styling */
 .thanks{
   margin-left: 8rem;
   margin-right: 8rem;
@@ -316,6 +301,7 @@ label{
 }
 
 /*Media Queries*/
+
 /*smallest screen size: 352px*/
 @media (min-width: 22em) {
   .shipping-billing-field h2{
@@ -528,18 +514,14 @@ label{
 /*970px*/
 @media (min-width: 60.6em) {
   .team-view-boxes{
-    /*border-radius: 10px;*/
-    /*border: 1.5px solid  #FFBE3E;*/
-    /*background-blend-mode: overlay;*/
     padding: 1rem;
     margin: 1rem;
-    /*height: 500px;*/
-    /*width: 300px;*/
     text-align: center;
     justify-content: center;
     align-items: center;
     position: relative;
   }
+
   form{
     margin-left: 2rem;
     margin-right: 2rem;
@@ -595,7 +577,6 @@ label{
   }
 }
 
-/*1142px*/
 @media (min-width: 71.2em) {
   .team-view-container{
     margin-left: 5rem;
