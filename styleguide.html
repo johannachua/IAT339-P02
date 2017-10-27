@@ -164,21 +164,40 @@
             <code>&lt;a href="#" class="edit-button"&gt;THIS IS WHAT A LINK WILL LOOK LIKE&lt;/a&gt;</code>
             <code><b>CSS Selector:</b>a.edit-button</code>
           </p>
+
+          <div class="location">
+            <div class="maps">
+              <iframe width="400" height="225" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+            </div>
+          </div>
+          <code>
+            &lt;div class="location"&gt;
+              &lt;iframe width="#" height="#" frameborder="#" src="#" allowfullscreen&gt;&lt;/iframe&gt;
+            &lt;div&gt;
+          </code>
+          <code><b>CSS Selector:</b>.location, iframe</code>
+        </div>
+
+        <div class="block">
+          <!-- form -->
+          <input type="text" id="field1" name="field1">
+            <code>&lt;input type="text" id="field1" name="field1"&gt;</code>
+            <code><b>CSS Selector:</b> #field1, input</code>
+
+          <textarea>Type email here...</textarea>
+            <code>&lt;textarea&gt;Type email here...&lt;/textarea&gt;</code>
+            <code><b>CSS Selector:</b>textarea</code>
+        </div>
+
+        <div class="block">
+          <div class="product-box">
+            <img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver">
+          </div>
+          <code>&lt;img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver"&gt;</code>
+          <code><b>CSS Selector:</b>img, .internal-product-view</code>
+        </div>
       </div>
-      <div class="block">
-        <!-- form -->
-        <input type="text" id="field1" name="field1">
-          <code>&lt;input type="text" id="field1" name="field1"&gt;</code>
-          <code><b>CSS Selector:</b> #field1, input</code>
-
-        <textarea>Type email here...</textarea>
-          <code>&lt;textarea&gt;Type email here...&lt;/textarea&gt;</code>
-          <code><b>CSS Selector:</b>textarea</code>
-
-
-
-      </div>
-    </div><!--end of interactive elements container -->
+      <!--end of interactive elements container -->
 
 
  <!-- for larger components -->
@@ -198,16 +217,13 @@
 
 
 
+    <!-- components section -->
+    <h5> COMPONENTS </h5>
 
+    <!-- product listing -->
+    <h3>Product Listing</h3>
 
-
-
-
-
-
-
-<!-- container that displays example products -->
-    <h5> PRODUCTS </h5>
+    <div class="container">
 
     <div class="product-box-container">
       <nav class="grid-row">
@@ -287,24 +303,29 @@
         </div>
       </nav>
     </div>
+  </div>
 
-    <code>
-      &lt;a href="#"&gt;
-        &lt;div class="product-box"&gt;
-          &lt;h2&gt;
-            City
-          &lt;/h2&gt;
-          &lt;h2&gt;
-            Province
-          &lt;/h2&gt;
-          &lt;img class="products" src="#" alt = "Image of [Province] Postcard - [City/Location]"&gt;
-          &lt;label for="#"&gt;$$$$&lt;/label&gt;
-        &lt;/div&gt;
-      &lt;/a&gt;
-    </code>
-    <code>
-      <b>CSS Selector:</b> .products, .product-box, h2, a
-    </code>
+    <div class="container">
+      <div class="block">
+        <code>
+          &lt;a href="#"&gt;
+            &lt;div class="product-box"&gt;
+              &lt;h2&gt;
+                City
+              &lt;/h2&gt;
+              &lt;h2&gt;
+                Province
+              &lt;/h2&gt;
+              &lt;img class="products" src="#" alt = "Image of [Province] Postcard - [City/Location]"&gt;
+              &lt;label for="#"&gt;$$$$&lt;/label&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+        </code>
+        <code>
+          <b>CSS Selector:</b> .products, .product-box, h2, a
+        </code>
+      </div>
+    </div>
 
 
 
@@ -348,23 +369,28 @@
       <div class="container">
         <div class="block">
           <div id="grey1">
-            <p class="blocks">4 COLUMN GRID</p></div>
+            <p class="blocks">5 COLUMN GRID</p></div>
       </div>
 
       <div class="block">
   <!-- displays boxes in flexbox to show 4 column grid -->
           <div id="grey2">
-            <p class="blocks">4 COLUMN GRID</p></div>
+            <p class="blocks">5 COLUMN GRID</p></div>
       </div>
         <div class="block">
   <!-- displays boxes in flexbox to show 4 column grid -->
             <div id="grey3">
-              <p class="blocks">4 COLUMN GRID</p></div>
+              <p class="blocks">5 COLUMN GRID</p></div>
         </div>
         <div class="block">
   <!-- displays boxes in flexbox to show 4 column grid -->
             <div id="grey4">
-              <p class="blocks">4 COLUMN GRID</p></div>
+              <p class="blocks">5 COLUMN GRID</p></div>
+        </div>
+        <div class="block">
+  <!-- displays boxes in flexbox to show 4 column grid -->
+            <div id="grey5">
+              <p class="blocks">5 COLUMN GRID</p></div>
         </div>
       </div>
       <!-- end of container -->
