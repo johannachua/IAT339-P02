@@ -132,6 +132,7 @@
 
         <!-- first block for the buttons displayed -->
         <div class="block">
+          <h3>Submit Button</h3>
           <p>
           <a href="#" class="refine-search-button">SUBMIT</a>
           </p>
@@ -139,6 +140,8 @@
             <code>&lt;a&gt; &lt;href ="#" class="refine-search-button"&gt;SUBMIT&lt;/a&gt;</code>
             <code><b> CSS Selector:</b>a.refine-search-button</code>
           </p>
+
+          <h3>Personalize Button</h3>
 
           <p>
           <a href="#" class="personalize-button">PERSONALIZE</a>
@@ -149,6 +152,8 @@
             <code><b> CSS Selector:</b>a.personalize-button</code>
           </p>
 
+          <h3>Add to Cart Button</h3>
+
           <p>
           <a href="#" class="add-to-cart">ADD TO CART</a>
           </p>
@@ -157,17 +162,21 @@
             <code><b> CSS Selector:</b>a.add-to-cart</code>
           </p>
         <!-- example link -->
+        <h3>Text Link</h3>
+
           <p>
-          <a href="#" class="edit-button">THIS IS WHAT A LINK WILL LOOK LIKE</a>
+          <a href="#" class="edit-button">THIS IS WHAT A TEXT LINK WILL LOOK LIKE</a>
           </p>
           <p>
-            <code>&lt;a href="#" class="edit-button"&gt;THIS IS WHAT A LINK WILL LOOK LIKE&lt;/a&gt;</code>
+            <code>&lt;a href="#" class="edit-button"&gt;THIS IS WHAT A TEXT LINK WILL LOOK LIKE&lt;/a&gt;</code>
             <code><b>CSS Selector:</b>a.edit-button</code>
           </p>
 
+          <h3>Google Maps Widget</h3>
+
           <div class="location">
             <div class="maps">
-              <iframe width="100" height="100" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+              <iframe width="100px" height="100px" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
             </div>
           </div>
           <code>
@@ -179,10 +188,12 @@
         </div>
 
         <div class="block">
-          <!-- form -->
+          <h3>Input Field</h3>
           <input type="text" id="field1" name="field1">
             <code>&lt;input type="text" id="field1" name="field1"&gt;</code>
             <code><b>CSS Selector:</b> #field1, input</code>
+
+          <h3>Text Area</h3>
 
           <textarea>Type email here...</textarea>
             <code>&lt;textarea&gt;Type email here...&lt;/textarea&gt;</code>
@@ -190,15 +201,18 @@
         </div>
 
         <div class="block">
+        <h3>Product Selection</h3>
+
           <div class="product-box">
-            <img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver">
+            <a href="#">
+              <img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver">
+            </a>
           </div>
           <code>&lt;img class="internal-product-view" src="img/vancouver3.jpg" alt="Image of British Columbia Postcard - Vancouver"&gt;</code>
-          <code><b>CSS Selector:</b>img, .internal-product-view</code>
+          <code><b>CSS Selector:</b>img, a.internal-product-view</code>
         </div>
       </div>
       <!--end of interactive elements container -->
-
 
     <!-- components section -->
     <h5> COMPONENTS </h5>
@@ -207,7 +221,6 @@
     <h3>Product Listing</h3>
 
     <div class="container">
-
 
     <div class="product-box-container">
       <nav class="grid-row">
@@ -426,7 +439,6 @@
       </div>
     </div>
 
-
     <h3>Form</h3>
 
     <div class="container">
@@ -503,6 +515,10 @@
             <th>TABLE CONTENT</th>
             <th>TABLE CONTENT</th>
           </tr>
+          <tr>
+            <th>TABLE CONTENT</th>
+            <th>TABLE CONTENT</th>
+          </tr>
         </table>
       </div>
 
@@ -527,13 +543,76 @@
               &lt;th&gt;TABLE CONTENT&lt;/th&gt;
             &lt;/tr&gt;
 
+            &lt;tr&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+            &lt;/tr&gt;
+
+
           &lt;/table&gt;
         </code>
       </div>
     </div>
 
 
+    <h3>About Cards</h3>
 
+    <div class="container">
+      <div class="block">
+        <h2 class="about-title">
+          <b>First Name</b> Last Name
+        </h2>
+        <div class="team-view-boxes">
+          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/ruru.png">
+          <p class="about-text">
+            INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
+          <p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h2 class="about-title">
+          <b>First Name</b> Last Name
+        </h2>
+        <div class="team-view-boxes">
+          <img class="about-images" alt = "Image of <Insert Person's Name>" src="img/jojo.png">
+          <p class="about-text">
+            INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
+          <p>
+        </div>
+      </div>
+
+      <div class="block">
+        <h2 class="about-title">
+          <b>First Name</b> Last Name
+        </h2>
+        <div class="team-view-boxes">
+          <img class="about-images" alt = "Image of [Insert Person's Name]" src="img/mkfong.png">
+          <p class="about-text">
+            INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
+          <p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+        <code>
+          &lt;h2 class="about-title"&gt;
+            &lt;b&gt;First Name&lt;/b&gt; Last Name
+          &lt;/h2&gt;
+          &lt;div class="team-view-boxes"&gt;
+            &lt;img class="about-images" alt="Image of [Insert Person's Name]" src="img/image.png"&gt;
+            &lt;p class="about-text"&gt;
+              INSERT CONTENT HERE. This is an example paragraph. Lorem Khaled Ipsum is a major key to success. Look at the sunset, life is amazing, life is beautiful, life is what you make it. We the best. Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. They don’t want us to eat. Bless up. They never said winning was easy. Some people can’t handle success, I can. Life is what you make it, so let’s make it.
+            &lt;p&gt;
+          &lt;/div&gt;
+        </code>
+        <code>
+          <b>CSS Selector:</b> .about-title, .team-view-boxes, .about-images, .about-text
+        </code>
+      </div>
+    </div>
 
 
 
