@@ -16,7 +16,9 @@
   }
 
   .contact-main h2{
-    margin-left: 4rem;
+    margin-left: 0rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .grid-contact-info{
@@ -26,7 +28,7 @@
   .maps{
     position: relative;
     height: 0;
-    padding-bottom: 75%;
+    padding-bottom: 70%;
     margin-bottom: 2rem;
     overflow: hidden;
   }
@@ -41,7 +43,12 @@
 
   .grid-maps{
     float: left;
-    width: 66.66%;
+    width: 50%;
+  }
+
+  .grid-text{
+    float: left;
+    width: 40%;
   }
 
   .support-text article{
@@ -125,35 +132,107 @@
     color: #FC9D1F;
   }
 
-  /*.support-faq-main h2{
-    color: #2b2b35;
-  }*/
+  @media (max-width: 107em) {
+    .grid-maps{
+      width: 60%;
+      padding-left: 1rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 23rem;
+    }
+  }
+
+  @media (max-width: 88em) {
+    .grid-maps{
+      width: 60%;
+      padding-left: 1rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 23rem;
+    }
+  }
+
+  @media (max-width: 72em) {
+    .grid-maps{
+      width: 60%;
+      padding-left: 1rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 85%;
+    }
+  }
+
+  @media (max-width: 65em) {
+    .grid-maps{
+      width: 60%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 95%;
+    }
+  }
+
+  @media (max-width: 63em) {
+    .grid-maps{
+      width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 65%;
+    }
+  }
+
+  @media (max-width: 56.8em) {
+    .grid-maps{
+      width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    .maps{
+      padding-bottom: 65%;
+    }
+  }
+
+  @media (max-width: 22em) {
+    .grid-maps{
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
 
   @media (min-width: 22em) {
     .support-text{
       display: block;
     }
 
-    .centered{
-      margin-left: 1rem;
-      margin-right: 1rem;
-    }
-
     .support-text{
-      padding: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
 
     .contact-main{
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
       margin-top: 1rem;
       margin-bottom: 1.5rem;
-      padding-bottom: 2rem;
+      padding-bottom: 1rem;
     }
 
     .contact-main h2{
       text-align: center;
-      margin: auto;
     }
 
     .feedback-field{
@@ -179,37 +258,77 @@
 
   }
 
-  @media (max-width: 22em) {
-    .grid-maps{
-      width: 100%;
-    }
-  }
-
   @media (min-width: 31em) {
-    /*.location{
-      float: none;
-      margin-left: 6rem;
-    }*/
-    /*.support-text{
-      margin-left: 6rem;
-    }*/
-
     .contact-form-submit{
       float: right;
     }
   }
 
-  @media (min-width: 56.8em) {
-    .support-text{
-      margin-left: 6rem;
+  @media (min-width: 40em) {
+    .contact-main{
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
 
+    .feedback-field{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    form{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  @media (min-width: 50em) {
+    .contact-main{
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+
+    .feedback-field{
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+  }
+
+
+  @media (min-width: 56.8em) {
+    /*.support-text{
+      margin-left: 6rem;
+    }*/
+  }
+
+  @media (min-width: 63em) {
+    .grid-contact-info{
+      padding: 1rem;
+    }
+    .support-text{
+      /*margin-left: 2rem;*/
+      padding-top: 0;
+    }
   }
 
   @media (min-width: 80em) {
 
     .support-text{
       margin-left: 0rem;
+    }
+
+    .contact-main{
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+
+    .feedback-field{
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+
+    form{
+      margin-left: 8rem;
+      margin-right: 8rem;
     }
 
     .contact-form-submit{
