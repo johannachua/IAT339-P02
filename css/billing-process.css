@@ -168,17 +168,17 @@ label{
 }
 
 .ship-review{
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
 .bill-review{
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
 .payment-review{
-  margin-right: 1rem;
+  /*margin-right: 1rem;*/
   padding: 1rem;
 }
 
@@ -324,6 +324,21 @@ label{
     margin-right: 0rem;
   }
 
+  .bill{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .ship{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .payment-method{
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
   .card-detail{
     width: 50%;
     float: left;
@@ -351,11 +366,39 @@ label{
     margin-bottom: 1rem;
   }
 
+  .order-summary{
+    padding: 1rem;
+  }
+
+  .place-order{
+    padding: 2rem;
+    text-align: center;
+  }
+
   .thanks{
     margin-left: 1rem;
     margin-right: 1rem;
   }
+}
 
+@media (min-width: 31em) {
+  .review-section{
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .review-section{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .grid-col-1of2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 39.6em) {
@@ -374,6 +417,10 @@ label{
   form{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .grid-col-1of2 {
+    width: 40%;
   }
 }
 
@@ -398,8 +445,10 @@ label{
   }
 
   .review-section{
-    margin-left: 3rem;
+    margin-left: 3rem;;
     margin-right: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
 }
@@ -422,18 +471,15 @@ label{
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  .team-view-boxes{
-    /*border-radius: 10px;*/
-    /*border: 1.5px solid  #FFBE3E;*/
-    /*background-blend-mode: overlay;*/
+
+  /*.review-section{
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 1rem;
-    margin: 1rem;
-    /*height: 500px;*/
-    /*width: 300px;*/
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  }*/
+
+  .grid-col-1of2 {
+    width: 25%;
   }
 }
 
@@ -465,6 +511,10 @@ label{
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+  .grid-col-1of2 {
+    width: 25%;
+  }
 }
 
 /*970px*/
@@ -485,6 +535,20 @@ label{
   form{
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .grid-col-1of2 {
+    width: 20%;
+  }
+}
+
+@media (min-width: 63em){
+  .review-section{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 }
 
@@ -508,6 +572,33 @@ label{
     margin-right: 2rem;
   }
 
+  .grid-col-1of2 {
+    width: 50%;
+  }
+
+  .bill-review h2{
+    font-size: 1.1rem;
+  }
+
+  .ship-review h2{
+    font-size: 1.1rem;
+  }
+
+  .payment-review h2{
+    font-size: 1.1rem;
+  }
+
+  .review-section{
+    /*margin-left: 6rem;;
+    margin-right: 6rem;*/
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .text-review{
+    margin-bottom: 1rem;
+  }
 }
 
 /*1142px*/
@@ -521,6 +612,43 @@ label{
     margin-left: 0rem;
     margin-right: 0rem;
   }
+}
+
+@media (min-width: 72em) {
+  .review-section{
+    /*margin-left: 6rem;;
+    margin-right: 6rem;*/
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .payment-review{
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 81em) {
+  .review-section{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .bill-review{
+    padding: 0;
+  }
+
+  .ship-review{
+    /*padding-left: 1rem;*/
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  .payment-review{
+    padding-left: 2rem;
+    padding-top: 0;
+  }
+
 }
 
 
@@ -574,7 +702,15 @@ label{
   .review-section{
     margin-left: 10rem;;
     margin-right: 10rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .review-section h2 {
+    font-size: 1.1rem;
+  }
+
+  .grid-col-1of2 {
+    width: 50%;
   }
 }
