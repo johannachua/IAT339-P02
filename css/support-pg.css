@@ -60,6 +60,7 @@
     width: 40%;
   }
 
+  /* Styling of Company's Contact Text*/
   .support-text article{
     margin-bottom: 1.5rem;
   }
@@ -74,6 +75,7 @@
 
   }
 
+  /* Contact us message form */
   .feedback-field{
     margin: 7rem;
     padding: 2rem;
@@ -96,7 +98,6 @@
   }
 
   .feedback-details textarea{
-    /*height: 275px;*/
     padding: 1.5rem;
     font-size: 0.8rem;
   }
