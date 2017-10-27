@@ -42,6 +42,7 @@
       margin-right: .35em;
       margin-left: .1em;*/
     }
+
     h3 {
       font-family: "Aleo", Verdana, sans-serif;
       font-weight: lighter;
@@ -174,6 +175,10 @@
     opacity: 1;
   }
 
+
+  .normalize {
+    margin-left: 0;
+  }
 
   .main-footer {
       background-color: #FFF;
@@ -485,10 +490,10 @@
   .caption{
     font-family: "Dosis", Verdana, sans-serif;
     font-size: .75em;
-    padding:.3em;
+    padding:.5em;
     color: #bdbdd1;
     letter-spacing: 2px;
-    margin: .1em;
+    margin: .5em;
   }
 
   /*sets basics for the label tag*/
@@ -525,15 +530,15 @@
 
   /*how the submit button looks*/
   .submit {
-    background-color: #FFC197;
+    background-color: #F47400;
     color:  white;
-    border: 2px solid #FFC197;
+    border: 2px solid #F47400;
   }
 
   /*changes the submit button colour when hovered on*/
   .submit:hover{
     background-color:  white;
-    color: #FFC197;
+    color: #F47400;
   }
 
   /*how the submit button looks*/
@@ -693,43 +698,43 @@
   /*the coloured blocks for the colour pallete*/
     #orange1{
         height:100px;
-        background:#fff7b5;
+        background:#FFBE3E;
     }
     #orange2{
         height:100px;
-        background:#ffdca6;
+        background:#FC9D1F;
     }
     #orange3{
         height:100px;
-        background:#ffc197;
+        background:#F47400;
     }
 
     #green1{
-        background:#d5edbc;
+        background:#0CC28A;
         height:100px;
     }
     #green2{
         height:100px;
-        background:#b6eac4;
+        background:#21AD87;
     }
     #green3{
         height:100px;
-        background:#97e7cc;
+        background:#4A8480;
     }
 
     #red1{
       height: 100px;
-      background: #ffccd3;
+      background: #ffb3ba;
     }
 
     #red2{
       height: 100px;
-      background: #ffa8b2;
+      background: #FD8D96;
     }
 
     #red3{
       height: 100px;
-      background: #ff8490;
+      background: #f17085;
     }
 
   /*for input field box*/
