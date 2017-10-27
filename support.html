@@ -9,7 +9,7 @@
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/flexbox.css" rel="stylesheet">
     <link href="css/support-pg.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/fonts">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <meta name="viewport" content="width=device-width, initial-scale-1">
   </head>
 
@@ -51,60 +51,75 @@
     <!-- <img src="" alt="company map location"> -->
 
     <div class="grid-contact-info">
-    <div class="location">
-      <div class="maps">
-    <iframe frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+      <div class="grid-maps">
+        <div class="maps">
+          <iframe width="600" height="450" frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="support-text">
+      		<article>
+    				<h3>Hours</h3>
+    						<p>Mon-Fri 9am to 4pm</p>
+      		</article>
+      		<article>
+      			<h3>Phone Number</h3>
+      					<p>(604) 555-1234</p>
+      		</article>
+  				<article>
+      			<h3>Email</h3>
+      					<p>support@youwerehere.ca</p>
+      		</article>
+    			<article>
+    				<h3>Address</h3>
+  							<p>250-13450 102 Ave, Surrey, BC V3T 0A3, Canada</p>
+      		</article>
       </div>
     </div>
-    <div class="support-text">
-    		<article>
-  				<h3>Hours</h3>
-  						<p>Mon-Fri 9am to 4pm</p>
-    		</article>
-    		<article>
-    			<h3>Phone Number</h3>
-    					<p>(604) 555-1234</p>
-    		</article>
-				<article>
-    			<h3>Email</h3>
-    					<p>support@youwerehere.ca</p>
-    		</article>
-  			<article>
-  				<h3>Address</h3>
-							<p>250-13450 102 Ave, Surrey, BC V3T 0A3, Canada</p>
-    		</article>
-    </div>
-    </div>
+
   </div>
 </div>
   <!-- Inputing Feedback -->
+  <div class="block">
   <div class="feedback-field">
-    <h2>FEEDBACK</h2>
+    <h2>CONTACT US</h2>
     <form>
-      <div  class="grid-row">
-        <div class="grid-col-1of2">
+      <!-- <div  class="grid-row">
+        <div class="grid-col-1of2"> -->
       <div class="feedback-details">
         <div class="feedback-labels">
-          <label for="fname">FIRST NAME</label>
+
+          <div class="sup-detail">
+          <label for="fname">NAME</label>
           <input type="text" id="fname-sup" name="fname">
-          <label for="lname">LAST NAME</label>
-          <input type="text" id="lname-sup" name="lname">
+          </div>
+          <div class="sup-detail">
           <label for="lname">EMAIL ADDRESS</label>
           <input type="text" id="email-sup" name="email-sup">
-          <label for="lname">SUBJECT LINE</label>
-          <input type="text" id="subj-sup" name="subj-sup">
-        </div>
+          </div>
+          <div class="sup-detail">
+          <label for="lname">PHONE NUMBER</label>
+          <input type="text" id="num-sup" name="num-sup">
+          </div>
+        <!-- </div>
       </div>
       <div class="grid-col-1of2">
-      <div class="feedback-details">
-        <textarea>Type email here...</textarea>
+      <div class="feedback-details"> -->
+      <div class="sup-detail">
+        <label for="contact-form">YOUR MESSAGE</label>
+        <textarea>Type message here...</textarea>
+      </div>
+        <div class="contact-form-submit">
+        <input type="submit" id="btn-sup" value="Send">
+        </div>
       </div>
     </div>
-    </div>
-    </div>
+    <!-- </div>
+    </div> -->
     </form>
   </div>
+</div>
 
 
     <!-- footer content -->
