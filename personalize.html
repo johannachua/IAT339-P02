@@ -14,24 +14,21 @@
   </head>
 
   <body>
-  <section>
-    <!-- main navigation for website -->
-    <nav class="main-nav">
-      <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
-        <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
-      </a>
-      <a href="index.html" class="main-nav-item-header">You Were Here.</a>
-      <a href="support.html" class="main-nav-item">SUPPORT</a>
-      <a href="updates.html" class="main-nav-item">UPDATES</a>
-      <a href="about.html" class="main-nav-item">ABOUT</a>
-      <a href="products.html" class="main-nav-item">SHOP</a>
-    </nav>
-
-    <!-- shopping cart -->
-    <a href="checkout.html" class="shopping-cart">
-      <img src="#" alt="shopping cart">
-    </a>
-  </section>
+    <div class="top-bar">
+      <!-- main navigation for website -->
+      <div class="main-nav">
+        <!-- <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button> -->
+        <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
+          <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
+        </a>
+        <a href="index.html" class="main-nav-item-header">You Were Here.</a>
+        <a href="products.html" class="main-nav-item cart-nav-item">CART</a>
+        <a href="support.html" class="main-nav-item">SUPPORT</a>
+        <a href="updates.html" class="main-nav-item">UPDATES</a>
+        <a href="about.html" class="main-nav-item">ABOUT</a>
+        <a href="products.html" class="main-nav-item">SHOP</a>
+      </div>
+    </div>
 
 
   <!--content a part of the header-->
@@ -62,7 +59,7 @@
       </div>
     </div>
     </div>
-    <!-- <div class="grid-col-1of5"> -->
+
 <div class="grid-col-1of2">
         <div class="product-view-boxes">
           <h2 class="about-card-title"> add a personalized message </h2>
@@ -73,49 +70,82 @@
           <h2 class="about-card-title"> pick a stamp </h2>
         <nav class="grid-row">
           <div class="grid-col-1of5">
+            <div class="checkbox-center">
               <div class="product-box">
-              <a href="product_view.html">
               <img class="internal-product-view" alt = "postcard 1" src="img/fox_stamp.png">
             </div>
+            <form action="">
+              <input class="filter-spacing" type="radio" name="stamp_val" value="fox">
+            </form>
           </div>
-          </a>
-          <div class="grid-col-1of5">
-              <div class="product-box">
-              <a href="product_view.html">
-              <img class="internal-product-view" alt = "postcard 1" src="img/hare_stamp.png">
-            </div>
+        </div>
+        <div class="grid-col-1of5">
+          <div class="checkbox-center">
+            <div class="product-box">
+            <img class="internal-product-view" alt = "postcard 1" src="img/hare_stamp.png">
           </div>
-          </a>
-          <div class="grid-col-1of5">
-              <div class="product-box">
-              <img class="internal-product-view" alt = "postcard 1" src="img/heron_stamp.png">
-            </div>
-          </div>
-          <div class="grid-col-1of5">
-              <div class="product-box">
-              <a href="product_view.html">
-              <img class="internal-product-view" alt = "postcard 1" src="img/otter_stamp.png">
-            </div>
-          </div>
-          <div class="grid-col-1of5">
-              <div class="product-box">
-              <a href="product_view.html">
-              <img class="internal-product-view" alt = "postcard 1" src="img/puffin_stamp.png">
-            </div>
-          </div></div>
+          <form action="">
+            <input class="filter-spacing" type="radio" name="stamp_val" value="hare">
+          </form>
+        </div>
+      </div>
+      <div class="grid-col-1of5">
+        <div class="checkbox-center">
+          <div class="product-box">
+          <img class="internal-product-view" alt = "postcard 1" src="img/heron_stamp.png">
+        </div>
+        <form action="">
+          <input class="filter-spacing" type="radio" name="stamp_val" value="heron">
+        </form>
+      </div>
+    </div>
+    <div class="grid-col-1of5">
+      <div class="checkbox-center">
+        <div class="product-box">
+        <img class="internal-product-view" alt = "postcard 1" src="img/otter_stamp.png">
+      </div>
+      <form action="">
+        <input class="filter-spacing" type="radio" name="stamp_val" value="otter">
+      </form>
+    </div>
+  </div>
+  <div class="grid-col-1of5">
+    <div class="checkbox-center">
+      <div class="product-box">
+      <img class="internal-product-view" alt = "postcard 1" src="img/puffin_stamp.png">
+    </div>
+    <form action="">
+      <input class="filter-spacing" type="radio" name="stamp_val" value="puffin">
+    </form>
+  </div>
+</div></div>
           </a>
         </div>
       </nav>
+
+<!-- <div class="product-view-boxes">
+      <nav class="grid-row">
+        <div class="checkbox-center">
+            <input class="grid-col-1of5 product-box checkbox-center" type="radio" name="stamp_val" value="fox">
+          <input class="grid-col-1of5 product-box checkbox-center" type="radio" name="stamp_val" value="hare">
+
+        <input class="grid-col-1of5 product-box checkbox-center" type="radio" name="stamp_val" value="heron">
+
+      <input class="grid-col-1of5 product-box checkbox-center" type="radio" name="stamp_val" value="otter">
+
+    <input class="grid-col-1of5 product-box checkbox-center" type="radio" name="stamp_val" value="puffin">
+
+    </div> -->
+    <!-- </nav> -->
+
       <div class = "buttons-product-page">
+      <div class="button-double">
         <a class="add-to-cart" href="checkout.html">ADD TO CART <a>
+        </div>
       </div>
     <!-- </div> -->
   </div>
   </div>
-
-
-
-
 
   </section>
 
@@ -127,38 +157,5 @@
     <a href="#" class="footer-item">style guide</a>
     <a href="#" class="footer-item">citations</a>
   </nav>
-  <!-- footer content -->
-  <!-- <div class="footer">
-    <h3>
-      Connect With Us!
-    </h3>
-
-    <h4>
-      Email
-    </h4>
-    <p>
-      company@email.ca
-    </p>
-
-    <h4>
-      Phone Number
-    </h4>
-    <p>
-      (123) 456-7890
-    </p>
-    <h4>
-      Social Media
-    </h4>
-    <a href="#">
-      <img src="#" alt="Facebook">
-    </a>
-    <a href="#">
-      <img src="#" alt="Twitter">
-    </a>
-    <a href="#">
-      <img src="#" alt="Instagram">
-    </a>
-  </div> -->
-
   </body>
 </html>

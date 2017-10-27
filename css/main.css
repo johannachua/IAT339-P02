@@ -1,3 +1,23 @@
+#nav-toggle {
+	background-color: black;
+	display: block;
+	border: 0;
+}
+
+#nav-toggle:hover, #nav-toggle:focus {
+	background-color: gray;
+}
+
+
+/*
+	Here we hide use .hidden and .shown to enable classes to show and hide our #nav-toggle
+*/
+#nav-toggle.hidden, #nav-items.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+
   /*sets body colour and margin*/
   body {
     color: #2b2b35;
@@ -8,6 +28,59 @@
     text-transform: uppercase;
   }
 
+div.top-bar{
+	/*display: block;*/
+	overflow: hidden;
+	/*width: 100%;*/
+	z-index: 1;
+	/*display: block;*/
+	/*position: relative;*/
+	/*margin: 0;
+	padding: 0;*/
+		/*border-radius: 10px;*/
+		margin: 0;
+		padding: 0;
+		/*background-color:black;
+		border: 1.5px solid  #FFBE3E;
+		background-blend-mode: overlay;
+		margin:0rem;
+		padding: 1rem;*/
+		/*margin: 1.5rem;*/
+		/*height: 500px;*/
+		/*width: 300px;*/
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+}
+
+img.cart-logo{
+	width: 4%;
+	/*right:2rem;*/
+	position: fixed;
+	z-index: 1;
+	top:0;
+	right:0;
+}
+
+div.cart-placement{
+	/*position: fixed;*/
+	top:0;
+	/*top: 3.75rem;*/
+	/*z-index: 1;*/
+	/*right: 2rem;*/
+	/*border-radius: 10px;*/
+	/*border: 1.5px solid  #FFBE3E;*/
+	/*background-blend-mode: overlay;*/
+	margin: 0;
+	/*height: 500px;*/
+	/*width: 300px;*/
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	/*mar*/
+}
   /*@font-face{
     font-family: AleoRegular;
     src:url(fonts/Aleo-Regular.otf) format("opentype");
@@ -258,19 +331,7 @@
     align-items: center;
     position: relative;
   }
-  .product-view-boxes{
-    /*border-radius: 10px;*/
-    /*border: 1.5px solid  #FFBE3E;*/
-    /*background-blend-mode: overlay;*/
-    padding: .1rem;
-    margin: .1rem;
-    /*height: 500px;*/
-    /*width: 300px;*/
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
+
   .product-view-boxes{
     /*border-radius: 10px;*/
     /*border: 1.5px solid  #FFBE3E;*/
@@ -550,34 +611,19 @@
     color: #FC9D1F;
   }
 
-  /*a.personalize-button {
-    font-family: "Dosis";
-    font-weight: normal;
-    font-size: .75em;
-    padding:.5em 2em;
-    margin: .25em;
-    border-radius: 30px;
-    letter-spacing: 5px;
-    transition: .15s;
-    background-color: #0CC28A;
-    margin-right:2rem;
-    color:  white;
-    border: 2px solid #0CC28A;
-    float: left;
-}*/
   a.personalize-button{
     font-family: "Dosis";
     font-weight: normal;
     font-size: .75em;
     padding:.5em 2em;
-    margin: .25em .25em .25em 2rem;
+    /*margin: .25em .25em .25em 2rem;*/
     border-radius: 30px;
     letter-spacing: 5px;
     transition: .15s;
     background-color: #2FD384;
     color:  white;
     border: 2px solid #2FD384;
-    margin-left: 2rem;
+    margin-bottom: 1rem;
     float: left;
 
   }
@@ -589,36 +635,6 @@
     background-color:  white;
     color: #2FD384;
   }
-
-  /*.add-to-cart {
-    background-color: #4A8480;
-    color:  white;
-    border: 2px solid #4A8480;
-    margin-left: 2rem;
-    float: left;
-
-  }*/
-
-  /*changes the submit button colour when hovered on*/
-  /*.add-to-cart:hover{
-    background-color:  #539B96;
-    border: 2px solid #539B96;
-    font-weight: bold;
-    color: #4A8480;
-  }*/
-
-  /*.refine-search-button {
-    background-color: #F47400;
-    color:  white;
-    border: 2px solid #F97C00;
-    margin-left: 3rem;
-  }
-
-  /*changes the submit button colour when hovered on*/
-  /*.refine-search-button:hover{
-    background-color:  #FF6315;
-    color: white;
-  }*/
 
   button.remove {
     background-color: white;
@@ -758,11 +774,6 @@
           background-color: #45a049;
       }
 
-      .formbox {
-          border-radius: 5px;
-          background-color: #f2f2f2;
-          padding: 20px;
-      }
       /*REFERENCE FROM W3 SCHOOLS https://www.w3schools.com/howto/howto_css_contact_form.asp*/
 
       /* The side navigation menu */
@@ -835,20 +846,29 @@
       position: fixed;
       z-index: 1;
       background-color: #FFF;
-      overflow: hidden;
+      /*overflow: hidden;*/
       margin: 0;
-      /*margin-bottom: 10rem;*/
       padding: 0;
       top: 0;
       left: 0;
       width: 100%;
       transition-timing-function: ease-in-out;
       transition: .2s;
+			/*border-radius: 10px;*/
+			/*border: 1.5px solid  #FFBE3E;*/
+			/*background-blend-mode: overlay;*/
+			/*margin: 0;*/
+			/*height: 500px;*/
+			/*width: 300px;*/
+			/*text-align: center;
+			justify-content: center;
+			align-items: center;
+			position: relative;*/
       /*border-bottom: 2px dashed #838391;*/
   }
   .main-nav a:hover {
     color:#30303a;
-    font-weight: bold;
+    /*font-weight: bold;*/
     transition: .2s;
     transition-timing-function: ease-in-out;
   }
@@ -860,7 +880,7 @@
       margin: .1em;
       color: #838391;
       float: right;
-      display: block;
+      display: inline-block;
       text-align: center;
       padding: 1.5rem;
       text-decoration: none;
@@ -868,6 +888,15 @@
       transition: .2s ease-out;
       transition-timing-function: ease-in-out;
   }
+
+	.cart-nav-item {
+			font-weight: bold;
+			color: #F17058;
+	}
+
+	.cart-nav-item :hover{
+		color: #FF523B;
+	}
 
   .main-nav-item-header {
       font-family: "Aleo", Verdana, sans-serif;
@@ -877,7 +906,7 @@
       margin: .1em;
       color: #838391;
       float: left;
-      display: block;
+      display: inline-block;
       text-align: center;
       padding: 1.5rem 1.5rem 1.5rem 0;
       text-decoration: none;
@@ -953,7 +982,8 @@
     background-color: #4A8480;
     color:  white;
     border: 2px solid #4A8480;
-    margin-left: 2rem;
+		margin-bottom: 1rem;
+    /*margin-left: 2rem;*/
     float: left;
 
   }
@@ -1090,8 +1120,12 @@
   .buttons-product-page{
     margin: 1rem;
     padding: 1rem;
+		/*justify-content: center;*/
+		text-align: center;
   }
-
+.button-double{
+	display:inline-block
+}
   .dropbtn {
       background-color: white;
       border: 2px solid #F97C00;
@@ -1112,7 +1146,16 @@
       display: inline-block;
       margin-left: 1rem;
       padding-left: 1rem;
+			-webkit-appearance: none;
   }
+
+	.dropdown-internal {
+			position: relative;
+			display: inline-block;
+			/*margin-left: 1rem;*/
+			padding-left: 1rem;
+			-webkit-appearance: none;
+	}
 
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
@@ -1238,12 +1281,18 @@
     text-align: center;
     padding: .25em;
   }
-  .checkbox-pair{
-    position: relative;
-    padding: .1rem;
-    margin: .3rem;
-    float: left;
+
+  .checkbox-center{
+  align-items: center;
+	text-align: center;
   }
+
+	.checkbox-pair{
+		position: relative;
+		padding: .1rem;
+		margin: .3rem;
+		float: left;
+	}
 
   .checkbox-container{
     padding:auto;

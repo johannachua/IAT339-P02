@@ -15,24 +15,21 @@
 
   <body>
 
-  <section>
-    <!-- main navigation for website -->
-    <nav class="main-nav">
-      <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
-        <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
-      </a>
-      <a href="index.html" class="main-nav-item-header">You Were Here.</a>
-      <a href="support.html" class="main-nav-item">SUPPORT</a>
-      <a href="updates.html" class="main-nav-item">UPDATES</a>
-      <a href="about.html" class="main-nav-item">ABOUT</a>
-      <a href="products.html" class="main-nav-item">SHOP</a>
-    </nav>
-
-    <!-- shopping cart -->
-    <a href="checkout.html" class="shopping-cart">
-      <img src="#" alt="shopping cart">
-    </a>
-  </section>
+    <div class="top-bar">
+      <!-- main navigation for website -->
+      <div class="main-nav">
+        <!-- <button id="nav-toggle" class="hidden" aria-hidden="true" aria-controls="nav-items">MENU</button> -->
+        <a href="index.html" class="main-nav-item-header main-nav-item-header-image">
+          <img src="img/you-were-here-logo.png" alt="You Were Here. Company Logo">
+        </a>
+        <a href="index.html" class="main-nav-item-header">You Were Here.</a>
+        <a href="products.html" class="main-nav-item cart-nav-item">CART</a>
+        <a href="support.html" class="main-nav-item">SUPPORT</a>
+        <a href="updates.html" class="main-nav-item">UPDATES</a>
+        <a href="about.html" class="main-nav-item">ABOUT</a>
+        <a href="products.html" class="main-nav-item">SHOP</a>
+      </div>
+    </div>
 
 
   <!--content a part of the header-->
@@ -46,10 +43,10 @@
     <div class="filter-search">
     <form class="filter-section">
       <!-- Select Province filter -->
-      <div>
+      <div class="checkbox-container">
       <label for="Select Provinces(s):" class="filter-title">Select Province(s):</label>
     </div>
-    <div class="checkbox-container">
+    <!-- <div class="checkbox-container"> -->
 
     <div class="checkbox-pair">
       <input class="filter-spacing" type="checkbox" value="AB">
@@ -107,7 +104,7 @@
       <!-- Sort by: filter -->
       <div class="dropdown">
       <label for="Sort by:" class="filter-title"><b>Sort by:<b></label>
-      <select class="dd" name="Filter 1">
+      <select class="dropdown-internal" name="Filter 1">
         <option value="value2">Popularity</option>
         <option value="value1">Newest</option>
         <option value="value3">Alphabetically</option>
@@ -130,7 +127,7 @@
         <h2 class="product-name">
           <b>Vancouver </b></h2>
             <h2 class="product-name">BC</h2>
-        <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
+        <img class="internal-product-view" alt = "postcard 1" src="img/vancouver2.jpg">
         <label for="$$$$" class="price-tag">- $1.25 -</label>
       </div>
     </div>
@@ -191,7 +188,7 @@
       <h2 class="product-name">
         <b>Vancouver </b></h2>
           <h2 class="product-name">BC</h2>
-      <img class="internal-product-view" alt = "postcard 1" src="img/vancouver2.jpg">
+      <img class="internal-product-view" alt = "postcard 1" src="img/vancouver3.jpg">
       <label for="$$$$" class="price-tag">- $1.25 -</label>
     </div>
   </div>
@@ -312,38 +309,7 @@
   <a href="#" class="footer-item">style guide</a>
   <a href="#" class="footer-item">citations</a>
 </nav>
-  <!-- footer content -->
-  <!-- <div class="footer">
-    <h3>
-      Connect With Us!
-    </h3>
 
-    <h4>
-      Email
-    </h4>
-    <p>
-      company@email.ca
-    </p>
-
-    <h4>
-      Phone Number
-    </h4>
-    <p>
-      (604) 555-1234
-    </p>
-    <h4>
-      Social Media
-    </h4>
-    <a href="#">
-      <img src="#" alt="Facebook">
-    </a>
-    <a href="#">
-      <img src="#" alt="Twitter">
-    </a>
-    <a href="#">
-      <img src="#" alt="Instagram">
-    </a>
-  </div> -->
 
   </body>
 </html>
