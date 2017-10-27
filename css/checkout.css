@@ -1,8 +1,8 @@
 .checkout-cart {
   margin-top: 5em;
   margin-bottom: 5em;
-
 }
+
 table {
   table-layout: fixed;
   text-align: center;
@@ -49,13 +49,13 @@ img.checkout-postcard {
 }
 
 img.checkout-remove {
-    max-width: 15%;
+  max-width: 15%;
 }
 
 img.checkout-remove:hover {
-    opacity: 0.5;
-    transition-timing-function: ease-in-out;
-    transition: 0.5s;
+  opacity: 0.5;
+  transition-timing-function: ease-in-out;
+  transition: 0.5s;
 }
 
 tr.checkout-row-divider, .checkout-row-divider td, .checkout-row-divider p{
@@ -76,6 +76,21 @@ tr.checkout-row-divider, .checkout-row-divider td, .checkout-row-divider p{
 a.proceed-button {
   float: right;
   text-align: center;
+  margin-bottom: 2em;
+  }
+
+
+a.edit-button {
+    font-family: "Dosis", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    color: #00ced1;
+    padding-bottom: 1rem;
+  }
+
+
+a.edit-button:hover{
+    color: #a9a9a9;
   }
 
 @media (min-width: 22em) {
@@ -90,11 +105,11 @@ a.proceed-button {
   }
 
   .reciept {
-    margin-bottom: 5em;
+    margin-bottom: 2em;
   }
 
   .checkout-cart {
-    margin: 5em 2em 5em 2em;
+    margin: 5em 2em 2em 2em;
   }
 
   a.proceed-button {
@@ -111,7 +126,7 @@ a.proceed-button {
 
 @media (min-width: 65em) {
   .checkout-cart {
-    margin: 5em;
+    margin: 5em 5em 2em 5em;
   }
 
 }
