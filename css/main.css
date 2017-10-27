@@ -620,26 +620,26 @@ div.cart-placement{
     color: white;
   }
   /*grey square for grids*/
-    #grey1{
+    .grey1{
       height:100px;
       background:#191919;
     }
-    #grey2{
+    .grey2{
       height:100px;
       background:#222222;
     }
 
-    #grey3{
+    .grey3{
       height:100px;
       background:#2b2b2b;
     }
 
-    #grey4{
+    .grey4{
       height:100px;
       background:#343434;
     }
 
-    #grey5{
+    .grey5{
       height:100px;
       background:#454545;
     }

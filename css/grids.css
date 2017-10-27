@@ -156,7 +156,7 @@
 	.products{
 		width:100%;
 		transition: 0.3s;
-		padding: auto;
+		/*padding: auto;*/
 		opacity: 1;
 	}
 
@@ -625,7 +625,7 @@ img.internal-product-view:hover{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 .footer-item {
@@ -712,7 +712,7 @@ img.internal-product-view:hover{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 .main-nav-item {
@@ -784,7 +784,7 @@ h1.website-title{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 .buttons-product-page{
@@ -837,7 +837,7 @@ h1.website-title{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 	.buttons-product-page{
@@ -976,7 +976,7 @@ h1.information-title{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 .footer-item {
@@ -1098,7 +1098,7 @@ img.internal-product-view:hover{
 	/*width: 300px;*/
 	text-align: left;
 	justify-content: center;
-	align-items: left;
+	/*align-items: left;*/
 	position: relative;
 }
 .footer-item {
