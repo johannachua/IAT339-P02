@@ -167,7 +167,7 @@
 
           <div class="location">
             <div class="maps">
-              <iframe width="400" height="225" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
+              <iframe width="100" height="100" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=250-13450+102+AVE,+SURREY,+BC+V3T+0A3&key=AIzaSyDGuatfdj8930Wf9pxiXoFwKL7pIlWXraE" allowfullscreen></iframe>
             </div>
           </div>
           <code>
@@ -200,23 +200,6 @@
       <!--end of interactive elements container -->
 
 
- <!-- for larger components -->
-
-    <code>
-      &lt;h3&gt;TITLE&lt;/h3&gt;
-      &lt;form&gt;
-        &lt;label for="field1"&gt;FIELD 1&lt;/label&gt;
-        &lt;input type="text" id="field1" name="field1"&gt;
-      &lt;/form&gt;
-    </code>
-    <code>
-      <b> CSS Selector:</b> .ship, #field1, form, label
-    </code>
-
-
-
-
-
     <!-- components section -->
     <h5> COMPONENTS </h5>
 
@@ -224,6 +207,7 @@
     <h3>Product Listing</h3>
 
     <div class="container">
+
 
     <div class="product-box-container">
       <nav class="grid-row">
@@ -305,6 +289,8 @@
     </div>
   </div>
 
+
+
     <div class="container">
       <div class="block">
         <code>
@@ -326,6 +312,242 @@
         </code>
       </div>
     </div>
+
+    <!-- FILTER COMPONENT-->
+    <h3>Filter</h3>
+
+    <div class="container">
+      <div class="filter-search">
+        <form class="filter-section">
+          <!-- Select Province filter -->
+          <div class="checkbox-container">
+            <label for="Select Provinces(s):" class="filter-title">LABEL</label>
+          </div>
+
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+            <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing"type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+          <div class="checkbox-pair">
+            <input class="filter-spacing" type="checkbox" value="Province">
+            <label for="Province" class="form-enteries">Province</label>
+          </div>
+
+          <!-- Sort by: filter -->
+          <div class="dropdown">
+            <label for="label" class="filter-title"><b>LABEL<b></label>
+          <select class="dropdown-internal" name="Filter 1">
+            <option value="value2">VALUE 1</option>
+            <option value="value1">VALUE 2</option>
+            <option value="value3">VALUE 3</option>
+          </select>
+          </div>
+          <a class="refine-search-button" href="#">SUBMIT</a>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="block">
+
+        <code>
+          &lt;div class="filter-search"&gt;
+            &lt;form class="filter-section"&gt;
+              &lt;div class="checkbox-container"&gt;
+                &lt;label for="LABEL" class="filter-title"&gt;LABEL&lt;/label&gt;
+              &lt;/div&gt;
+
+              &lt;div class="checkbox-pair"&gt;
+                &lt;input class="filter-spacing" type="checkbox" value="Province"&gt;
+                &lt;label for="Province" class="form-enteries"&gt;Province&lt;/label&gt;
+              &lt;/div&gt;
+
+              &lt;div class="dropdown"&gt;
+                &lt;label for="LABEL" class="filter-title"&gt;&lt;b&gt;LABEL&lt;b&gt;&lt;/label&gt;
+              &lt;select class="dropdown-internal" name="Filter 1"&gt;
+                &lt;option value="value2"&gt;VALUE 1&lt;/option&gt;
+                &lt;option value="value1"&gt;VALUE 2&lt;/option&gt;
+                &lt;option value="value3"&gt;VALUE 3&lt;/option&gt;
+              &lt;/select&gt;
+              &lt;/div&gt;
+              &lt;a class="refine-search-button" href="#"&gt;SUBMIT&lt;/a&gt;
+            &lt;/form&gt;
+          &lt;/div&gt;
+        </code>
+
+        <code>
+          <b>CSS Selector:</b> .filter-search, .filter.-selection, checkbox-container, .filter.title,
+          .checkbox-pair, .filter-spacing, .form-enteries, .dropdown, .dropdown-internal, a.refine-search-button
+        </code>
+      </div>
+    </div>
+
+
+    <h3>Form</h3>
+
+    <div class="container">
+      <div class="block">
+
+        <section class="bill">
+          <h3>HEADING 3</h3>
+          <form>
+            <div class="bill-card">
+              <label for="fname">LABEL 1</label>
+              <input type="text" id="fullname-ship" name="LABEL 1">
+            </div>
+
+            <div class="bill-card">
+              <label for="email">LABEL 2</label>
+              <input type="text" id="email" name="LABEL 2">
+            </div>
+
+            <div class="bill-card">
+              <label for="lname">LABEL 3</label>
+              <input type="text" id="address-ship" name="LABEL 3">
+            </div>
+
+            <div class="bill-card">
+              <label for="lname">LABEL 4</label>
+              <input type="text" id="city-ship" name="LABEL 4">
+            </div>
+
+            <div class="bill-card">
+              <label for="lname">LABEL 5</label>
+              <input type="text" id="prov-ship" name="LABEL 5">
+            </div>
+
+            <div class="bill-card">
+              <label for="lname">LABEL 6</label>
+              <input type="text" id="code-ship" name="LABEL 6">
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div class="block">
+        <code>
+          &lt;h3&gt;TITLE&lt;/h3&gt;
+          &lt;form&gt;
+            &lt;label for="field1"&gt;FIELD 1&lt;/label&gt;
+            &lt;input type="text" id="field1" name="field1"&gt;
+          &lt;/form&gt;
+        </code>
+        <code>
+          <b> CSS Selector:</b> .ship, #field1, form, label
+        </code>
+      </div>
+    </div>
+
+
+    <h3>Table</h3>
+    <div class="container">
+      <div class="block">
+        <table>
+          <colgroup>
+            <col span="1" class="checkout-col">
+            <col span="1" class="checkout-col">
+          </colgroup>
+          <tr class="checkout-row-divider">
+            <th>TABLE TITLE</th>
+            <th></th>
+          </tr>
+          <tr>
+            <th>TABLE CONTENT</th>
+            <th>TABLE CONTENT</th>
+          </tr>
+          <tr class="checkout-row-divider">
+            <th>TABLE CONTENT</th>
+            <th>TABLE CONTENT</th>
+          </tr>
+        </table>
+      </div>
+
+      <div class="block">
+        <code>
+          &lt;table&gt;
+            &lt;colgroup&gt;
+              &lt;col span="1" class="checkout-col"&gt;
+              &lt;col span="1" class="checkout-col"&gt;
+            &lt;/colgroup&gt;
+            &lt;tr class="checkout-row-divider"&gt;
+              &lt;th&gt;TABLE TITLE&lt;/th&gt;
+              &lt;th&gt;&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+            &lt;/tr&gt;
+
+            &lt;tr class="checkout-row-divider"&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+              &lt;th&gt;TABLE CONTENT&lt;/th&gt;
+            &lt;/tr&gt;
+
+          &lt;/table&gt;
+        </code>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
