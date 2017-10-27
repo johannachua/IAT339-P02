@@ -849,7 +849,7 @@ div.cart-placement{
 
   .main-nav {
       position: fixed;
-      /*z-index: 1;*/
+      z-index: 1;
       background-color: #FFF;
       /*overflow: hidden;*/
       margin: 0;
@@ -873,7 +873,7 @@ div.cart-placement{
   }
   .main-nav a:hover {
     color:#30303a;
-    font-weight: bold;
+    /*font-weight: bold;*/
     transition: .2s;
     transition-timing-function: ease-in-out;
   }
@@ -884,8 +884,8 @@ div.cart-placement{
       letter-spacing: 3px;
       margin: .1em;
       color: #838391;
-      /*float: right;*/
-      display: block;
+      float: right;
+      display: inline-block;
       text-align: center;
       padding: 1.5rem;
       text-decoration: none;
@@ -910,8 +910,8 @@ div.cart-placement{
       letter-spacing: 3px;
       margin: .1em;
       color: #838391;
-      /*float: left;*/
-      display: block;
+      float: left;
+      display: inline-block;
       text-align: center;
       padding: 1.5rem 1.5rem 1.5rem 0;
       text-decoration: none;
