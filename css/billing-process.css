@@ -1,5 +1,4 @@
 /*CSS for Billing, Confirmation, and Thank You Pages*/
-
 .block h3{
   padding-bottom: 1em;
 }
@@ -8,33 +7,32 @@
   margin-left: 1em;
 }
 
-.ship {
-  background-color: white;
-  color: #2b2b35;
-}
-
+/* Billing Section Styling */
 .bill {
   background-color: white;
   color: #2b2b35;
 }
 
+/* Shipping Section Styling */
+.ship {
+  background-color: white;
+  color: #2b2b35;
+}
+
+/* Payment Section Styling */
 .payment-method {
   background-color: white;
   color: #2b2b35;
 }
 
+/* Styling of fields in each form */
 .bill-card{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-.card-detail{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 /* using team-view-container from main css to
-frame the container of each section*/
+frame the container of each section */
 .team-view-container{
   display: block;
   margin: 1rem;
@@ -50,28 +48,12 @@ frame the container of each section*/
 
 form{
   display: block;
-  /*margin-left: 5rem;
-  margin-right: 5rem;*/
 }
 
-/*.bill-card{
-  display: block;
-  width: 100%;
-}*/
-
-#card-type select{
-  padding: 12px 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: white;
-}
-
-#card-type option{
-  padding: 12px 20px;
-  line-height: 1rem;
-}
-
+/* Styling of the fields side by side in payment method */
 .card-detail{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: inline-block;
   width: 45%;
 }
@@ -80,6 +62,7 @@ form{
   padding-right: 1rem;
 }
 
+/* Styling return to cart link in billing html */
 .go-back a{
   font-family: "Dosis", sans-serif;
   font-weight: bold;
@@ -99,6 +82,7 @@ form{
   font-weight: bold;
 }
 
+/* Styling continue link in billing html */
 .billing-submit a{
   font-family: "Dosis", sans-serif;
   font-weight: normal;
@@ -126,12 +110,12 @@ label{
 }
 
 
-/*Styling Review your Order Section*/
-
+/* Styling Review your Order Section (CONFIRMATION HTML) */
 .review{
   display: block;
 }
 
+/* Styling Credit card number in confirmation html */
 .card-num{
   font-family: "Aleo", serif;
   font-weight: normal;
@@ -151,7 +135,6 @@ label{
 .review-section p{
   text-align: left;
 }
-
 
 .review-section section{
   align-items: center;
@@ -210,6 +193,7 @@ label{
   padding: 0;
 }
 
+/* Styling of Place your order button */
 .place-order a{
   font-family: "Dosis", sans-serif;
   font-weight: normal;
@@ -237,10 +221,12 @@ label{
   color: #FC9D1F;
 }
 
+/* Styling grids in confirmation html */
 .grid-col-3of9 {
   width: 33.3%;
 }
 
+/* Order Summary Content Stylilng */
 .order-summary{
   margin: auto;
   width: 50%;
