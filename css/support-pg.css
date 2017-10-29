@@ -26,9 +26,9 @@
   }
 
   /*grid of company's contact info to display as block*/
-  .grid-contact-info{
+  /*.grid-contact-info{
     display: block;
-  }
+  }*/
 
   /*map div container*/
   .maps{
@@ -72,7 +72,6 @@
   .support-text p{
     font-size: 0.85rem;
     letter-spacing: 0.15rem;
-
   }
 
   /* Contact us message form */
@@ -136,85 +135,121 @@
     color: #FC9D1F;
   }
 
-  /* MEDIA QUERIES specifically for the map */
+  /* MEDIA QUERIES specifically for the map and grid for text */
   /* using max-width to control the size of the map on the page */
   @media (max-width: 107em) {
     .grid-maps{
       width: 60%;
-      padding-left: 4rem;
-      padding-right: 2rem;
+      /*margin-bottom: 2rem;*/
     }
 
     .maps{
-      padding-bottom: 62%;
+      margin-left: 10rem;
+      padding-bottom: 50%;
     }
   }
 
   @media (max-width: 88em) {
     .grid-maps{
       width: 60%;
-      padding-left: 1rem;
-      padding-right: 2rem;
     }
 
     .maps{
-      padding-bottom: 60%;
+      margin-left: 10rem;
+      padding-bottom: 22rem;
+    }
+
+    .grid-text{
+      width: 40%;
+    }
+  }
+
+  @media (max-width: 80em) {
+
+    .maps{
+      margin-left: 3rem;
     }
   }
 
   @media (max-width: 72em) {
     .grid-maps{
       width: 60%;
-      padding-left: 1rem;
-      padding-right: 2rem;
     }
 
     .maps{
+      margin-left: 3rem;
       padding-bottom: 18rem;
+    }
+
+    .grid-text{
+      width: 40%;
     }
   }
 
   @media (max-width: 65em) {
     .grid-maps{
       width: 60%;
-      padding-left: 2rem;
-      padding-right: 2rem;
     }
 
     .maps{
-      padding-bottom: 85%;
+      margin-left: 3rem;
+    }
+
+    .grid-text{
+      width: 40%;
     }
   }
 
   @media (max-width: 63em) {
     .grid-maps{
       width: 100%;
-      padding-left: 2rem;
-      padding-right: 2rem;
     }
 
     .maps{
       padding-bottom: 65%;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    .grid-text{
+      width: 100%;
     }
   }
 
   @media (max-width: 56.8em) {
     .grid-maps{
       width: 100%;
-      padding-left: 2rem;
-      padding-right: 2rem;
     }
 
     .maps{
       padding-bottom: 65%;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+
+    .grid-text{
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 40em) {
+    .maps{
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
+    .grid-text{
+      width: 100%;
     }
   }
 
   @media (max-width: 22em) {
     .grid-maps{
       width: 100%;
-      padding-left: 1rem;
-      padding-right: 1rem;
+    }
+
+    .grid-text{
+      width: 100%;
     }
   }
 
@@ -222,8 +257,8 @@
 
   @media (min-width: 22em) {
     .support-text{
-      padding-left: 2rem;
-      padding-right: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     .support-text h3{
@@ -271,16 +306,9 @@
 
   }
 
-
   @media (min-width: 31em) {
     .contact-form-submit{
       float: right;
-    }
-
-    .support-text{
-      padding-bottom: 1rem;
-      padding-left: 2rem;
-      padding-right: 1rem;
     }
   }
 
@@ -299,6 +327,11 @@
       margin-left: 1rem;
       margin-right: 1rem;
     }
+
+    .support-text{
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
 
   @media (min-width: 50em) {
@@ -313,26 +346,25 @@
     }
   }
 
-  @media (min-width: 63em) {
-    .grid-contact-info{
-      padding: 1rem;
-    }
-    .support-text{
-      padding-top: 0;
-      padding-left: 2rem;
+  @media (min-width: 79em) {
+    .support-text article{
+      padding-bottom: 1rem;
     }
   }
 
   @media (min-width: 80em) {
 
-    .support-text article{
-      margin-left: 0rem;
-      padding-bottom: 1rem;
-    }
-
     .contact-main{
       margin-left: 10rem;
       margin-right: 10rem;
+    }
+
+    .support-text{
+      margin-right: 8rem;
+    }
+
+    .support-text article{
+      padding-bottom: 1rem;
     }
 
     .feedback-field{
@@ -347,5 +379,17 @@
 
     .contact-form-submit{
       float: right;
+    }
+  }
+
+  @media (min-width: 88em) {
+    .support-text article{
+      padding-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 107em) {
+    .support-text article{
+      padding-bottom: 2rem;
     }
   }
