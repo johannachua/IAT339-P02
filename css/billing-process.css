@@ -1,4 +1,5 @@
 /*CSS for Billing, Confirmation, and Thank You Pages*/
+
 .block h3{
   padding-bottom: 1em;
 }
@@ -190,7 +191,8 @@ label{
   text-align: left;
   text-transform: none;
   letter-spacing: 1px;
-  padding: 0;
+  padding: 0.5rem 0 0 0;
+  margin: 0;
 }
 
 /* Styling of Place your order button */
@@ -240,6 +242,7 @@ label{
   text-align: center;
   letter-spacing: 5px;
   font-size: 0.9em;
+  padding: 0;
 }
 
 
@@ -378,8 +381,14 @@ label{
     margin-left: 3rem;
     margin-right: 3rem;
     padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*padding-left: 3rem;
+    padding-right: 3rem;*/
+  }
+
+  .shipping-billing-review{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
   }
 
   .grid-col-1of2 {
@@ -389,13 +398,13 @@ label{
 
 @media (min-width: 39.6em) {
   .go-back{
-    margin-right: 1.5rem;
+    margin-left: 1rem;
     margin-bottom: 3rem;
     float: left;
   }
 
   .billing-submit{
-    margin-right: 1.5rem;
+    margin-right: 2.5rem;
     margin-bottom: 2rem;
     float: right;
   }
@@ -431,13 +440,39 @@ label{
   }
 
   .review-section{
-    margin-left: 3rem;;
+    margin-left: 3rem;
     margin-right: 3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-bottom: 2rem;
+    /*padding-left: 4rem;
+    padding-right: 4rem;*/
   }
 
+  .go-back{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
+
+  .billing-submit{
+    margin-right: 4.5rem;
+    margin-bottom: 2rem;
+    float: right;
+  }
+
+  .shipping-billing-review{
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*.review-header{
+    text-align: center;
+  }*/
+
+  /*.text-review{
+    margin-left: 6rem;
+  }*/
 }
+
 
 @media (min-width: 50em) {
   .team-view-container{
@@ -449,8 +484,13 @@ label{
     text-align: center;
   }
 
+  .review-section{
+    /*padding-left: 0;*/
+    /*padding-right: 0; */
+  }
+
   .grid-col-3of9{
-    width: 100%;
+    width: 33.3%;
   }
 
   form{
@@ -459,7 +499,20 @@ label{
   }
 
   .grid-col-1of2 {
-    width: 25%;
+    /*width: 25%;*/
+    width: 50%;
+  }
+
+  .go-back{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
+
+  .billing-submit{
+    margin-right: 3.5rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 
@@ -468,11 +521,10 @@ label{
     margin-left: 10rem;
     margin-right: 10rem;
   }
+
   .team-view-boxes{
     padding: 5rem;
     margin: 5rem;
-    /*height: 500px;*/
-    /*width: 300px;*/
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -483,17 +535,25 @@ label{
     text-align: center;
   }
 
-  .grid-col-3of9{
+  /*.grid-col-3of9{
     width: 100%;
-  }
+  }*/
 
   form{
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
-  .grid-col-1of2 {
-    width: 25%;
+  .go-back{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
+
+  .billing-submit{
+    margin-right: 4.5rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 
@@ -513,18 +573,27 @@ label{
     margin-right: 2rem;
   }
 
-  .grid-col-1of2 {
-    width: 20%;
-  }
 }
 
 @media (min-width: 63em){
   .review-section{
     margin-left: 6rem;
     margin-right: 6rem;
-    padding-top: 2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    /*padding-top: 2rem;*/
+    /*padding-left: 6rem;
+    padding-right: 6rem;*/
+  }
+
+  .go-back{
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
+
+  .billing-submit{
+    margin-right: 3.5rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 
@@ -553,13 +622,24 @@ label{
   }
 
   .review-section{
-    padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
   }
 
   .text-review{
     margin-bottom: 1rem;
+  }
+
+  .go-back{
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    float: left;
+  }
+
+  .billing-submit{
+    margin-right: 2.5rem;
+    margin-bottom: 2rem;
+    float: right;
   }
 }
 
@@ -578,9 +658,21 @@ label{
 
 @media (min-width: 72em) {
   .review-section{
-    padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+}
+
+@media (min-width: 76em) {
+
+  .review-section{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .shipping-billing-review{
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 }
 
@@ -591,9 +683,8 @@ label{
   }
 
   .shipping-billing-review{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
 
@@ -623,7 +714,7 @@ label{
 
   .billing-submit{
     margin-right: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
     float: right;
   }
@@ -652,5 +743,12 @@ label{
   .thanks{
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+}
+
+@media (min-width: 107em) {
+  .shipping-billing-review{
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 }
