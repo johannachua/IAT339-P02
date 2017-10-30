@@ -393,3 +393,9 @@
       padding-bottom: 2rem;
     }
   }
+
+  @media (min-width: 22em) {
+    .maps-sg {
+      margin-left: 0;
+    }
+  }
