@@ -192,6 +192,41 @@ div.cart-placement{
     opacity: .85;
   }
 
+	.intro{
+		width:100%;
+		transition: 0.3s;
+		/*padding: auto;*/
+		margin: 0;
+		/*opacity: .85;*/
+	}
+	    .intro-box{
+	      position: relative;
+	      /*padding: 1rem;*/
+	      margin: 0 0 0 0;
+	      text-align: center;
+	      justify-content: center;
+	      align-items: center;
+				transition: .1s;
+	    }
+
+			.intro-container{
+				position: relative;
+				margin:5rem 15rem 5rem 15rem;
+			}
+			/*.intro-box-L{
+				position: relative;
+				margin:0 0 0 3rem;
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+			}
+			.intro-box-R{
+				position: relative;
+				margin: 0 3rem 0 0;
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+			}*/
   /*makes the images larger when hovered over*/
   .products:hover{
     transform: scale(1.2,1.2);
