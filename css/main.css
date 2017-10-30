@@ -948,9 +948,9 @@ div.cart-placement{
     border-radius: 30px;
     letter-spacing: 5px;
     transition: .15s;
-    background-color: #F47400;
+    background-color: #FC9D1F;
     color:  white;
-    border: 2px solid #F47400;
+    border: 2px solid #FC9D1F;
     margin-left: 3rem;
   }
 
@@ -958,7 +958,7 @@ div.cart-placement{
     transition: .15s;
     cursor: pointer;
     background-color:  white;
-    color: #F47400;
+    color: #FC9D1F;
   }
   a.add-to-cart {
     font-family: "Dosis";
