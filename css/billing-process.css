@@ -267,6 +267,7 @@ label{
   font-size: 1em;
   text-transform: none;
   padding: 0;
+  margin: 0.5rem;
 }
 
 .thanks-blurb a{
@@ -514,6 +515,11 @@ label{
     margin-bottom: 2rem;
     float: right;
   }
+
+  .thanks{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
 }
 
 @media (min-width: 56.25em) {
@@ -674,6 +680,11 @@ label{
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+  .thanks{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
 }
 
 @media (min-width: 81em) {
@@ -685,6 +696,11 @@ label{
   .shipping-billing-review{
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  .thanks{
+    margin-left: 15rem;
+    margin-right: 15rem;
   }
 }
 
@@ -741,8 +757,8 @@ label{
   }
 
   .thanks{
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
   }
 }
 
@@ -750,5 +766,10 @@ label{
   .shipping-billing-review{
     margin-left: 12rem;
     margin-right: 12rem;
+  }
+
+  .thanks{
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 }
