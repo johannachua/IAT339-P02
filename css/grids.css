@@ -247,6 +247,9 @@ img.internal-product-view:hover{
 		position: relative;
 		margin:2rem 1rem 2rem 1rem;
 	}
+	.intro-title{
+		margin: 2rem 1rem 2rem 1rem;
+	}
 }
 @media(min-width: 47em){
 	.main-nav-item {
@@ -289,6 +292,9 @@ img.internal-product-view:hover{
 	.intro-container{
 		position: relative;
 		margin:2rem 1rem 2rem 1rem;
+	}
+	.intro-title{
+		margin: 2rem 1rem 2rem 1rem;
 	}
 }
 
@@ -409,6 +415,9 @@ img.internal-product-view:hover{
 		position: relative;
 		margin:2rem 1rem 2rem 1rem;
 	}
+	.intro-title{
+		margin: 2rem 1rem 2rem 1rem;
+	}
 }
 
 @media(min-width: 56.56em){
@@ -507,6 +516,10 @@ img.internal-product-view:hover{
 	position: relative;
 	margin:2rem 1rem 2rem 1rem;
 }
+.intro-title{
+	margin: 2rem 1rem 2rem 1rem;
+
+}
 }
 @media (min-width: 63em) {
 	h1.information-title{
@@ -516,6 +529,9 @@ img.internal-product-view:hover{
 	.intro-container{
 		position: relative;
 		margin:2rem 8rem 5rem 8rem;
+	}
+	.intro-title{
+		margin: 7rem 1rem 2rem 7rem;
 	}
 
 	.main-nav-item {

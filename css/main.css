@@ -391,6 +391,16 @@ div.cart-placement{
     /*position: relative;*/
   }
 
+	.intro-title{
+		font-family: "Aleo", Verdana, sans-serif;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		font-weight: normal;
+		margin: 7rem 1rem 2rem 7rem;
+		text-align: left;
+		padding: .5em;
+	}
+
   .about-title{
     font-family: "Aleo", Verdana, sans-serif;
     letter-spacing: 5px;
