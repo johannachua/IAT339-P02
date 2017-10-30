@@ -491,7 +491,12 @@ label{
   }
 
   .grid-col-3of9{
+    width: 100%;
+  }
+
+  .shipping-billing-review .grid-col-3of9{
     width: 33.3%;
+
   }
 
   form{
